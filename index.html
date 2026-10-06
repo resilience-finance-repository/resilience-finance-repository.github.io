@@ -2045,8 +2045,20 @@ body.viewer { height: 100vh; display: flex; flex-direction: column; overflow: hi
       item.type = "button";
       item.appendChild(thumbFor(r, false));
       item.appendChild(el("span", "gallery-title", r.title));
+      // WHO A RECORD IS BY IS `authors`, AND THERE IS ONE RULE FOR IT.
+      // This tile read `institutions[0]` until 2026-10-05, which is the first entry of
+      // `Organization(s)`: every organization NAMED IN THE CONTENT, in no meaningful
+      // order. CLAUDE.md says in as many words that the field does not answer who
+      // published a record, and the numbers agree. Measured over the 670 published
+      // records that day, it disagreed with `authors` on 424 and matched on 78, and
+      // six of the eight tiles then on the landing page named the wrong party: an
+      // Epicenter newsletter was bylined `NOAA Climate Prediction Center` because the
+      // article's first paragraph cites a NOAA forecast. The card in Browse all had
+      // been right the whole time, so the two surfaces disagreed about the same record.
+      // A record with no `authors` now shows its date alone, which is what the card
+      // does. That is 166 of 670, and a bare tile is better than a confident wrong name.
       item.appendChild(el("span", "gallery-meta",
-        [(r.institutions || [])[0], fmtDate(r.date) || r.year].filter(Boolean).join(" · ")));
+        [r.authors, fmtDate(r.date) || r.year].filter(Boolean).join(" · ")));
       item.addEventListener("click", function () { openRecord(r.nnn); });
       host.appendChild(item);
     });
