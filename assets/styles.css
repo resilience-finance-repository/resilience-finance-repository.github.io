@@ -1,0 +1,679 @@
+/* Resilience Finance Repository.
+   Styling follows the Lab's Knowledge explorer, measured off the rendered page on
+   2026-09-17 rather than guessed from its source: page #f6f7f3, cards white on a
+   1px #d7e1dc at an 8px radius with 22px/24px padding, ink #233a34, muted #60716c,
+   green #176f5e, controls at 12px on a 6px radius. Headings are Georgia, running
+   text and card titles are the system sans. No webfont is fetched, which keeps the
+   page dependency free and offline the way the rest of site/ is. */
+
+/* FIRST, and load bearing. Several elements that toggle are flex or grid, and a
+   `display` rule silently beats the hidden attribute. The list page learned this
+   by showing a "Show more" button under a single search result. */
+[hidden] { display: none !important; }
+
+:root {
+  --paper: #f6f7f3;
+  --surface: #ffffff;
+  --ink: #233a34;
+  --muted: #60716c;
+  --line: #d7e1dc;
+  --green: #176f5e;
+  --blue: #3c6d9d;
+  --gold: #aa7b17;
+  --red: #984c3b;
+  --tint: #f3f6f3;
+  --selected: #e0eee7;
+  --radius: 8px;
+  --radius-control: 6px;
+  --shadow: none;
+}
+
+:root[data-ui="dark"] {
+  --paper: #161b19;
+  --surface: #1d2422;
+  --ink: #e6ede9;
+  --muted: #9aaaa3;
+  --line: #2f3a36;
+  --green: #5cbfa3;
+  --blue: #7aa9d6;
+  --gold: #d6a747;
+  --red: #d08a76;
+  --tint: #222c29;
+  --selected: #23423a;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, p { margin: 0; }
+h1 { font: 400 27px/1.2 Georgia, serif; }
+h2 { font: 500 25px/1.25 Georgia, serif; }
+h3 { font: 500 21px/1.3 Georgia, serif; }
+a { color: var(--green); text-underline-offset: 3px; }
+
+button, input, select { font: inherit; color: inherit; }
+button, summary { cursor: pointer; }
+button {
+  font-size: 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  color: var(--ink);
+  padding: 9px 13px;
+  min-height: 38px;
+}
+button:hover { background: var(--tint); }
+button[aria-pressed="true"], button.active {
+  background: var(--selected);
+  border-color: var(--green);
+  color: var(--green);
+}
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+}
+
+.page { max-width: 1120px; margin: 0 auto; padding: 0 26px 64px; }
+.skip { position: absolute; left: -9999px; }
+.skip:focus { left: 8px; top: 8px; z-index: 20; background: var(--surface); padding: 10px 14px; }
+
+/* ── masthead ─────────────────────────────────────────────────────────── */
+
+/* Measured off the Knowledge Explorer, 2026-09-21, so the two pages read as one
+   publication: the masthead carries NO bottom rule of its own, because the tab
+   bar under it carries the only line, and the identity block is centred against
+   the meta column rather than top-aligned. */
+.masthead {
+  background: var(--surface);
+  border-top: 4px solid var(--green);
+}
+.masthead-inner {
+  max-width: 1120px; margin: 0 auto; padding: 17px 26px;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+.masthead-id { min-width: 0; }
+.eyebrow {
+  font-size: 12px; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--green);
+}
+.masthead-meta { text-align: right; font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+/* ── tabs ─────────────────────────────────────────────────────────────── */
+
+/* The bar is the full-width white band and owns the rule; the nav inside it is
+   held to the page measure so the tabs line up with the title above them. */
+.tabs-bar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; z-index: 20;
+}
+.tabs {
+  display: flex; gap: 25px;
+  max-width: 1120px; margin: 0 auto; padding: 0 26px;
+}
+.tabs button {
+  background: none; border: 0; border-bottom: 3px solid transparent;
+  border-radius: 0; padding: 13px 2px; min-height: 44px; font-size: 16px;
+}
+.tabs button:hover { background: none; color: var(--green); }
+.tabs button[aria-selected="true"] { color: var(--green); border-bottom-color: var(--green); }
+/* The number stays muted on the selected tab, as it does in the explorer: the
+   colour and the underline already say which tab is open. */
+.tabs .num { font-size: 12px; color: var(--muted); margin-right: 7px; }
+.tabs .n { font-size: 12px; color: var(--muted); margin-left: 7px; }
+
+/* ── view header ──────────────────────────────────────────────────────── */
+
+.view-head { padding: 30px 0 22px; }
+.kicker {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.13em;
+  text-transform: uppercase; color: var(--green); margin-bottom: 10px;
+}
+.display { font: 500 35px/1.25 Georgia, serif; color: var(--ink); letter-spacing: -0.005em; }
+.subtitle { font-size: 14.5px; color: var(--muted); margin-top: 10px; max-width: 680px; }
+
+/* ── search ───────────────────────────────────────────────────────────── */
+
+.search-row { display: flex; gap: 10px; align-items: stretch; margin-bottom: 12px; }
+.search-row .field { flex: 1; min-width: 0; position: relative; }
+.search-row input {
+  width: 100%; min-height: 48px; padding: 10px 38px 10px 14px;
+  border: 1px solid var(--line); border-radius: var(--radius-control);
+  background: var(--surface); font-size: 15px;
+}
+.search-row input:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 3px var(--selected); }
+.clear {
+  position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+  border: 0; background: none; min-height: 32px; padding: 2px 9px; font-size: 18px; color: var(--muted);
+}
+.search-go {
+  background: var(--green); color: #fff; border-color: var(--green);
+  font-size: 14px; padding: 10px 20px; white-space: nowrap;
+}
+.search-go:hover { background: color-mix(in srgb, var(--green) 85%, #000); color: #fff; }
+
+.try-row { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; margin-bottom: 20px; }
+.try-label { font-size: 12px; color: var(--muted); }
+
+/* ── stats ────────────────────────────────────────────────────────────── */
+
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 13px; margin-bottom: 26px; }
+.stat {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 16px 18px;
+}
+.stat-label { font-size: 12px; color: var(--muted); }
+.stat-value { font: 500 27px/1.15 Georgia, serif; margin-top: 4px; }
+
+/* ── sections, flat rather than boxed ─────────────────────────────────── */
+
+.section { margin-bottom: 34px; }
+.section-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 10px; flex-wrap: wrap; margin-bottom: 4px;
+}
+.section-head h2 { font: 500 25px/1.25 Georgia, serif; }
+.section-meta {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--muted); font-weight: 700;
+}
+.section-desc { font-size: 14px; color: var(--muted); margin: 8px 0 18px; max-width: 680px; }
+
+/* ── beta marker and the intro ────────────────────────────────────────── */
+
+.beta-tag {
+  display: inline-block; vertical-align: 5px;
+  font: 700 10px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--gold); background: color-mix(in srgb, var(--gold) 13%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--gold) 35%, var(--line));
+  border-radius: 4px; padding: 4px 7px; margin-left: 9px;
+}
+.beta-note {
+  font-size: 13px; color: var(--muted);
+  background: color-mix(in srgb, var(--gold) 8%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--gold) 25%, var(--line));
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius-control);
+  padding: 11px 14px; margin-bottom: 24px;
+}
+
+.about { margin-bottom: 38px; }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; }
+.about-block {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 20px 22px;
+}
+.about-block h3 { font: 500 19px/1.3 Georgia, serif; margin-bottom: 9px; }
+.about-block p { font-size: 14.5px; line-height: 1.65; color: var(--muted); }
+
+.criteria {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 20px 22px; margin-top: 13px;
+}
+.criteria h3 { font: 500 19px/1.3 Georgia, serif; }
+.criteria .section-desc { margin: 8px 0 16px; }
+.criteria-list {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px 26px;
+  counter-reset: criterion;
+}
+.criteria-list li { counter-increment: criterion; position: relative; padding-left: 30px; }
+.criteria-list li::before {
+  content: counter(criterion);
+  position: absolute; left: 0; top: 1px;
+  width: 22px; height: 22px; border-radius: 4px;
+  background: var(--selected); color: var(--green);
+  font: 500 12px/22px Georgia, serif; text-align: center;
+}
+.criteria-term { display: block; font-size: 14.5px; font-weight: 700; color: var(--ink); }
+.criteria-gloss { display: block; font-size: 13.5px; line-height: 1.6; color: var(--muted); margin-top: 4px; }
+
+.updates {
+  background: var(--tint); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 18px 22px; margin-top: 13px;
+}
+.updates h3 { font: 500 17px/1.3 Georgia, serif; margin-bottom: 7px; }
+.updates p { font-size: 14px; line-height: 1.65; color: var(--muted); }
+
+/* ── thumbnails, drawn rather than fetched ────────────────────────────────
+   Generated from the record's own kind and year. Nothing is fetched and nothing
+   is stored, so there is no third-party request on a page load, no rights
+   question over someone else's page image, and the offline bundle keeps working.
+   The colour encodes the kind of source, which is the one thing a reader scanning
+   a long list actually wants to tell apart at a glance. */
+
+.thumb {
+  position: relative; flex-shrink: 0; overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--hue) 26%, var(--line));
+  border-radius: var(--radius-control);
+  background: color-mix(in srgb, var(--hue) 9%, var(--surface));
+  display: flex; flex-direction: column; justify-content: space-between;
+}
+.thumb::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--hue);
+}
+.thumb .t-type {
+  font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--hue) 80%, var(--ink)); line-height: 1.25;
+}
+.thumb .t-year { font-family: Georgia, serif; color: var(--ink); line-height: 1; }
+
+.hue-green { --hue: var(--green); }
+.hue-blue  { --hue: var(--blue); }
+.hue-gold  { --hue: var(--gold); }
+.hue-red   { --hue: var(--red); }
+
+/* An image tile shows the head of the page, cropped to the same box the drawn tile
+   uses, so a grid mixing rendered pages and drawn tiles stays on one rhythm. */
+.thumb-img { padding: 0; background: var(--surface); }
+.thumb-img::before { display: none; }
+.thumb-img img {
+  width: 100%; height: 100%; display: block;
+  object-fit: cover; object-position: top center;
+}
+
+.thumb-lg { width: 100%; aspect-ratio: 4 / 3; padding: 15px 14px 13px; }
+.thumb-lg .t-type { font-size: 10.5px; }
+.thumb-lg .t-year { font-size: 30px; font-weight: 500; align-self: flex-end; }
+
+.thumb-sm { width: 52px; height: 66px; padding: 9px 7px 7px; }
+.thumb-sm .t-type { font-size: 8px; letter-spacing: 0.06em; }
+.thumb-sm .t-year { font-size: 15px; }
+
+/* ── the gallery under Recently published ─────────────────────────────── */
+
+.gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+.gallery-item {
+  display: flex; flex-direction: column; gap: 9px; text-align: left;
+  background: none; border: 0; border-radius: 0; padding: 0; min-height: 0;
+}
+.gallery-item:hover { background: none; }
+.gallery-item:hover .thumb { border-color: var(--hue); }
+.gallery-item:hover .gallery-title { color: var(--green); }
+.gallery-title {
+  font-size: 14px; font-weight: 700; line-height: 1.35; color: var(--ink);
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.gallery-meta { font-size: 11.5px; color: var(--muted); }
+
+/* A filled section, used to lift Recently published off the page. The green is mixed
+   from the palette rather than picked, so it tracks a rebrand and inverts correctly in
+   dark mode. Kept light: the gallery's white thumbnails sit on it, and a stronger fill
+   would compete with them rather than frame them. */
+
+.section-filled {
+  /* 13 per cent, not 6. At 6 the fill measured 5 units from the page background in
+     sRGB, where an ordinary white card measures 17: it was fainter than the thing it
+     was meant to stand out from. 13 lands near the palette's own --selected and reads
+     as green rather than as a slightly different grey. */
+  background: color-mix(in srgb, var(--green) 13%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--green) 26%, var(--line));
+  border-radius: var(--radius);
+  padding: 22px 24px 24px;
+}
+.section-filled .feed-item:hover { background: color-mix(in srgb, var(--green) 10%, var(--surface)); }
+.section-filled .view-all {
+  background: var(--surface);
+  border-color: color-mix(in srgb, var(--green) 22%, var(--line));
+}
+.section-filled .view-all:hover { background: var(--selected); border-color: var(--green); color: var(--green); }
+
+/* ── recently published feed ──────────────────────────────────────────── */
+
+.feed-item {
+  display: block; width: 100%; text-align: left;
+  border: 0; border-bottom: 1px solid var(--line); border-radius: 0;
+  padding: 13px 2px; background: none; min-height: 0; font-size: 16px;
+}
+.feed-item:last-of-type { border-bottom: 0; }
+.feed-item:hover { background: var(--tint); }
+.feed-title { font-size: 15px; font-weight: 700; line-height: 1.35; color: var(--ink); }
+.feed-meta { font-size: 12px; color: var(--muted); margin-top: 3px; }
+.view-all { margin-top: 14px; }
+
+/* ── facets ───────────────────────────────────────────────────────────── */
+
+.facets { display: grid; grid-template-columns: repeat(2, 1fr); gap: 13px; }
+.facet {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 16px 18px;
+}
+.facet-label {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em;
+  font-weight: 700; color: var(--muted); margin-bottom: 11px;
+}
+.pills { display: flex; flex-wrap: wrap; gap: 7px; }
+.pill {
+  font-size: 12px; padding: 6px 11px; border-radius: 20px; min-height: 0;
+  border: 1px solid var(--line); background: var(--surface); line-height: 1.4;
+}
+.pill .n { color: var(--muted); margin-left: 6px; }
+.pill[aria-pressed="true"] { background: var(--selected); border-color: var(--green); color: var(--green); }
+.pill-more { color: var(--green); border-style: dashed; }
+.pill-more:hover { background: var(--selected); border-style: solid; }
+.pill-theme  { background: color-mix(in srgb, var(--green) 7%, var(--surface)); }
+.pill-type   { background: color-mix(in srgb, var(--blue) 7%, var(--surface)); }
+.pill-geo    { background: color-mix(in srgb, var(--gold) 9%, var(--surface)); }
+.pill-year   { background: var(--tint); }
+.pill-access { background: color-mix(in srgb, var(--red) 6%, var(--surface)); }
+.open-db {
+  margin-top: 18px; background: var(--green); color: #fff; border-color: var(--green);
+  font-size: 14px; padding: 11px 20px;
+}
+.open-db:hover { background: color-mix(in srgb, var(--green) 85%, #000); color: #fff; }
+
+/* ── geography, the one facet with a hierarchy ────────────────────────────
+   The US pill and its expander read as one control, so it is clear the toggle
+   belongs to the country beside it rather than to the row as a whole. */
+
+.geo-us { display: inline-flex; align-items: stretch; gap: 0; }
+.geo-us .pill { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+.geo-toggle {
+  font-size: 11px; min-height: 0; padding: 3px 9px; line-height: 1.5;
+  border: 1px solid var(--line); border-left: 0;
+  border-radius: 0 20px 20px 0;
+  background: var(--tint); color: var(--muted);
+}
+.geo-toggle:hover { background: var(--selected); color: var(--green); }
+.geo-toggle[aria-expanded="true"] { background: var(--selected); color: var(--green); }
+
+.geo-states {
+  margin-top: 11px; padding: 11px 0 2px 13px;
+  border-left: 2px solid color-mix(in srgb, var(--gold) 40%, var(--line));
+}
+.geo-states-label {
+  font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.09em;
+  font-weight: 700; color: var(--muted); margin-bottom: 9px;
+}
+
+/* ── the year range ───────────────────────────────────────────────────────
+   Two native range inputs stacked on one track. They are transparent and pass
+   pointer events through except at the thumbs, which is what lets both handles
+   live on the same line and stay keyboard reachable: each is still a real input
+   with its own label, arrow keys and focus ring. */
+
+.year-range { display: flex; flex-direction: column; gap: 4px; }
+
+.year-hist {
+  display: flex; align-items: flex-end; gap: 2px;
+  height: 34px; padding: 0 7px;
+}
+.year-bar {
+  flex: 1; min-width: 2px; border-radius: 1px 1px 0 0;
+  background: color-mix(in srgb, var(--muted) 26%, transparent);
+}
+.year-bar.in { background: color-mix(in srgb, var(--green) 55%, transparent); }
+
+.year-track { position: relative; height: 22px; margin: 0 7px; }
+.year-track::before {
+  content: ""; position: absolute; left: 0; right: 0; top: 50%;
+  height: 3px; margin-top: -1.5px; border-radius: 2px; background: var(--line);
+}
+.year-fill {
+  position: absolute; top: 50%; height: 3px; margin-top: -1.5px;
+  border-radius: 2px; background: var(--green);
+}
+.year-track input[type="range"] {
+  position: absolute; left: 0; top: 0; width: 100%; height: 22px;
+  margin: 0; padding: 0; background: none; border: 0;
+  -webkit-appearance: none; appearance: none;
+  pointer-events: none;            /* the track is not draggable, only the thumbs */
+}
+.year-track input[type="range"]::-webkit-slider-runnable-track { background: none; height: 22px; }
+.year-track input[type="range"]::-moz-range-track { background: none; height: 22px; }
+.year-track input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; pointer-events: auto;
+  width: 17px; height: 17px; margin-top: 2.5px; border-radius: 50%;
+  background: var(--green); border: 2px solid var(--surface);
+  box-shadow: 0 1px 4px rgba(32, 51, 46, 0.35); cursor: grab;
+}
+.year-track input[type="range"]::-moz-range-thumb {
+  pointer-events: auto;
+  width: 17px; height: 17px; border-radius: 50%;
+  background: var(--green); border: 2px solid var(--surface);
+  box-shadow: 0 1px 4px rgba(32, 51, 46, 0.35); cursor: grab;
+}
+.year-track input[type="range"]:active::-webkit-slider-thumb { cursor: grabbing; }
+.year-track input[type="range"]:focus-visible::-webkit-slider-thumb {
+  outline: 3px solid var(--blue); outline-offset: 2px;
+}
+
+.year-boxes { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; margin-top: 4px; }
+.year-cap { font-size: 12px; color: var(--muted); }
+.year-num {
+  width: 68px; min-height: 32px; padding: 5px 8px; font-size: 13px;
+  border: 1px solid var(--line); border-radius: var(--radius-control);
+  background: var(--surface); color: var(--ink);
+}
+.year-num:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 3px var(--selected); }
+.year-reset {
+  margin-left: auto; font-size: 12px; min-height: 32px; padding: 5px 10px;
+}
+
+/* ── filter disclosure ────────────────────────────────────────────────────
+   The explorer keeps its facets behind "Filter the evidence" so the results sit
+   near the top rather than a screen below it. Opened automatically whenever a
+   filter is active, because a hidden control that is silently changing the result
+   count is worse than a tall page. */
+
+.filters { margin-bottom: 20px; }
+.filters > summary {
+  font-size: 14px; font-weight: 600; color: var(--ink);
+  list-style: none; display: inline-flex; align-items: center; gap: 9px;
+  padding: 10px 15px; border: 1px solid var(--line); border-radius: var(--radius-control);
+  background: var(--surface);
+}
+.filters > summary:hover { background: var(--tint); border-color: var(--green); color: var(--green); }
+.filters[open] > summary { background: var(--selected); border-color: var(--green); color: var(--green); }
+.filters > summary::-webkit-details-marker { display: none; }
+.filters > summary::before { content: "\25B8"; font-size: 12px; transition: transform .12s; }
+.filters[open] > summary::before { transform: rotate(90deg); }
+.filters > summary:hover { color: var(--green); }
+.filters .facets { margin-top: 12px; }
+
+/* ── results ──────────────────────────────────────────────────────────── */
+
+.results-head {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; flex-wrap: wrap; margin: 6px 0 13px;
+}
+.count { font-size: 13px; color: var(--muted); }
+.count b { color: var(--ink); font-weight: 700; }
+.sort { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+.sort select {
+  min-height: 38px; padding: 8px 10px; font-size: 12px;
+  border: 1px solid var(--line); border-radius: var(--radius-control); background: var(--surface); color: var(--ink);
+}
+.active-filters { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 16px; }
+.active-filters .pill[aria-pressed="true"]::after { content: " ×"; font-weight: 700; }
+
+.card {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 22px 24px; margin-bottom: 13px;
+  scroll-margin-top: 74px;
+}
+.card-head { display: flex; gap: 15px; align-items: flex-start; }
+.card-title-col { flex: 1; min-width: 0; }
+.card h3 {
+  font: 700 22px/1.35 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--ink); min-width: 0;
+}
+/* A title that is a link still reads as a title: it takes the heading's colour and
+   only underlines on hover, so the card does not turn into a wall of blue. */
+.title-link { color: inherit; text-decoration: none; }
+.title-link:hover { color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
+
+.byline { font-size: 12px; color: var(--muted); margin-top: 5px; }
+.byline .sep { margin: 0 6px; }
+.card .summary { font-size: 15px; margin-top: 12px; line-height: 1.6; }
+.card:not(.open) .summary {
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.card .chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 13px; }
+.card-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; margin-top: 16px; }
+.btn-primary { background: var(--green); color: #fff; border-color: var(--green); }
+.btn-primary:hover { background: color-mix(in srgb, var(--green) 85%, #000); color: #fff; }
+a.btn-primary, a.btn-secondary {
+  display: inline-flex; align-items: center; font-size: 12px; text-decoration: none;
+  border: 1px solid var(--line); border-radius: var(--radius-control);
+  padding: 9px 13px; min-height: 38px;
+}
+a.btn-secondary { background: var(--surface); color: var(--ink); }
+a.btn-secondary:hover { background: var(--tint); }
+.destination { order: 99; margin-left: auto; font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 7px; }
+.dest-pdf { border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: 10.5px; letter-spacing: 0.04em; }
+.no-link { font-size: 12px; color: var(--muted); margin-top: 11px; font-style: italic; }
+
+.details { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
+.why-block {
+  background: color-mix(in srgb, var(--gold) 9%, var(--surface));
+  border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius-control) var(--radius-control) 0;
+  padding: 14px 17px; margin-bottom: 17px;
+}
+.why-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; color: var(--gold); }
+.why-text { font-family: Georgia, serif; font-size: 15px; line-height: 1.55; margin-top: 6px; }
+.field-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; color: var(--muted); margin-bottom: 5px; }
+.insights { margin: 0 0 18px; padding-left: 19px; }
+.insights li { font-size: 14px; line-height: 1.6; margin-bottom: 8px; }
+.field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 26px; }
+.field-value { font-size: 13.5px; }
+.related { display: flex; flex-direction: column; gap: 4px; margin-top: 5px; }
+.related button {
+  border: 0; background: none; padding: 2px 0; min-height: 26px;
+  text-align: left; color: var(--green); font-size: 13px;
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.related button:hover { background: none; }
+
+.empty { padding: 40px 20px; text-align: center; color: var(--muted); }
+.more { width: 100%; margin-top: 8px; }
+.notice {
+  background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--red);
+  border-radius: var(--radius); padding: 15px 17px; margin: 20px 0; font-size: 14px;
+}
+
+/* ── the report dialog ────────────────────────────────────────────────────
+   A native <dialog>, so Escape closes it, focus is trapped and the backdrop is
+   the browser's rather than a div pretending to be one. */
+
+.report-dialog {
+  width: min(620px, calc(100vw - 32px));
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--surface); color: var(--ink);
+  padding: 22px 24px 20px;
+  box-shadow: 0 18px 50px rgba(32, 51, 46, 0.22);
+}
+.report-dialog::backdrop { background: rgba(32, 51, 46, 0.38); }
+.report-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+.report-dialog h2 { font: 500 22px/1.25 Georgia, serif; }
+.report-x {
+  border: 0; background: none; font-size: 22px; line-height: 1;
+  padding: 0 4px; min-height: 30px; color: var(--muted);
+}
+.report-x:hover { background: none; color: var(--green); }
+.report-intro { font-size: 13.5px; color: var(--muted); margin: 8px 0 16px; }
+
+.report-field { display: block; margin-bottom: 13px; }
+.report-field > span {
+  display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.09em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 5px;
+}
+.report-field input, .report-field textarea {
+  width: 100%; font: inherit; font-size: 13.5px; color: var(--ink);
+  border: 1px solid var(--line); border-radius: var(--radius-control);
+  background: var(--surface); padding: 9px 11px;
+}
+.report-field input[readonly] { background: var(--tint); color: var(--muted); }
+.report-field textarea { resize: vertical; line-height: 1.55; min-height: 190px; }
+.report-field textarea:focus, .report-field input:focus {
+  outline: none; border-color: var(--green); box-shadow: 0 0 0 3px var(--selected);
+}
+
+.report-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 4px; }
+.report-status { font-size: 12.5px; color: var(--green); }
+
+.report-row { margin-top: 16px; padding-top: 13px; border-top: 1px solid var(--line); }
+.report-link {
+  font-size: 12.5px; color: var(--muted);
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.report-link:hover { color: var(--green); }
+footer.page-foot .report-link { font-size: 12px; }
+
+footer.page-foot { margin-top: 40px; padding-top: 22px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+footer.page-foot p + p { margin-top: 7px; }
+
+.to-top {
+  position: fixed; right: 22px; bottom: 22px; z-index: 30;
+  width: 44px; height: 44px; min-height: 44px; padding: 0;
+  border-radius: 50%; font-size: 18px; line-height: 1;
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line);
+  box-shadow: 0 2px 10px rgba(32, 51, 46, 0.14);
+}
+.to-top:hover { background: var(--tint); border-color: var(--green); color: var(--green); }
+
+mark { background: color-mix(in srgb, var(--gold) 30%, transparent); color: inherit; border-radius: 2px; padding: 0 1px; }
+
+@media (max-width: 860px) {
+  .page, .masthead-inner { padding-left: 16px; padding-right: 16px; }
+  .tabs { padding-left: 16px; padding-right: 16px; overflow-x: auto; flex-wrap: nowrap; gap: 16px; }
+  .tabs button { flex: none; white-space: nowrap; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .facets, .field-grid, .about-grid, .criteria-list { grid-template-columns: 1fr; }
+  .gallery { grid-template-columns: repeat(2, 1fr); gap: 13px; }
+  .masthead-meta { text-align: left; }
+  .display { font-size: 27px; }
+  .card h3 { font-size: 19px; }
+  .card { padding: 18px 17px; }
+  .search-row { flex-direction: column; }
+  .to-top { right: 14px; bottom: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* ── viewer.html ──────────────────────────────────────────────────────────
+   The framed PDF reader. The document is served by the PUBLISHER and rendered
+   by the browser's own PDF viewer inside the frame, which is where the reader's
+   download and print controls come from. Nothing is copied to the Lab's host,
+   which is what separates this from a mirror under site/mirrors.yaml. */
+
+body.viewer { height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+.viewer-bar {
+  flex: 0 0 auto;
+  background: var(--surface);
+  border-top: 4px solid var(--green);
+  border-bottom: 1px solid var(--line);
+  padding: 12px 20px;
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+}
+.viewer-back { font-size: 13px; white-space: nowrap; }
+.viewer-id { min-width: 0; flex: 1; }
+.viewer-id h1 { font-size: 17px; line-height: 1.3; font-family: inherit; font-weight: 600; }
+.viewer-id p { font-size: 12.5px; color: var(--muted); margin-top: 3px; }
+.viewer-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.viewer-frame { flex: 1 1 auto; width: 100%; border: 0; background: var(--tint); min-height: 0; }
+.viewer-note {
+  flex: 0 0 auto; font-size: 12px; color: var(--muted);
+  background: var(--tint); border-top: 1px solid var(--line); padding: 7px 20px;
+}
+.viewer-fallback { max-width: 660px; margin: 40px auto; padding: 0 20px; }
+.viewer-fallback h2 { margin-bottom: 10px; }
+.viewer-fallback p { margin-bottom: 12px; color: var(--muted); font-size: 14.5px; }
+.viewer-fallback .btn-primary { margin-top: 6px; }
+
+@media (max-width: 700px) {
+  .viewer-bar { padding: 10px 14px; gap: 10px; }
+  .viewer-id h1 { font-size: 15px; }
+  .viewer-note { padding: 7px 14px; }
+}
