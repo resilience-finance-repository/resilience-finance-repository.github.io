@@ -1,12 +1,12 @@
 {
   "_readme": "First-page renders of Open Access PDFs, by NNN. Written by scripts/build_thumbnails.py. The images live in site/thumbs/, which is GITIGNORED: a page image is derived from a source document and a committed one cannot be taken back without rewriting history, so they reach a host through the deploy rather than through a commit. Copy site/thumbs/ alongside site/ when publishing. A record absent from here is not an error: the page draws a tile from its kind and year instead.",
-  "generated_utc": "2026-10-06T02:28:47Z",
-  "payload_generated_utc": "2026-10-06T02:28:00Z",
+  "generated_utc": "2026-10-12T14:36:19Z",
+  "payload_generated_utc": "2026-10-12T14:35:37Z",
   "width": 400,
   "counts": {
-    "rendered": 599,
-    "open_access": 639,
-    "records": 670
+    "rendered": 653,
+    "open_access": 693,
+    "records": 734
   },
   "records": {
     "7": {
@@ -1549,519 +1549,585 @@
       "file": "thumbs/710.jpg"
     },
     "711": {
-      "file": "thumbs/711.jpg",
-      "w": 400,
-      "h": 282,
-      "from": "attachment"
+      "file": "thumbs/711.jpg"
     },
     "712": {
-      "file": "thumbs/712.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/712.jpg"
     },
     "713": {
-      "file": "thumbs/713.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/713.jpg"
     },
     "714": {
-      "file": "thumbs/714.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/714.jpg"
     },
     "715": {
-      "file": "thumbs/715.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/715.jpg"
     },
     "716": {
-      "file": "thumbs/716.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/716.jpg"
     },
     "717": {
-      "file": "thumbs/717.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/717.jpg"
     },
     "718": {
-      "file": "thumbs/718.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/718.jpg"
     },
     "719": {
-      "file": "thumbs/719.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/719.jpg"
     },
     "720": {
-      "file": "thumbs/720.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/720.jpg"
     },
     "721": {
-      "file": "thumbs/721.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/721.jpg"
     },
     "722": {
-      "file": "thumbs/722.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/722.jpg"
     },
     "723": {
-      "file": "thumbs/723.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/723.jpg"
     },
     "724": {
-      "file": "thumbs/724.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/724.jpg"
     },
     "725": {
-      "file": "thumbs/725.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/725.jpg"
     },
     "726": {
-      "file": "thumbs/726.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/726.jpg"
     },
     "727": {
-      "file": "thumbs/727.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/727.jpg"
     },
     "728": {
-      "file": "thumbs/728.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/728.jpg"
     },
     "729": {
-      "file": "thumbs/729.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/729.jpg"
     },
     "730": {
-      "file": "thumbs/730.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/730.jpg"
     },
     "731": {
-      "file": "thumbs/731.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/731.jpg"
     },
     "732": {
-      "file": "thumbs/732.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/732.jpg"
     },
     "733": {
-      "file": "thumbs/733.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/733.jpg"
     },
     "734": {
-      "file": "thumbs/734.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/734.jpg"
     },
     "735": {
-      "file": "thumbs/735.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/735.jpg"
     },
     "736": {
-      "file": "thumbs/736.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/736.jpg"
     },
     "737": {
-      "file": "thumbs/737.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/737.jpg"
     },
     "738": {
-      "file": "thumbs/738.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/738.jpg"
     },
     "739": {
-      "file": "thumbs/739.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/739.jpg"
     },
     "740": {
-      "file": "thumbs/740.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/740.jpg"
     },
     "741": {
-      "file": "thumbs/741.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/741.jpg"
     },
     "742": {
-      "file": "thumbs/742.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/742.jpg"
     },
     "743": {
-      "file": "thumbs/743.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/743.jpg"
     },
     "744": {
-      "file": "thumbs/744.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/744.jpg"
     },
     "745": {
-      "file": "thumbs/745.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/745.jpg"
     },
     "746": {
-      "file": "thumbs/746.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/746.jpg"
     },
     "747": {
-      "file": "thumbs/747.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/747.jpg"
     },
     "748": {
-      "file": "thumbs/748.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/748.jpg"
     },
     "749": {
-      "file": "thumbs/749.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/749.jpg"
     },
     "750": {
-      "file": "thumbs/750.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/750.jpg"
     },
     "751": {
-      "file": "thumbs/751.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/751.jpg"
     },
     "752": {
-      "file": "thumbs/752.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/752.jpg"
     },
     "753": {
-      "file": "thumbs/753.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/753.jpg"
     },
     "754": {
-      "file": "thumbs/754.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/754.jpg"
     },
     "755": {
-      "file": "thumbs/755.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/755.jpg"
     },
     "756": {
-      "file": "thumbs/756.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/756.jpg"
     },
     "757": {
-      "file": "thumbs/757.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/757.jpg"
     },
     "758": {
-      "file": "thumbs/758.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/758.jpg"
     },
     "759": {
-      "file": "thumbs/759.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/759.jpg"
     },
     "760": {
-      "file": "thumbs/760.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/760.jpg"
     },
     "761": {
-      "file": "thumbs/761.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/761.jpg"
     },
     "762": {
-      "file": "thumbs/762.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/762.jpg"
     },
     "763": {
-      "file": "thumbs/763.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/763.jpg"
     },
     "764": {
-      "file": "thumbs/764.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/764.jpg"
     },
     "765": {
-      "file": "thumbs/765.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/765.jpg"
     },
     "766": {
-      "file": "thumbs/766.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/766.jpg"
     },
     "767": {
-      "file": "thumbs/767.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/767.jpg"
     },
     "768": {
-      "file": "thumbs/768.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/768.jpg"
     },
     "769": {
-      "file": "thumbs/769.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/769.jpg"
     },
     "770": {
-      "file": "thumbs/770.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/770.jpg"
     },
     "771": {
-      "file": "thumbs/771.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/771.jpg"
     },
     "772": {
-      "file": "thumbs/772.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/772.jpg"
     },
     "773": {
-      "file": "thumbs/773.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/773.jpg"
     },
     "774": {
-      "file": "thumbs/774.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/774.jpg"
     },
     "775": {
-      "file": "thumbs/775.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/775.jpg"
     },
     "776": {
-      "file": "thumbs/776.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/776.jpg"
     },
     "777": {
-      "file": "thumbs/777.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/777.jpg"
     },
     "778": {
-      "file": "thumbs/778.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/778.jpg"
     },
     "779": {
-      "file": "thumbs/779.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/779.jpg"
     },
     "780": {
-      "file": "thumbs/780.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/780.jpg"
     },
     "781": {
-      "file": "thumbs/781.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/781.jpg"
     },
     "782": {
-      "file": "thumbs/782.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/782.jpg"
     },
     "783": {
-      "file": "thumbs/783.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/783.jpg"
     },
     "784": {
-      "file": "thumbs/784.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/784.jpg"
     },
     "785": {
-      "file": "thumbs/785.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/785.jpg"
     },
     "786": {
-      "file": "thumbs/786.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/786.jpg"
     },
     "787": {
-      "file": "thumbs/787.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/787.jpg"
     },
     "788": {
-      "file": "thumbs/788.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/788.jpg"
     },
     "789": {
-      "file": "thumbs/789.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/789.jpg"
     },
     "790": {
-      "file": "thumbs/790.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/790.jpg"
     },
     "791": {
-      "file": "thumbs/791.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/791.jpg"
     },
     "792": {
-      "file": "thumbs/792.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/792.jpg"
     },
     "793": {
-      "file": "thumbs/793.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/793.jpg"
     },
     "794": {
-      "file": "thumbs/794.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/794.jpg"
     },
     "795": {
-      "file": "thumbs/795.jpg",
+      "file": "thumbs/795.jpg"
+    },
+    "796": {
+      "file": "thumbs/796.jpg"
+    },
+    "797": {
+      "file": "thumbs/797.jpg",
       "w": 400,
       "h": 518,
       "from": "attachment"
     },
-    "796": {
-      "file": "thumbs/796.jpg",
+    "798": {
+      "file": "thumbs/798.jpg",
       "w": 400,
-      "h": 310,
+      "h": 518,
+      "from": "attachment"
+    },
+    "799": {
+      "file": "thumbs/799.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "800": {
+      "file": "thumbs/800.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "801": {
+      "file": "thumbs/801.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "802": {
+      "file": "thumbs/802.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "803": {
+      "file": "thumbs/803.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "805": {
+      "file": "thumbs/805.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "809": {
+      "file": "thumbs/809.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "811": {
+      "file": "thumbs/811.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "812": {
+      "file": "thumbs/812.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "813": {
+      "file": "thumbs/813.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "814": {
+      "file": "thumbs/814.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "815": {
+      "file": "thumbs/815.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "816": {
+      "file": "thumbs/816.jpg",
+      "w": 400,
+      "h": 225,
+      "from": "attachment"
+    },
+    "817": {
+      "file": "thumbs/817.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "819": {
+      "file": "thumbs/819.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "821": {
+      "file": "thumbs/821.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "822": {
+      "file": "thumbs/822.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "823": {
+      "file": "thumbs/823.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "824": {
+      "file": "thumbs/824.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "826": {
+      "file": "thumbs/826.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "827": {
+      "file": "thumbs/827.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "828": {
+      "file": "thumbs/828.jpg",
+      "w": 400,
+      "h": 250,
+      "from": "attachment"
+    },
+    "829": {
+      "file": "thumbs/829.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "830": {
+      "file": "thumbs/830.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "831": {
+      "file": "thumbs/831.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "832": {
+      "file": "thumbs/832.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "833": {
+      "file": "thumbs/833.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "834": {
+      "file": "thumbs/834.jpg",
+      "w": 400,
+      "h": 532,
+      "from": "attachment"
+    },
+    "835": {
+      "file": "thumbs/835.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "837": {
+      "file": "thumbs/837.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "838": {
+      "file": "thumbs/838.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "839": {
+      "file": "thumbs/839.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "840": {
+      "file": "thumbs/840.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "841": {
+      "file": "thumbs/841.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "842": {
+      "file": "thumbs/842.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "843": {
+      "file": "thumbs/843.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "844": {
+      "file": "thumbs/844.jpg",
+      "w": 400,
+      "h": 225,
+      "from": "attachment"
+    },
+    "845": {
+      "file": "thumbs/845.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "846": {
+      "file": "thumbs/846.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "847": {
+      "file": "thumbs/847.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "848": {
+      "file": "thumbs/848.jpg",
+      "w": 400,
+      "h": 572,
+      "from": "attachment"
+    },
+    "849": {
+      "file": "thumbs/849.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "850": {
+      "file": "thumbs/850.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "851": {
+      "file": "thumbs/851.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "852": {
+      "file": "thumbs/852.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "853": {
+      "file": "thumbs/853.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "854": {
+      "file": "thumbs/854.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "855": {
+      "file": "thumbs/855.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "856": {
+      "file": "thumbs/856.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "857": {
+      "file": "thumbs/857.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "858": {
+      "file": "thumbs/858.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "859": {
+      "file": "thumbs/859.jpg",
+      "w": 400,
+      "h": 528,
       "from": "attachment"
     }
   }
