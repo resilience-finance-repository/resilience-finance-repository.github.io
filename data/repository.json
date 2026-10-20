@@ -1,19 +1,19 @@
 {
  "payload_version": 2,
- "generated_utc": "2026-10-12T14:35:37Z",
+ "generated_utc": "2026-10-20T02:31:16Z",
  "origin": {
   "kind": "live",
   "database_title": "Resilience Finance Repository",
   "recorded_basis": "measured at export time"
  },
  "counts": {
-  "records": 734,
-  "with_link": 734,
+  "records": 757,
+  "with_link": 757,
   "without_link": 0,
-  "with_attachment": 381,
-  "open_access": 693,
+  "with_attachment": 383,
+  "open_access": 716,
   "access_states": {
-   "source": 693,
+   "source": 716,
    "paywall": 41
   },
   "year_min": 2012,
@@ -22,12 +22,12 @@
  "facets": {
   "resource_type": [
    {
-    "name": "Report",
-    "count": 256
+    "name": "News Article / Blog Post",
+    "count": 275
    },
    {
-    "name": "News Article / Blog Post",
-    "count": 255
+    "name": "Report",
+    "count": 258
    },
    {
     "name": "Academic Paper",
@@ -35,7 +35,7 @@
    },
    {
     "name": "Case Study / Deal Profile",
-    "count": 38
+    "count": 39
    },
    {
     "name": "Initiative / Finance Model",
@@ -65,105 +65,105 @@
   "theme": [
    {
     "name": "Insurance / Risk Transfer",
-    "count": 263
+    "count": 278
    },
    {
     "name": "State / Local / Community Resilience Finance",
-    "count": 218
+    "count": 232
    },
    {
     "name": "Infrastructure & Real Estate Resilience",
-    "count": 197
+    "count": 213
    },
    {
     "name": "Capital Markets / Credit / Risk Pricing",
-    "count": 155
+    "count": 160
    },
    {
     "name": "Adaptation Finance Flows & Capital Mobilization",
+    "count": 140
+   },
+   {
+    "name": "Resilience Returns & the Economic Case",
     "count": 137
    },
    {
     "name": "Climate Risk Data / Models / Analytics",
-    "count": 130
-   },
-   {
-    "name": "Resilience Returns & the Economic Case",
-    "count": 127
+    "count": 132
    },
    {
     "name": "Policy / Regulation / Supervision",
-    "count": 117
+    "count": 120
    },
    {
     "name": "Blended / Catalytic / Outcomes-Based Finance",
-    "count": 113
+    "count": 116
    },
    {
     "name": "Nature-Based Solutions & Natural Capital",
-    "count": 103
+    "count": 104
    },
    {
     "name": "Federal Resilience Policy & Funding",
-    "count": 86
+    "count": 89
    },
    {
     "name": "Disclosure / Metrics / Taxonomies",
-    "count": 72
+    "count": 73
    }
   ],
   "geography": [
    {
     "name": "US",
-    "count": 500
+    "count": 521
    },
    {
     "name": "Global",
-    "count": 253
+    "count": 257
    },
    {
     "name": "California",
-    "count": 112
+    "count": 121
    },
    {
     "name": "Florida",
-    "count": 80
+    "count": 86
    },
    {
     "name": "Texas",
-    "count": 28
+    "count": 35
    },
    {
     "name": "New York",
-    "count": 27
+    "count": 31
+   },
+   {
+    "name": "Louisiana",
+    "count": 29
    },
    {
     "name": "Europe",
-    "count": 26
+    "count": 28
    },
    {
     "name": "Latin America",
     "count": 26
    },
    {
-    "name": "Louisiana",
-    "count": 26
-   },
-   {
     "name": "Asia",
-    "count": 23
+    "count": 24
    },
    {
     "name": "Africa",
-    "count": 21
+    "count": 23
    },
    {
     "name": "Alabama",
-    "count": 20
+    "count": 23
    },
    {
     "name": "North Carolina",
-    "count": 17
+    "count": 20
    },
    {
     "name": "Caribbean",
@@ -174,27 +174,31 @@
     "count": 15
    },
    {
+    "name": "Rhode Island",
+    "count": 11
+   },
+   {
     "name": "Massachusetts",
     "count": 10
    },
    {
-    "name": "Rhode Island",
-    "count": 10
+    "name": "Washington",
+    "count": 9
    },
    {
     "name": "Hawaii",
     "count": 8
    },
    {
-    "name": "Washington",
-    "count": 8
+    "name": "Kentucky",
+    "count": 7
+   },
+   {
+    "name": "Minnesota",
+    "count": 7
    },
    {
     "name": "Connecticut",
-    "count": 6
-   },
-   {
-    "name": "Kentucky",
     "count": 6
    },
    {
@@ -206,10 +210,6 @@
     "count": 5
    },
    {
-    "name": "Minnesota",
-    "count": 5
-   },
-   {
     "name": "Puerto Rico",
     "count": 5
    },
@@ -218,11 +218,11 @@
     "count": 4
    },
    {
-    "name": "Maine",
-    "count": 3
+    "name": "Vermont",
+    "count": 4
    },
    {
-    "name": "Vermont",
+    "name": "Maine",
     "count": 3
    },
    {
@@ -237,42 +237,46 @@
   "institution": [
    {
     "name": "Federal Emergency Management Agency",
-    "count": 98
+    "count": 109
    },
    {
     "name": "The Resiliency Company",
-    "count": 72
+    "count": 91
    },
    {
     "name": "World Bank",
-    "count": 59
+    "count": 60
    },
    {
     "name": "The Epicenter",
-    "count": 46
+    "count": 57
+   },
+   {
+    "name": "Swiss Re",
+    "count": 32
    },
    {
     "name": "Climate Policy Initiative",
     "count": 31
    },
    {
+    "name": "National Oceanic and Atmospheric Administration",
+    "count": 30
+   },
+   {
     "name": "Insurance Institute for Business & Home Safety",
     "count": 29
    },
    {
-    "name": "Swiss Re",
+    "name": "The Nature Conservancy",
     "count": 29
    },
    {
-    "name": "The Nature Conservancy",
-    "count": 28
-   },
-   {
-    "name": "National Oceanic and Atmospheric Administration",
-    "count": 27
-   },
-   {
     "name": "Moody's",
+    "count": 25
+   },
+   {
+    "name": "Climate Bonds Initiative",
     "count": 23
    },
    {
@@ -280,11 +284,23 @@
     "count": 23
    },
    {
-    "name": "Climate Bonds Initiative",
+    "name": "World Economic Forum",
     "count": 22
    },
    {
+    "name": "National Flood Insurance Program",
+    "count": 21
+   },
+   {
     "name": "Insurance for Good",
+    "count": 20
+   },
+   {
+    "name": "OECD",
+    "count": 20
+   },
+   {
+    "name": "Insurance Institute for Business & Home Safety (IBHS)",
     "count": 19
    },
    {
@@ -292,24 +308,12 @@
     "count": 19
    },
    {
-    "name": "OECD",
-    "count": 19
-   },
-   {
-    "name": "World Economic Forum",
-    "count": 19
-   },
-   {
     "name": "Economic Architecture",
     "count": 18
    },
    {
-    "name": "National Flood Insurance Program",
+    "name": "First Street Foundation",
     "count": 18
-   },
-   {
-    "name": "Insurance Institute for Business & Home Safety (IBHS)",
-    "count": 17
    },
    {
     "name": "Rebuild by Design",
@@ -324,7 +328,11 @@
     "count": 17
    },
    {
-    "name": "First Street Foundation",
+    "name": "Brookings Institution",
+    "count": 16
+   },
+   {
+    "name": "Environmental Defense Fund",
     "count": 16
    },
    {
@@ -336,6 +344,10 @@
     "count": 16
    },
    {
+    "name": "California Department of Insurance",
+    "count": 15
+   },
+   {
     "name": "California Forward",
     "count": 15
    },
@@ -344,28 +356,20 @@
     "count": 15
    },
    {
-    "name": "Brookings Institution",
-    "count": 14
-   },
-   {
-    "name": "California Department of Insurance",
-    "count": 14
-   },
-   {
-    "name": "Environmental Defense Fund",
-    "count": 14
+    "name": "California FAIR Plan",
+    "count": 13
    },
    {
     "name": "NOAA Office for Coastal Management",
     "count": 13
    },
    {
-    "name": "S&P Global",
+    "name": "Rockefeller Foundation",
     "count": 13
    },
    {
-    "name": "California FAIR Plan",
-    "count": 12
+    "name": "S&P Global",
+    "count": 13
    },
    {
     "name": "Center for Disaster Philanthropy",
@@ -376,7 +380,15 @@
     "count": 12
    },
    {
-    "name": "Rockefeller Foundation",
+    "name": "National Institute of Building Sciences",
+    "count": 12
+   },
+   {
+    "name": "Probable Futures",
+    "count": 12
+   },
+   {
+    "name": "U.S. Department of Housing and Urban Development",
     "count": 12
    },
    {
@@ -388,11 +400,7 @@
     "count": 11
    },
    {
-    "name": "National Institute of Building Sciences",
-    "count": 11
-   },
-   {
-    "name": "U.S. Department of Housing and Urban Development",
+    "name": "Munich RE",
     "count": 11
    },
    {
@@ -400,7 +408,15 @@
     "count": 11
    },
    {
+    "name": "Urban Institute",
+    "count": 11
+   },
+   {
     "name": "Aon",
+    "count": 10
+   },
+   {
+    "name": "Blue Forest",
     "count": 10
    },
    {
@@ -408,15 +424,11 @@
     "count": 10
    },
    {
-    "name": "Probable Futures",
-    "count": 10
-   },
-   {
     "name": "Task Force on Climate-related Financial Disclosures",
     "count": 10
    },
    {
-    "name": "Urban Institute",
+    "name": "U.S. Chamber of Commerce",
     "count": 10
    },
    {
@@ -440,10 +452,6 @@
     "count": 9
    },
    {
-    "name": "Munich RE",
-    "count": 9
-   },
-   {
     "name": "National Association of Insurance Commissioners",
     "count": 9
    },
@@ -460,6 +468,10 @@
     "count": 9
    },
    {
+    "name": "Allstate",
+    "count": 8
+   },
+   {
     "name": "Artemis",
     "count": 8
    },
@@ -468,15 +480,15 @@
     "count": 8
    },
    {
-    "name": "Blue Forest",
-    "count": 8
-   },
-   {
     "name": "Climate Central",
     "count": 8
    },
    {
     "name": "Department of Housing and Urban Development",
+    "count": 8
+   },
+   {
+    "name": "Environmental Protection Agency",
     "count": 8
    },
    {
@@ -500,12 +512,16 @@
     "count": 8
    },
    {
-    "name": "Verisk",
+    "name": "State Farm",
     "count": 8
    },
    {
-    "name": "Allstate",
-    "count": 7
+    "name": "U.S. Environmental Protection Agency",
+    "count": 8
+   },
+   {
+    "name": "Verisk",
+    "count": 8
    },
    {
     "name": "Center for Climate and Energy Solutions (C2ES)",
@@ -513,6 +529,10 @@
    },
    {
     "name": "Government Finance Officers Association",
+    "count": 7
+   },
+   {
+    "name": "Mercury Insurance",
     "count": 7
    },
    {
@@ -536,11 +556,7 @@
     "count": 7
    },
    {
-    "name": "U.S. Chamber of Commerce",
-    "count": 7
-   },
-   {
-    "name": "U.S. Environmental Protection Agency",
+    "name": "U.S. Chamber of Commerce Foundation",
     "count": 7
    },
    {
@@ -560,15 +576,19 @@
     "count": 6
    },
    {
+    "name": "Columbia University",
+    "count": 6
+   },
+   {
     "name": "Department of Angels",
     "count": 6
    },
    {
-    "name": "Environmental Protection Agency",
+    "name": "European Bank for Reconstruction and Development",
     "count": 6
    },
    {
-    "name": "European Bank for Reconstruction and Development",
+    "name": "Fitch Ratings",
     "count": 6
    },
    {
@@ -580,11 +600,11 @@
     "count": 6
    },
    {
-    "name": "Lightsmith Group",
+    "name": "Insurance Institute for Business and Home Safety",
     "count": 6
    },
    {
-    "name": "Mercury Insurance",
+    "name": "Lightsmith Group",
     "count": 6
    },
    {
@@ -600,7 +620,15 @@
     "count": 6
    },
    {
+    "name": "Resilient Cities Network",
+    "count": 6
+   },
+   {
     "name": "Resilient Los Angeles",
+    "count": 6
+   },
+   {
+    "name": "Ryan Companies",
     "count": 6
    },
    {
@@ -608,15 +636,11 @@
     "count": 6
    },
    {
-    "name": "State Farm",
-    "count": 6
-   },
-   {
     "name": "The Brookings Institution",
     "count": 6
    },
    {
-    "name": "U.S. Chamber of Commerce Foundation",
+    "name": "U.S. Geological Survey",
     "count": 6
    },
    {
@@ -628,6 +652,14 @@
     "count": 6
    },
    {
+    "name": "Alabama Department of Insurance",
+    "count": 5
+   },
+   {
+    "name": "American Society of Civil Engineers",
+    "count": 5
+   },
+   {
     "name": "Bloomberg Philanthropies",
     "count": 5
    },
@@ -636,11 +668,15 @@
     "count": 5
    },
    {
-    "name": "Columbia University",
+    "name": "Congressional Research Service",
     "count": 5
    },
    {
     "name": "Cornell University",
+    "count": 5
+   },
+   {
+    "name": "Duke University",
     "count": 5
    },
    {
@@ -649,10 +685,6 @@
    },
    {
     "name": "Federal Reserve Board",
-    "count": 5
-   },
-   {
-    "name": "Fitch Ratings",
     "count": 5
    },
    {
@@ -680,6 +712,10 @@
     "count": 5
    },
    {
+    "name": "Goldman Sachs",
+    "count": 5
+   },
+   {
     "name": "International Sustainability Standards Board",
     "count": 5
    },
@@ -693,6 +729,10 @@
    },
    {
     "name": "KB Home",
+    "count": 5
+   },
+   {
+    "name": "McKinsey & Company",
     "count": 5
    },
    {
@@ -720,19 +760,11 @@
     "count": 5
    },
    {
-    "name": "Ryan Companies",
-    "count": 5
-   },
-   {
     "name": "State of Rhode Island",
     "count": 5
    },
    {
     "name": "U.S. Forest Service",
-    "count": 5
-   },
-   {
-    "name": "U.S. Geological Survey",
     "count": 5
    },
    {
@@ -745,10 +777,6 @@
    },
    {
     "name": "AXA",
-    "count": 4
-   },
-   {
-    "name": "Alabama Department of Insurance",
     "count": 4
    },
    {
@@ -768,7 +796,15 @@
     "count": 4
    },
    {
+    "name": "Broward County",
+    "count": 4
+   },
+   {
     "name": "CAL FIRE",
+    "count": 4
+   },
+   {
+    "name": "Center for American Progress",
     "count": 4
    },
    {
@@ -780,15 +816,7 @@
     "count": 4
    },
    {
-    "name": "Congressional Research Service",
-    "count": 4
-   },
-   {
     "name": "Deloitte",
-    "count": 4
-   },
-   {
-    "name": "Duke University",
     "count": 4
    },
    {
@@ -808,10 +836,6 @@
     "count": 4
    },
    {
-    "name": "Goldman Sachs",
-    "count": 4
-   },
-   {
     "name": "Liberty Mutual",
     "count": 4
    },
@@ -828,7 +852,11 @@
     "count": 4
    },
    {
-    "name": "Resilient Cities Network",
+    "name": "PG&E",
+    "count": 4
+   },
+   {
+    "name": "Resilient America",
     "count": 4
    },
    {
@@ -844,7 +872,15 @@
     "count": 4
    },
    {
+    "name": "Tailwind",
+    "count": 4
+   },
+   {
     "name": "The Pew Charitable Trusts",
+    "count": 4
+   },
+   {
+    "name": "U.S. Census Bureau",
     "count": 4
    },
    {
@@ -892,10 +928,6 @@
     "count": 3
    },
    {
-    "name": "American Society of Civil Engineers",
-    "count": 3
-   },
-   {
     "name": "Appleby",
     "count": 3
    },
@@ -905,10 +937,6 @@
    },
    {
     "name": "Bank of America",
-    "count": 3
-   },
-   {
-    "name": "Broward County",
     "count": 3
    },
    {
@@ -940,6 +968,10 @@
     "count": 3
    },
    {
+    "name": "Florida Division of Emergency Management",
+    "count": 3
+   },
+   {
     "name": "Google",
     "count": 3
    },
@@ -960,7 +992,7 @@
     "count": 3
    },
    {
-    "name": "Insurance Institute for Business and Home Safety",
+    "name": "International Development Association",
     "count": 3
    },
    {
@@ -973,10 +1005,6 @@
    },
    {
     "name": "Massachusetts Institute of Technology",
-    "count": 3
-   },
-   {
-    "name": "McKinsey & Company",
     "count": 3
    },
    {
@@ -1008,7 +1036,7 @@
     "count": 3
    },
    {
-    "name": "PG&E",
+    "name": "Overstory",
     "count": 3
    },
    {
@@ -1024,7 +1052,7 @@
     "count": 3
    },
    {
-    "name": "Resilient America",
+    "name": "Realtor.com",
     "count": 3
    },
    {
@@ -1048,15 +1076,15 @@
     "count": 3
    },
    {
-    "name": "Tailwind",
-    "count": 3
-   },
-   {
     "name": "The Bond Buyer",
     "count": 3
    },
    {
-    "name": "U.S. Census Bureau",
+    "name": "The Lightsmith Group",
+    "count": 3
+   },
+   {
+    "name": "U.S. Department of Energy",
     "count": 3
    },
    {
@@ -1077,6 +1105,10 @@
    },
    {
     "name": "United States Army Corps of Engineers",
+    "count": 3
+   },
+   {
+    "name": "University of Alabama Center for Risk and Insurance Research",
     "count": 3
    },
    {
@@ -1108,6 +1140,18 @@
     "count": 3
    },
    {
+    "name": "AI-Dash",
+    "count": 2
+   },
+   {
+    "name": "AP Strategies",
+    "count": 2
+   },
+   {
+    "name": "ARRAY Technologies",
+    "count": 2
+   },
+   {
     "name": "AXA XL",
     "count": 2
    },
@@ -1117,6 +1161,10 @@
    },
    {
     "name": "Adaptation and Resilience Investors Collaborative",
+    "count": 2
+   },
+   {
+    "name": "AiDash",
     "count": 2
    },
    {
@@ -1156,6 +1204,10 @@
     "count": 2
    },
    {
+    "name": "Atlantic Council",
+    "count": 2
+   },
+   {
     "name": "Battery Park City Authority",
     "count": 2
    },
@@ -1192,7 +1244,15 @@
     "count": 2
    },
    {
+    "name": "CSAA",
+    "count": 2
+   },
+   {
     "name": "Cadlas",
+    "count": 2
+   },
+   {
+    "name": "California Building Industry Association",
     "count": 2
    },
    {
@@ -1236,15 +1296,15 @@
     "count": 2
    },
    {
-    "name": "Center for American Progress",
-    "count": 2
-   },
-   {
     "name": "Cities Climate Finance Leadership Alliance",
     "count": 2
    },
    {
     "name": "City of Asheville",
+    "count": 2
+   },
+   {
+    "name": "City of Miami Beach",
     "count": 2
    },
    {
@@ -1300,6 +1360,10 @@
     "count": 2
    },
    {
+    "name": "Delos",
+    "count": 2
+   },
+   {
     "name": "Department of the Interior",
     "count": 2
    },
@@ -1324,7 +1388,15 @@
     "count": 2
    },
    {
+    "name": "Enviroshake",
+    "count": 2
+   },
+   {
     "name": "European Central Bank",
+    "count": 2
+   },
+   {
+    "name": "Eventual",
     "count": 2
    },
    {
@@ -1340,7 +1412,19 @@
     "count": 2
    },
    {
+    "name": "Federal Home Loan Bank of Dallas",
+    "count": 2
+   },
+   {
     "name": "Federal Housing Administration",
+    "count": 2
+   },
+   {
+    "name": "Federal Reserve Bank of Chicago",
+    "count": 2
+   },
+   {
+    "name": "Federal Reserve Bank of Dallas",
     "count": 2
    },
    {
@@ -1357,10 +1441,6 @@
    },
    {
     "name": "Florida Department of Financial Services",
-    "count": 2
-   },
-   {
-    "name": "Florida Division of Emergency Management",
     "count": 2
    },
    {
@@ -1412,6 +1492,10 @@
     "count": 2
    },
    {
+    "name": "Hail No",
+    "count": 2
+   },
+   {
     "name": "Hartford Fire Insurance",
     "count": 2
    },
@@ -1452,10 +1536,6 @@
     "count": 2
    },
    {
-    "name": "International Development Association",
-    "count": 2
-   },
-   {
     "name": "International Institute for Sustainable Development",
     "count": 2
    },
@@ -1464,7 +1544,23 @@
     "count": 2
    },
    {
+    "name": "Kettle",
+    "count": 2
+   },
+   {
+    "name": "Kisters",
+    "count": 2
+   },
+   {
     "name": "Kresge Foundation",
+    "count": 2
+   },
+   {
+    "name": "LLC",
+    "count": 2
+   },
+   {
+    "name": "Landmark",
     "count": 2
    },
    {
@@ -1540,6 +1636,10 @@
     "count": 2
    },
    {
+    "name": "Nanotech Materials",
+    "count": 2
+   },
+   {
     "name": "Nanyang Technological University",
     "count": 2
    },
@@ -1552,7 +1652,15 @@
     "count": 2
    },
    {
+    "name": "National Institute of Standards and Technology",
+    "count": 2
+   },
+   {
     "name": "National League of Cities",
+    "count": 2
+   },
+   {
+    "name": "National Roofing Contractors Association",
     "count": 2
    },
    {
@@ -1568,11 +1676,19 @@
     "count": 2
    },
    {
+    "name": "Nextracker",
+    "count": 2
+   },
+   {
     "name": "Nicholas Institute",
     "count": 2
    },
    {
     "name": "Nicholas Institute for Energy",
+    "count": 2
+   },
+   {
+    "name": "North American Electric Reliability Corporation",
     "count": 2
    },
    {
@@ -1588,11 +1704,15 @@
     "count": 2
    },
    {
-    "name": "Overstory",
+    "name": "Palm Beach County",
     "count": 2
    },
    {
-    "name": "Palm Beach County",
+    "name": "Pano",
+    "count": 2
+   },
+   {
+    "name": "Pew Research",
     "count": 2
    },
    {
@@ -1609,10 +1729,6 @@
    },
    {
     "name": "RES",
-    "count": 2
-   },
-   {
-    "name": "Realtor.com",
     "count": 2
    },
    {
@@ -1636,7 +1752,15 @@
     "count": 2
    },
    {
+    "name": "Resilience Consortium",
+    "count": 2
+   },
+   {
     "name": "Resilience First",
+    "count": 2
+   },
+   {
+    "name": "Resilient LA Delta Fund",
     "count": 2
    },
    {
@@ -1653,6 +1777,10 @@
    },
    {
     "name": "Seneca",
+    "count": 2
+   },
+   {
+    "name": "Siemens",
     "count": 2
    },
    {
@@ -1680,15 +1808,15 @@
     "count": 2
    },
    {
-    "name": "The Lightsmith Group",
-    "count": 2
-   },
-   {
     "name": "The New York Times",
     "count": 2
    },
    {
     "name": "The Nicholas Institute",
+    "count": 2
+   },
+   {
+    "name": "Tokio Marine Holdings",
     "count": 2
    },
    {
@@ -1713,6 +1841,10 @@
    },
    {
     "name": "U.S. Senate Budget Committee",
+    "count": 2
+   },
+   {
+    "name": "UC Berkeley",
     "count": 2
    },
    {
@@ -1752,10 +1884,6 @@
     "count": 2
    },
    {
-    "name": "University of Alabama Center for Risk and Insurance Research",
-    "count": 2
-   },
-   {
     "name": "University of California",
     "count": 2
    },
@@ -1780,6 +1908,10 @@
     "count": 2
    },
    {
+    "name": "University of Notre Dame",
+    "count": 2
+   },
+   {
     "name": "University of Paris 1 Pantheon-Sorbonne",
     "count": 2
    },
@@ -1789,6 +1921,10 @@
    },
    {
     "name": "Utrecht University",
+    "count": 2
+   },
+   {
+    "name": "Vermont Bond Bank",
     "count": 2
    },
    {
@@ -1816,6 +1952,10 @@
     "count": 2
    },
    {
+    "name": "World Food Programme",
+    "count": 2
+   },
+   {
     "name": "Zillow",
     "count": 2
    },
@@ -1840,10 +1980,6 @@
     "count": 1
    },
    {
-    "name": "AI-Dash",
-    "count": 1
-   },
-   {
     "name": "AIA",
     "count": 1
    },
@@ -1852,15 +1988,15 @@
     "count": 1
    },
    {
-    "name": "AP Strategies",
-    "count": 1
-   },
-   {
     "name": "ASEAN",
     "count": 1
    },
    {
     "name": "AXA Climate",
+    "count": 1
+   },
+   {
+    "name": "AccuWeather",
     "count": 1
    },
    {
@@ -1896,10 +2032,6 @@
     "count": 1
    },
    {
-    "name": "AiDash",
-    "count": 1
-   },
-   {
     "name": "Akin Gump Strauss Hauer & Feld",
     "count": 1
    },
@@ -1916,11 +2048,19 @@
     "count": 1
    },
    {
+    "name": "America Adapts",
+    "count": 1
+   },
+   {
     "name": "American Family Mutual",
     "count": 1
    },
    {
     "name": "American International Group",
+    "count": 1
+   },
+   {
+    "name": "American Planning Association",
     "count": 1
    },
    {
@@ -1968,6 +2108,10 @@
     "count": 1
    },
    {
+    "name": "Aquafence",
+    "count": 1
+   },
+   {
     "name": "Aquidneck Land Trust",
     "count": 1
    },
@@ -2005,10 +2149,6 @@
    },
    {
     "name": "Assured Guaranty",
-    "count": 1
-   },
-   {
-    "name": "Atlantic Council",
     "count": 1
    },
    {
@@ -2089,6 +2229,10 @@
    },
    {
     "name": "Berkshire Hathaway",
+    "count": 1
+   },
+   {
+    "name": "Beyond Storms Infrastructure Network Resilience Task Committee",
     "count": 1
    },
    {
@@ -2296,10 +2440,6 @@
     "count": 1
    },
    {
-    "name": "CSAA",
-    "count": 1
-   },
-   {
     "name": "CSAA (AAA)",
     "count": 1
    },
@@ -2321,10 +2461,6 @@
    },
    {
     "name": "California Air Resources Board",
-    "count": 1
-   },
-   {
-    "name": "California Building Industry Association",
     "count": 1
    },
    {
@@ -2432,6 +2568,10 @@
     "count": 1
    },
    {
+    "name": "Certainteed",
+    "count": 1
+   },
+   {
     "name": "Chesapeake Bay Foundation",
     "count": 1
    },
@@ -2528,10 +2668,6 @@
     "count": 1
    },
    {
-    "name": "City of Miami Beach",
-    "count": 1
-   },
-   {
     "name": "City of Miami Office of Capital Improvements",
     "count": 1
    },
@@ -2584,6 +2720,14 @@
     "count": 1
    },
    {
+    "name": "Climate Check",
+    "count": 1
+   },
+   {
+    "name": "Climate Core Capital",
+    "count": 1
+   },
+   {
     "name": "Climate Finance Advisors",
     "count": 1
    },
@@ -2596,11 +2740,19 @@
     "count": 1
    },
    {
+    "name": "Climate Proof",
+    "count": 1
+   },
+   {
     "name": "Climate Trace",
     "count": 1
    },
    {
     "name": "Climate Vulnerable Forum",
+    "count": 1
+   },
+   {
+    "name": "Climate and Community Institute",
     "count": 1
    },
    {
@@ -2656,6 +2808,10 @@
     "count": 1
    },
    {
+    "name": "Columbia Law School",
+    "count": 1
+   },
+   {
     "name": "Columbia University Climate School",
     "count": 1
    },
@@ -2673,6 +2829,10 @@
    },
    {
     "name": "Compass PTS JV",
+    "count": 1
+   },
+   {
+    "name": "Con Edison",
     "count": 1
    },
    {
@@ -2780,6 +2940,10 @@
     "count": 1
    },
    {
+    "name": "Crawford",
+    "count": 1
+   },
+   {
     "name": "Crucian Heritage and Nature Tourism",
     "count": 1
    },
@@ -2789,6 +2953,10 @@
    },
    {
     "name": "Crunchbase",
+    "count": 1
+   },
+   {
+    "name": "Crux Climate",
     "count": 1
    },
    {
@@ -2840,10 +3008,6 @@
     "count": 1
    },
    {
-    "name": "Delos",
-    "count": 1
-   },
-   {
     "name": "Department of Homeland Security",
     "count": 1
    },
@@ -2872,6 +3036,10 @@
     "count": 1
    },
    {
+    "name": "Disaster Philanthropy",
+    "count": 1
+   },
+   {
     "name": "Disaster Resilience Network (Tulsa)",
     "count": 1
    },
@@ -2896,6 +3064,10 @@
     "count": 1
    },
    {
+    "name": "EDISON Alliance",
+    "count": 1
+   },
+   {
     "name": "EIOPA",
     "count": 1
    },
@@ -2905,6 +3077,10 @@
    },
    {
     "name": "Eagle Valley Wildland",
+    "count": 1
+   },
+   {
+    "name": "Earth Analytics Group",
     "count": 1
    },
    {
@@ -2932,6 +3108,14 @@
     "count": 1
    },
    {
+    "name": "Eight Sleep",
+    "count": 1
+   },
+   {
+    "name": "Electric Reliability Council of Texas (ERCOT)",
+    "count": 1
+   },
+   {
     "name": "Elemental Impact",
     "count": 1
    },
@@ -2949,6 +3133,10 @@
    },
    {
     "name": "Energy Development Corporation",
+    "count": 1
+   },
+   {
+    "name": "Energy Information Administration",
     "count": 1
    },
    {
@@ -2984,10 +3172,6 @@
     "count": 1
    },
    {
-    "name": "Enviroshake",
-    "count": 1
-   },
-   {
     "name": "Equinix",
     "count": 1
    },
@@ -3009,10 +3193,6 @@
    },
    {
     "name": "European Insurance and Occupational Pensions Authority",
-    "count": 1
-   },
-   {
-    "name": "Eventual",
     "count": 1
    },
    {
@@ -3044,6 +3224,10 @@
     "count": 1
    },
    {
+    "name": "Farmerline",
+    "count": 1
+   },
+   {
     "name": "Farmers Insurance",
     "count": 1
    },
@@ -3056,19 +3240,15 @@
     "count": 1
    },
    {
-    "name": "Federal Home Loan Bank of Dallas",
+    "name": "Fathom",
+    "count": 1
+   },
+   {
+    "name": "Federal Highway Administration",
     "count": 1
    },
    {
     "name": "Federal Housing Administration (FHA)",
-    "count": 1
-   },
-   {
-    "name": "Federal Reserve Bank of Chicago",
-    "count": 1
-   },
-   {
-    "name": "Federal Reserve Bank of Dallas",
     "count": 1
    },
    {
@@ -3188,7 +3368,15 @@
     "count": 1
    },
    {
+    "name": "Futuri",
+    "count": 1
+   },
+   {
     "name": "Fuzhou University of International Studies and Trade",
+    "count": 1
+   },
+   {
+    "name": "GE Vernova",
     "count": 1
    },
    {
@@ -3197,6 +3385,10 @@
    },
    {
     "name": "GRESB",
+    "count": 1
+   },
+   {
+    "name": "GW&K Investment Management",
     "count": 1
    },
    {
@@ -3233,6 +3425,10 @@
    },
    {
     "name": "Geraldine R. Dodge Foundation",
+    "count": 1
+   },
+   {
+    "name": "German Development Cooperation (GIZ)",
     "count": 1
    },
    {
@@ -3304,6 +3500,10 @@
     "count": 1
    },
    {
+    "name": "Great Lakes Integrated Sciences and Assessments (GLISA)",
+    "count": 1
+   },
+   {
     "name": "Great Lakes Protection Fund",
     "count": 1
    },
@@ -3324,6 +3524,10 @@
     "count": 1
    },
    {
+    "name": "Grid Strategies",
+    "count": 1
+   },
+   {
     "name": "Guy Carpenter & Company Ltd.",
     "count": 1
    },
@@ -3337,10 +3541,6 @@
    },
    {
     "name": "HIP Investor",
-    "count": 1
-   },
-   {
-    "name": "Hail No",
     "count": 1
    },
    {
@@ -3365,6 +3565,10 @@
    },
    {
     "name": "Harvard University",
+    "count": 1
+   },
+   {
+    "name": "Harvard University Joint Center for Housing Studies",
     "count": 1
    },
    {
@@ -3412,6 +3616,14 @@
     "count": 1
    },
    {
+    "name": "Houston Mayor's Office of Public Safety and Homeland Security",
+    "count": 1
+   },
+   {
+    "name": "Howden Insurance",
+    "count": 1
+   },
+   {
     "name": "Humboldt Institute",
     "count": 1
    },
@@ -3456,6 +3668,10 @@
     "count": 1
    },
    {
+    "name": "IHS Global Insight",
+    "count": 1
+   },
+   {
     "name": "IP Quarterly",
     "count": 1
    },
@@ -3472,7 +3688,15 @@
     "count": 1
    },
    {
+    "name": "ISeeChange",
+    "count": 1
+   },
+   {
     "name": "IUCN",
+    "count": 1
+   },
+   {
+    "name": "Iberdrola",
     "count": 1
    },
    {
@@ -3604,6 +3828,10 @@
     "count": 1
    },
    {
+    "name": "Integrated Design & Engineering Holdings Co.",
+    "count": 1
+   },
+   {
     "name": "Inter-American Development Bank Group",
     "count": 1
    },
@@ -3613,6 +3841,10 @@
    },
    {
     "name": "Intergovernmental Panel on Climate Change (IPCC)",
+    "count": 1
+   },
+   {
+    "name": "Internal Revenue Service",
     "count": 1
    },
    {
@@ -3752,10 +3984,6 @@
     "count": 1
    },
    {
-    "name": "Kettle",
-    "count": 1
-   },
-   {
     "name": "King Abdullah University of Science and Technology",
     "count": 1
    },
@@ -3780,15 +4008,7 @@
     "count": 1
    },
    {
-    "name": "LLC",
-    "count": 1
-   },
-   {
     "name": "Landbanking Group",
-    "count": 1
-   },
-   {
-    "name": "Landmark",
     "count": 1
    },
    {
@@ -3805,6 +4025,10 @@
    },
    {
     "name": "Liberty Mutual Insurance",
+    "count": 1
+   },
+   {
+    "name": "LifeLabs",
     "count": 1
    },
    {
@@ -3856,6 +4080,10 @@
     "count": 1
    },
    {
+    "name": "Ltd",
+    "count": 1
+   },
+   {
     "name": "Lyda Hill Philanthropies",
     "count": 1
    },
@@ -3889,6 +4117,10 @@
    },
    {
     "name": "Mahindra & Mahindra",
+    "count": 1
+   },
+   {
+    "name": "Malarkey",
     "count": 1
    },
    {
@@ -3961,6 +4193,10 @@
    },
    {
     "name": "Middletown",
+    "count": 1
+   },
+   {
+    "name": "Milwaukee Metropolitan Sewerage District (MMSD)",
     "count": 1
    },
    {
@@ -4056,15 +4292,15 @@
     "count": 1
    },
    {
+    "name": "NY Rising",
+    "count": 1
+   },
+   {
     "name": "NY Rising Housing Recovery Program",
     "count": 1
    },
    {
     "name": "Nanotech",
-    "count": 1
-   },
-   {
-    "name": "Nanotech Materials",
     "count": 1
    },
    {
@@ -4108,6 +4344,14 @@
     "count": 1
    },
    {
+    "name": "National Emergency Supply Agency (Finland)",
+    "count": 1
+   },
+   {
+    "name": "National Energy Assistance Directors Association",
+    "count": 1
+   },
+   {
     "name": "National Fire Protection Association",
     "count": 1
    },
@@ -4136,19 +4380,11 @@
     "count": 1
    },
    {
-    "name": "National Institute of Standards and Technology",
-    "count": 1
-   },
-   {
     "name": "National League of Cities (NLC)",
     "count": 1
    },
    {
     "name": "National Renewable Energy Laboratory",
-    "count": 1
-   },
-   {
-    "name": "National Roofing Contractors Association",
     "count": 1
    },
    {
@@ -4216,6 +4452,10 @@
     "count": 1
    },
    {
+    "name": "New America",
+    "count": 1
+   },
+   {
     "name": "New Jersey Environmental Infrastructure Trust",
     "count": 1
    },
@@ -4236,11 +4476,27 @@
     "count": 1
    },
    {
+    "name": "New York City",
+    "count": 1
+   },
+   {
     "name": "New York City Department of Design and Construction",
     "count": 1
    },
    {
+    "name": "New York City Department of Environmental Protection",
+    "count": 1
+   },
+   {
     "name": "New York City Department of Small Business Services",
+    "count": 1
+   },
+   {
+    "name": "New York City Economic Development Corporation",
+    "count": 1
+   },
+   {
+    "name": "New York City Panel on Climate Change",
     "count": 1
    },
    {
@@ -4288,11 +4544,11 @@
     "count": 1
    },
    {
-    "name": "North American Electric Reliability Corporation",
+    "name": "North Carolina Farm Bureau",
     "count": 1
    },
    {
-    "name": "North Carolina Farm Bureau",
+    "name": "North Carolina Insurance Underwriting Association",
     "count": 1
    },
    {
@@ -4380,6 +4636,10 @@
     "count": 1
    },
    {
+    "name": "Owens Corning",
+    "count": 1
+   },
+   {
     "name": "Oxera",
     "count": 1
    },
@@ -4436,7 +4696,7 @@
     "count": 1
    },
    {
-    "name": "Pano",
+    "name": "Pan American Health Organization",
     "count": 1
    },
    {
@@ -4472,11 +4732,11 @@
     "count": 1
    },
    {
-    "name": "Pew Research",
+    "name": "Pew Research Center",
     "count": 1
    },
    {
-    "name": "Pew Research Center",
+    "name": "Phononic",
     "count": 1
    },
    {
@@ -4520,6 +4780,10 @@
     "count": 1
    },
    {
+    "name": "Portland State University",
+    "count": 1
+   },
+   {
     "name": "Portsmouth",
     "count": 1
    },
@@ -4537,6 +4801,10 @@
    },
    {
     "name": "Principles for Responsible Banking",
+    "count": 1
+   },
+   {
+    "name": "Prisma Photonics",
     "count": 1
    },
    {
@@ -4633,6 +4901,10 @@
    },
    {
     "name": "RMAGIR",
+    "count": 1
+   },
+   {
+    "name": "RS Technologies",
     "count": 1
    },
    {
@@ -4740,11 +5012,11 @@
     "count": 1
    },
    {
-    "name": "Resilient LA Delta Fund",
+    "name": "Resilient Virginia Revolving Loan Fund",
     "count": 1
    },
    {
-    "name": "Resilient Virginia Revolving Loan Fund",
+    "name": "Resource Environmental Solutions (RES)",
     "count": 1
    },
    {
@@ -4860,10 +5132,6 @@
     "count": 1
    },
    {
-    "name": "Siemens",
-    "count": 1
-   },
-   {
     "name": "Skandinaviska Enskilda Banken AB",
     "count": 1
    },
@@ -4872,11 +5140,19 @@
     "count": 1
    },
    {
+    "name": "Smart Home America",
+    "count": 1
+   },
+   {
     "name": "Smart Surfaces Coalition",
     "count": 1
    },
    {
     "name": "Sola Foundation",
+    "count": 1
+   },
+   {
+    "name": "Solar Energy Industries Association",
     "count": 1
    },
    {
@@ -4948,6 +5224,10 @@
     "count": 1
    },
    {
+    "name": "State of Utah",
+    "count": 1
+   },
+   {
     "name": "Stern School of Business",
     "count": 1
    },
@@ -4976,11 +5256,19 @@
     "count": 1
    },
    {
+    "name": "Sustain Our Great Lakes",
+    "count": 1
+   },
+   {
     "name": "Sustainable Development",
     "count": 1
    },
    {
     "name": "Sustainable Futures Group",
+    "count": 1
+   },
+   {
+    "name": "Sustainable Markets Initiative Insurance Task Force",
     "count": 1
    },
    {
@@ -5000,11 +5288,19 @@
     "count": 1
    },
    {
+    "name": "Symphonic Capital",
+    "count": 1
+   },
+   {
     "name": "TPG",
     "count": 1
    },
    {
     "name": "Tailwind Climate",
+    "count": 1
+   },
+   {
+    "name": "Tampa General Hospital",
     "count": 1
    },
    {
@@ -5136,6 +5432,14 @@
     "count": 1
    },
    {
+    "name": "Tokio Marine Group",
+    "count": 1
+   },
+   {
+    "name": "Tokio Marine Kiln",
+    "count": 1
+   },
+   {
     "name": "Tokyo Metropolitan Government",
     "count": 1
    },
@@ -5200,6 +5504,10 @@
     "count": 1
    },
    {
+    "name": "U.S. Army",
+    "count": 1
+   },
+   {
     "name": "U.S. Bank",
     "count": 1
    },
@@ -5220,10 +5528,6 @@
     "count": 1
    },
    {
-    "name": "U.S. Department of Energy",
-    "count": 1
-   },
-   {
     "name": "U.S. Department of Homeland Security",
     "count": 1
    },
@@ -5236,6 +5540,10 @@
     "count": 1
    },
    {
+    "name": "U.S. Resiliency Council",
+    "count": 1
+   },
+   {
     "name": "U.S. Securities and Exchange Commission (SEC)",
     "count": 1
    },
@@ -5245,10 +5553,6 @@
    },
    {
     "name": "U.S. Virgin Islands Department of Planning and Natural Resources",
-    "count": 1
-   },
-   {
-    "name": "UC Berkeley",
     "count": 1
    },
    {
@@ -5292,7 +5596,15 @@
     "count": 1
    },
    {
+    "name": "UNEP FI",
+    "count": 1
+   },
+   {
     "name": "UNFCCC Adaptation Private Sector Initiative",
+    "count": 1
+   },
+   {
+    "name": "UNICEF",
     "count": 1
    },
    {
@@ -5408,6 +5720,10 @@
     "count": 1
    },
    {
+    "name": "United States Geological Survey (USGS)",
+    "count": 1
+   },
+   {
     "name": "United States Marine Corps",
     "count": 1
    },
@@ -5512,10 +5828,6 @@
     "count": 1
    },
    {
-    "name": "University of Notre Dame",
-    "count": 1
-   },
-   {
     "name": "University of Pennsylvania (Institute for Urban Research)",
     "count": 1
    },
@@ -5581,10 +5893,6 @@
    },
    {
     "name": "Vanderbilt University",
-    "count": 1
-   },
-   {
-    "name": "Vermont Bond Bank",
     "count": 1
    },
    {
@@ -5692,10 +6000,6 @@
     "count": 1
    },
    {
-    "name": "World Food Programme",
-    "count": 1
-   },
-   {
     "name": "World Food Programme (WFP)",
     "count": 1
    },
@@ -5768,6 +6072,10 @@
     "count": 1
    },
    {
+    "name": "Zurich Foundation",
+    "count": 1
+   },
+   {
     "name": "Zurich Insurance",
     "count": 1
    },
@@ -5795,7 +6103,7 @@
   "access": [
    {
     "name": "source",
-    "count": 693
+    "count": 716
    },
    {
     "name": "paywall",
@@ -19616,6 +19924,70 @@
    "publisher": "The Epicenter"
   },
   {
+   "nnn": 883,
+   "title": "Five Pillars of Climate-Adaptive Insurance",
+   "authors": "Marissa Knodel",
+   "date": "2025-11-06",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "Climate Risk Data / Models / Analytics",
+    "State / Local / Community Resilience Finance",
+    "Policy / Regulation / Supervision"
+   ],
+   "geographies": [
+    "US",
+    "California"
+   ],
+   "institutions": [
+    "The Epicenter",
+    "The Resiliency Company",
+    "America Adapts",
+    "Earth Analytics Group",
+    "Mercury Insurance",
+    "Munich RE",
+    "Climate and Community Institute",
+    "Environmental Defense Fund",
+    "U.S. Chamber of Commerce",
+    "U.S. Chamber of Commerce Foundation",
+    "Allstate",
+    "Insurance Institute for Business and Home Safety",
+    "Eventual",
+    "Resilient LA Delta Fund"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/five-pillars-of-climate-adaptive-insurance/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "Drawing on an America Adapts podcast episode with ten experts on climate risk and insurance, this piece argues that US property insurance must adopt an adaptation mindset. It identifies three drivers of the crisis: rising costs not priced in on forward-looking data, an industry not designed to be proactive, and inequities that leave communities vulnerable. It proposes five pillars: forecast future risk, address historical inequities, incentivize local, state and Tribal investment that rebuilds with resilience, empower customers with transparent information, and develop community-focused products. It names specific instruments, including California's planned public wildfire catastrophe model, Eventual's Premium Lock and the Resilient LA Delta Fund.",
+   "insights": [
+    "Premiums rose 24% nationally from 2021 to 2024, adding an average of $648 to homeowners' annual costs, while pricing still rests on backward-looking data.",
+    "Research from the U.S. Chamber of Commerce, Allstate and the U.S. Chamber of Commerce Foundation finds every dollar invested in disaster resilience can save communities up to $33 in avoided economic costs.",
+    "Premium Lock from Eventual is a third-party service attached to a one-year policy that reimburses the owner if carriers raise premiums above a predicted level.",
+    "The California legislature passed a law to create the nation's first public catastrophe model for wildfires, to provide transparency into how private insurers calculate rates.",
+    "The Resilient LA Delta Fund aims to provide loans and grants to rebuild homes to the IBHS Wildfire Prepared Home Plus standard, a possible blueprint for resilience products in mortgages or insurance.",
+    "Between 2011 and 2024, nearly every Congressional district experienced at least one federally declared major disaster due to extreme weather."
+   ],
+   "keywords": [
+    "climate-adaptive insurance",
+    "property insurance crisis",
+    "predictive risk analytics",
+    "public catastrophe model",
+    "Premium Lock",
+    "parametric microinsurance",
+    "community-based catastrophe insurance",
+    "inclusive insurance",
+    "Resilient LA Delta Fund",
+    "wildfire",
+    "California Sustainable Insurance Strategy",
+    "protection gap"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
    "nnn": 685,
    "title": "What Is the IBHS Wildfire Prepared Home Plus Standard?",
    "authors": "Resilient Los Angeles",
@@ -20168,6 +20540,61 @@
    "publisher": "Systemiq"
   },
   {
+   "nnn": 882,
+   "title": "From Recovery to Resilience: NYC's Innovative Response to Hurricane Sandy",
+   "authors": "The Epicenter",
+   "date": "2025-10-29",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "State / Local / Community Resilience Finance",
+    "Infrastructure & Real Estate Resilience"
+   ],
+   "geographies": [
+    "US",
+    "New York"
+   ],
+   "institutions": [
+    "The Epicenter",
+    "The Resiliency Company",
+    "Columbia University",
+    "New York City Economic Development Corporation",
+    "New York City Panel on Climate Change",
+    "Con Edison",
+    "Federal Emergency Management Agency",
+    "NY Rising"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/from-recovery-to-resilience-nycs-innovative-response-to-hurricane-sandy/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This interview-based article recounts how New York City moved from recovery to resilience after Hurricane Sandy, through Daniel Zarrilli, the city's former Chief Resilience Officer. It describes the post-storm plan A Stronger, More Resilient New York, a sources-and-uses capital stack that aligned federal, state, city, utility and private funding, and flagship investments such as the East Side Coastal Resiliency project and Con Edison's grid floodproofing. It covers buyouts funded with CDBG-DR and NY Rising, and the embedding of climate projections into codes and design standards. It closes with three questions Zarrilli offers other cities: what happened, what else could happen, and what do we do now.",
+   "insights": [
+    "Hurricane Sandy killed 147 people in and around the Atlantic Basin, 44 in New York City, and cost the city more than $19 billion in damage and lost economic activity.",
+    "A Stronger, More Resilient New York allocated roughly $20 billion across more than 250 initiatives; an analysis for it estimated that the same storm in 2050 could cost approaching $90 billion.",
+    "The East Side Coastal Resiliency project is a $1.45 billion flood protection system over two and a half miles, shielding 110,000 residents, 28,000 of them living in poverty.",
+    "A Con Edison program approved by New York regulators in 2014 directed about $1 billion to floodproof substations to three feet above FEMA's 100-year flood level, following a climate vulnerability process that influenced rate cases; it was finished in 2019.",
+    "The New York City Panel on Climate Change, formed in 2009 and codified in city law in 2012, gave the city a science-based framework that sped the move from recovery to planning."
+   ],
+   "keywords": [
+    "Hurricane Sandy",
+    "New York City",
+    "Chief Resilience Officer",
+    "coastal flood protection",
+    "East Side Coastal Resiliency",
+    "Con Edison grid hardening",
+    "capital stack",
+    "CDBG-DR",
+    "voluntary buyouts",
+    "managed retreat",
+    "NPCC",
+    "building codes"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
    "nnn": 151,
    "title": "UN Report: Five Charts Which Explain the ‘Gap’ in Finance for Climate Adaptation",
    "authors": "Ayesha Tandon, Cecilia Keating",
@@ -20250,6 +20677,68 @@
    ],
    "has_attachment": true,
    "publisher": "UN Environment Programme"
+  },
+  {
+   "nnn": 881,
+   "title": "What a Federal Government Shutdown Means for Public Finance and Resilient Infrastructure",
+   "authors": "Matt Posner",
+   "date": "2025-10-28",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Federal Resilience Policy & Funding",
+    "Capital Markets / Credit / Risk Pricing",
+    "State / Local / Community Resilience Finance",
+    "Infrastructure & Real Estate Resilience"
+   ],
+   "geographies": [
+    "US",
+    "California",
+    "New York"
+   ],
+   "institutions": [
+    "The Epicenter",
+    "The Resiliency Company",
+    "Federal Emergency Management Agency",
+    "National Flood Insurance Program",
+    "Environmental Protection Agency",
+    "Internal Revenue Service",
+    "Federal Highway Administration",
+    "GW&K Investment Management",
+    "Crux Climate",
+    "Columbia Law School"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/what-a-federal-government-shutdown-means-for-public-finance-and-resilient-infrastructure/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This piece sets out seven ways a prolonged federal government shutdown affects public finance, resilient infrastructure and disaster response. It explains how shutdowns add uncertainty to federally dependent municipal bonds, stall TIFIA, WIFIA and other federally administered financing, halt new NFIP policies and strain the FEMA Disaster Relief Fund. It identifies two cost pressures on resilience projects, a carry or timing premium and a risk premium, which raise the cost of capital. It concludes that resilient infrastructure finance should be re-centred locally through bond banks, revolving funds, special districts and resilience authorities, with every federal grant or credit paired with a local or private bridge option.",
+   "insights": [
+    "A lapse in NFIP authorization halted the issuance of new flood insurance policies, delaying home sales and dampening local property-tax revenues in flood-prone areas.",
+    "Federally dependent project bonds such as San Diego's Water Revenue Bonds for its Pure Water program are described as exposed to spread widening while the government is closed.",
+    "The EPA earlier temporarily froze access to roughly $20 billion in Greenhouse Gas Reduction Fund awards, leaving green banks and community lenders unable to move projects forward.",
+    "The administration's decision to freeze roughly $18 billion in federal funding for the Hudson Tunnel Project and the Second Avenue Subway is cited as political discretion over infrastructure funding.",
+    "Research from GW&K Investment Management is cited showing that sectors tied to federal reimbursements, such as GARVEE highway bonds, are most vulnerable to federal funding disruption.",
+    "Federal unreliability raises costs through a carry or timing premium (bridge financing, contractor schedule premiums) and a risk premium (higher spreads, credit enhancement, larger reserves)."
+   ],
+   "keywords": [
+    "government shutdown",
+    "municipal credit",
+    "public finance",
+    "NFIP lapse",
+    "FEMA Disaster Relief Fund",
+    "TIFIA",
+    "WIFIA",
+    "GARVEE bonds",
+    "Greenhouse Gas Reduction Fund",
+    "tax credit transferability",
+    "risk premium",
+    "federalism",
+    "local resilience finance"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
   },
   {
    "nnn": 419,
@@ -20539,6 +21028,131 @@
    ],
    "has_attachment": false,
    "publisher": "Climate Bonds Initiative"
+  },
+  {
+   "nnn": 880,
+   "title": "A Fiduciary Duty: Why the Housing Market Must Invest in Resilience",
+   "authors": "Alexis M. Pelosi",
+   "date": "2025-10-23",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Infrastructure & Real Estate Resilience",
+    "State / Local / Community Resilience Finance",
+    "Insurance / Risk Transfer",
+    "Resilience Returns & the Economic Case"
+   ],
+   "geographies": [
+    "US",
+    "Texas"
+   ],
+   "institutions": [
+    "The Epicenter",
+    "The Resiliency Company",
+    "Urban Institute",
+    "U.S. Department of Housing and Urban Development",
+    "AP Strategies",
+    "LLC",
+    "Environmental Protection Agency"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/a-fiduciary-duty-why-the-housing-market-must-invest-in-resilience/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This perspective piece argues that community-level resilience investments such as stormwater systems and flood mitigation should be treated as a direct investment in preserving property values and stabilizing the private cost of homeownership, rather than as a municipal cost. Building on an Urban Institute analysis of Harris County, Texas, it describes how underinsurance and rising housing costs shift risk from institutions to homeowners. It proposes State Revolving Funds for Resilience as a model that lets states pass their lower cost of capital to local communities. It frames the resulting benefits, lower premiums, stabler markets, better access to credit and lower municipal borrowing costs, as Resilience Dividends that housing finance should build into its decisions.",
+   "insights": [
+    "From 2021 to 2024, annual insurance premiums for a typical homeowner increased by 24% nationally, an average of $648.",
+    "More than $35 trillion, or 21% of American total household wealth, is held in home equity, an increase of nearly 80% since 2020, which the author argues makes investing in resilience a fiduciary responsibility.",
+    "The EPA's Clean Water State Revolving Funds have provided over $172 billion in funding; Lubbock, Texas financed $35 million of wastewater infrastructure upgrades in response to more intense rain and flooding.",
+    "A stormwater utility fee in Tulsa, Oklahoma helped finance flood mitigation that earned a Class 1 Community Rating System score and up to a 45% reduction in flood insurance premiums for residents.",
+    "The conventional tax-and-bond model is described as pushing the rising cost of climate risk onto households through tax hikes and insurance surcharges."
+   ],
+   "keywords": [
+    "fiduciary duty",
+    "housing market",
+    "home equity",
+    "State Revolving Funds",
+    "resilience dividends",
+    "stormwater utility fee",
+    "Community Rating System",
+    "flood insurance premiums",
+    "underinsurance",
+    "30-year mortgage",
+    "property values",
+    "municipal infrastructure"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
+   "nnn": 862,
+   "title": "How Investing in Urban Resilience Can Foster Sustainable Growth and Long-Term Competitiveness",
+   "authors": "Nathaniel Echeverria; Sarah Franklin",
+   "date": "2025-10-23",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "State / Local / Community Resilience Finance",
+    "Adaptation Finance Flows & Capital Mobilization",
+    "Insurance / Risk Transfer",
+    "Resilience Returns & the Economic Case"
+   ],
+   "geographies": [
+    "Global",
+    "US",
+    "New York",
+    "California",
+    "Florida",
+    "Vermont",
+    "Africa",
+    "Europe"
+   ],
+   "institutions": [
+    "World Economic Forum",
+    "Resilient Cities Network",
+    "Tokio Marine Holdings",
+    "Insurance Institute for Business and Home Safety",
+    "Howden Insurance",
+    "Sustainable Markets Initiative Insurance Task Force",
+    "New York City Department of Environmental Protection",
+    "Broward County",
+    "State Farm",
+    "Vermont Bond Bank",
+    "Zurich Foundation",
+    "Integrated Design & Engineering Holdings Co.",
+    "Ltd"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.weforum.org/stories/urban-transformation/how-investing-in-urban-resilience-can-foster-sustainable-growth/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This article argues that a resilience economy is emerging in which cities, insurers and investors treat resilience as an investment opportunity rather than only a cost. It sets out the scale of losses and investment needs and the US protection gap. It describes city examples, including New York's Resilience Finance Task Force exploring value-at-risk modelling and value capture, Broward County's cost-benefit-led planning, and Cape Town's use of green bonds. It highlights insurer partnerships such as the Global Risk and Resilience Fellowship and the Resilient Cities Network and Tokio Marine white paper recommending a portfolio approach, and pooled instruments such as those offered by the Vermont Bond Bank.",
+   "insights": [
+    "Climate shocks drive over $300 billion in annual losses worldwide, and resilient, low-carbon infrastructure in low- and middle-income countries will require up to $821 billion annually through 2050.",
+    "In the United States only one-third of disaster losses are insured, and nearly one in five homes, worth an estimated $8 trillion, face severe hurricane risk without adequate protection.",
+    "Climate resilience technologies and services could attract more than $1 trillion in private capital by 2030.",
+    "New York City's Department of Environmental Protection convened a Resilience Finance Task Force whose recommendations led the city to explore value-at-risk modelling and value-capture approaches that align insurance incentives with risk reduction.",
+    "The Global Risk and Resilience Fellowship, with Resilient Cities Network, Howden Insurance and the Sustainable Markets Initiative Insurance Task Force, has partnered with 12 cities including Norfolk, Oakland, Glasgow, The Hague, Lagos and Cape Town.",
+    "Participants at the Urban Transformation Summit explored models to close a $4.3 trillion annual resilience investment gap."
+   ],
+   "keywords": [
+    "urban resilience",
+    "resilience economy",
+    "resilience dividend",
+    "protection gap",
+    "portfolio approach",
+    "value capture",
+    "value-at-risk modelling",
+    "resilience bonds",
+    "bond bank",
+    "parametric insurance",
+    "insurer partnerships",
+    "Resilient Cities Network"
+   ],
+   "has_attachment": false,
+   "publisher": "World Economic Forum"
   },
   {
    "nnn": 431,
@@ -22151,6 +22765,60 @@
    "publisher": "World Bank"
   },
   {
+   "nnn": 879,
+   "title": "Rethinking Risk: Why Local Governments Can’t Shoulder Climate Burdens Alone",
+   "authors": "Matt Posner",
+   "date": "2025-09-12",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "State / Local / Community Resilience Finance",
+    "Capital Markets / Credit / Risk Pricing",
+    "Federal Resilience Policy & Funding",
+    "Insurance / Risk Transfer"
+   ],
+   "geographies": [
+    "US"
+   ],
+   "institutions": [
+    "The Resiliency Company",
+    "The Epicenter",
+    "Federal Emergency Management Agency",
+    "National Flood Insurance Program",
+    "Brookings Institution",
+    "Resilient America"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/why-local-governments-cant-shoulder-climate-burdens-alone/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This opinion essay argues that US local governments, which finance and manage most public infrastructure through the municipal bond market, are absorbing a growing share of climate risk as federal disaster support and private insurance retreat. It sets out how the informal division of risk, with FEMA and insurers covering disasters, is breaking down while disasters grow more frequent and costly. It contends that developers, employers, utilities, insurers and investors all benefit from local resilience and should share its cost. It calls for better local risk tools, blended investment vehicles and data platforms, and presents Resilient America as one emerging platform.",
+   "insights": [
+    "The municipal bond market holds nearly $4 trillion in outstanding debt with default rates below 0.1%.",
+    "Roughly 80% of U.S. infrastructure is financed and managed by state and local governments.",
+    "From 2005 to 2019 the federal government shouldered approximately 60% to 75% of total disaster costs; FEMA's Disaster Relief Fund grew from about $2 billion a year in the 1990s to over $20 billion.",
+    "Local governments spend an estimated $800 billion annually on weather and infrastructure-related repairs, according to The Resiliency Company.",
+    "In 2023 the U.S. had 25 billion-dollar weather and climate disasters, up from an average of three a year in the 1980s.",
+    "The essay argues the capital stack for resilience is fragmented and that beneficiaries such as insurers, utilities and developers should share in funding it."
+   ],
+   "keywords": [
+    "municipal bonds",
+    "local government finance",
+    "climate risk transfer",
+    "FEMA",
+    "Disaster Relief Fund",
+    "insurance retreat",
+    "shared responsibility",
+    "blended capital",
+    "public infrastructure",
+    "Resilient America",
+    "fiscal capacity"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
    "nnn": 205,
    "title": "Wildfire Risk Management and Financial Forecasting: Establishing Effective Strategies amid New Legislation",
    "authors": "Nickolas Alvarado, Cedric Chamberland, Mary Daly",
@@ -23247,6 +23915,66 @@
    "publisher": "Sustainable Development"
   },
   {
+   "nnn": 878,
+   "title": "Investing to Minimize Flooding and Protect Critical Water Resources: A Case Study From Milwaukee Metropolitan Sewerage District",
+   "authors": "Erin Delawalla",
+   "date": "2025-07-23",
+   "year": 2025,
+   "resource_type": "Case Study / Deal Profile",
+   "themes": [
+    "State / Local / Community Resilience Finance",
+    "Nature-Based Solutions & Natural Capital",
+    "Blended / Catalytic / Outcomes-Based Finance",
+    "Capital Markets / Credit / Risk Pricing",
+    "Infrastructure & Real Estate Resilience"
+   ],
+   "geographies": [
+    "US"
+   ],
+   "institutions": [
+    "Milwaukee Metropolitan Sewerage District (MMSD)",
+    "The Epicenter",
+    "The Resiliency Company",
+    "Resource Environmental Solutions (RES)",
+    "U.S. Environmental Protection Agency",
+    "Moody's",
+    "Fitch Ratings",
+    "Goldman Sachs",
+    "Sustain Our Great Lakes"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/milwaukee-metropolitan-sewerage-district-is-investing-in-resiliency/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This case study explains how the Milwaukee Metropolitan Sewerage District manages flooding and protects Lake Michigan drinking water through a watershed-scale strategy. It describes the Greenseams floodplain acquisition program, distributed green infrastructure, and a pay-for-success public-private partnership in which private contractors are paid only after storage is delivered. It sets out the financing: property taxes on member municipalities, Triple A rated municipal bonds with Climate Bond Certification, and low-interest state revolving loans. It argues that regional governance lets MMSD find lowest-cost upstream solutions and reports estimated property value gains.",
+   "insights": [
+    "MMSD has invested $90M in green infrastructure and plans $84M more before 2033, a total commitment of $174M including floodplain acquisition.",
+    "Since 2001 the Greenseams program has acquired over 5,000 acres of flood-prone land from willing sellers; protected wetlands hold an estimated 1.3 billion gallons of water.",
+    "Under the Fresh Coast Protection Partnership P3, contractors are paid only after storage is built; 157M gallons, or 21% of the 740M gallon goal, has been built.",
+    "MMSD holds a Triple A rating from Moody's and Fitch and obtained Climate Bond Certification to attract bond investors; programmatic contracts of $10-20M added scale.",
+    "Green infrastructure was 13.3% of MMSD's 2024 annual budget, and the program is estimated to have improved property values by $667M.",
+    "The Deep Tunnel, completed in 1994, cut combined sewer overflows from an average of 50 per year to just over two."
+   ],
+   "keywords": [
+    "Milwaukee Metropolitan Sewerage District",
+    "green infrastructure",
+    "watershed approach",
+    "Greenseams",
+    "pay-for-success",
+    "public-private partnership",
+    "municipal bonds",
+    "Climate Bond Certification",
+    "Clean Water Loan Fund",
+    "combined sewer overflows",
+    "floodplain buyouts",
+    "nature-based solutions",
+    "Lake Michigan"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
    "nnn": 490,
    "title": "Bracing for Impact: A Systems Strategy for Climate Resilience in the US",
    "authors": "Dee Yang, Tucker Van Aken, Laurie Schoeman",
@@ -23337,6 +24065,63 @@
     "building codes",
     "insurance industry",
     "housing resilience"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
+   "nnn": 877,
+   "title": "FORTIFIED Roofs and Homes Are Saving Alabama Homeowners and Insurers Thousands",
+   "authors": "The Epicenter",
+   "date": "2025-07-09",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "Infrastructure & Real Estate Resilience",
+    "Resilience Returns & the Economic Case",
+    "Policy / Regulation / Supervision"
+   ],
+   "geographies": [
+    "US",
+    "Alabama",
+    "Louisiana"
+   ],
+   "institutions": [
+    "The Epicenter",
+    "The Resiliency Company",
+    "Insurance Institute for Business & Home Safety (IBHS)",
+    "University of Alabama Center for Risk and Insurance Research",
+    "Smart Home America",
+    "Alabama Department of Insurance"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/fortified-roofs-and-homes-are-saving-alabama-homeowners-and-insurers-thousands/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This article reports how homes built to the IBHS FORTIFIED standard in Alabama performed after Hurricane Sally in 2020 and what that meant for homeowners and insurers. Drawing on a 2025 University of Alabama Center for Risk and Insurance Research study, it finds FORTIFIED homes had 55% to 74% fewer losses and estimates large savings had all homes been fortified. It traces Alabama's policy model, including mandated insurance premium discounts, grants of up to $10,000, a FORTIFIED roof endorsement and catastrophe savings accounts. It also reports that buyers pay a 6-7% premium for FORTIFIED homes and that other states are copying the model.",
+   "insights": [
+    "FORTIFIED construction had between 55% and 74% fewer overall losses than conventional construction in Hurricane Sally.",
+    "Of 32,510 policies studied, FORTIFIED homes were 23% of policies but filed only 9% of claims.",
+    "Had all conventional houses met the FORTIFIED Roof standard, insurers would have saved $99.9 million (67%) in Sally losses; at FORTIFIED Gold, $111.8 million (75%).",
+    "Alabama offers up to 55% off the wind portion of premiums for FORTIFIED Gold homes and up to 35% for FORTIFIED Roof, and is the only state with regulated minimum discounts as of 2025.",
+    "As of mid-2025 there are over 81,000 FORTIFIED certified homes in the U.S., 52,000 of them in Alabama.",
+    "Buyers are willing to pay 6-7% more for FORTIFIED homes; Louisiana grant participants saved an average of 22% on insurance."
+   ],
+   "keywords": [
+    "FORTIFIED standard",
+    "IBHS",
+    "Hurricane Sally",
+    "insurance premium discounts",
+    "Alabama",
+    "roof endorsement",
+    "Strengthen Alabama Homes",
+    "wind mitigation",
+    "insured losses",
+    "home value premium",
+    "catastrophe savings accounts",
+    "Louisiana"
    ],
    "has_attachment": false,
    "publisher": "The Epicenter"
@@ -24570,6 +25355,64 @@
    "publisher": "Geoforum"
   },
   {
+   "nnn": 876,
+   "title": "Preparing for Multiple Disasters",
+   "authors": "The Epicenter",
+   "date": "2025-04-23",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "State / Local / Community Resilience Finance",
+    "Infrastructure & Real Estate Resilience"
+   ],
+   "geographies": [
+    "US",
+    "Texas",
+    "New York",
+    "North Carolina"
+   ],
+   "institutions": [
+    "The Epicenter",
+    "The Resiliency Company",
+    "Rockefeller Foundation",
+    "National Flood Insurance Program",
+    "New York City",
+    "U.S. Geological Survey",
+    "Great Lakes Integrated Sciences and Assessments (GLISA)",
+    "Pan American Health Organization"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/preparing-for-multiple-disasters/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This briefing argues that disasters increasingly strike in unexpected places, so public and private decision-makers must prepare for both common regional hazards and rare ones. It sets out five principles: invest in multi-hazard resilience, invest in emergency planning and early warning technology, reduce single points of failure through diversified energy and water, update risk assessments and insurance strategies, and use scenario planning. Its financial content centres on risk layering, matching balance-sheet funding, insurance and federal aid to event frequency, and on instruments such as parametric insurance, catastrophe bonds and premium discounts for impact-resistant roofs.",
+   "insights": [
+    "In 2023, 46 out of 50 states were hit by a billion-dollar disaster.",
+    "From 1990 to 2022 severe storm losses increased at an annual rate of 8.9%, and economic losses from severe storms rose 90% between 2022 and 2023.",
+    "Risk layering funds high-probability, low-impact events from the balance sheet, insures medium-probability losses, and reserves federal aid for rare catastrophes.",
+    "New York City's 2023 parametric insurance pilot provided $1.1 million in emergency funding to households after a major flood.",
+    "Insurers in Oklahoma can cut home premiums by up to 42% and Colorado homeowners can save 28% for impact-resistant roofing.",
+    "El Paso, Texas announced in February 2025 a water recycling plant meeting about 9% of average daily city demand."
+   ],
+   "keywords": [
+    "multi-hazard resilience",
+    "secondary perils",
+    "risk layering",
+    "parametric insurance",
+    "Risk Rating 2.0",
+    "scenario planning",
+    "early warning",
+    "microgrids",
+    "resilience dividend",
+    "impact-resistant roofing",
+    "adaptive design"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
    "nnn": 119,
    "title": "Is Coastal Climate Adaptation Infrastructure Worth Public Investment? Evidence from Stated Preference Economic Valuation and Cost-Benefit Analysis",
    "authors": "Haoluan Wang",
@@ -24658,6 +25501,66 @@
    ],
    "has_attachment": true,
    "publisher": "npj Climate Action"
+  },
+  {
+   "nnn": 875,
+   "title": "Earthquakes: Cost Drivers and Opportunities to Fortify Assets",
+   "authors": "The Epicenter",
+   "date": "2025-04-09",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "Capital Markets / Credit / Risk Pricing",
+    "Infrastructure & Real Estate Resilience",
+    "Resilience Returns & the Economic Case"
+   ],
+   "geographies": [
+    "US",
+    "California",
+    "Washington"
+   ],
+   "institutions": [
+    "The Epicenter",
+    "The Resiliency Company",
+    "United States Geological Survey (USGS)",
+    "Federal Emergency Management Agency",
+    "U.S. Resiliency Council",
+    "National Institute of Building Sciences",
+    "Swiss Re",
+    "State of Utah",
+    "Federal Reserve Bank of Chicago"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/earthquakes-cost-drivers-and-opportunities/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This briefing examines what drives earthquake costs in the United States and the levers to reduce them. It reports average annual US earthquake costs of $14.7 billion and explains that, unlike other hazards, damage concentrates in older, less valuable but more vulnerable buildings. It names four FEMA cost drivers and two levers: adopting modern seismic codes and retrofits, and financial instruments that speed rebuilding. It describes Swiss Re's QUAKE parametric policy, including Utah's partial payout after the March 2020 earthquake, and catastrophe bonds that pay on event proxies rather than measured damage.",
+   "insights": [
+    "Average annual total costs of earthquakes in the U.S. are $14.7 billion, with the average earthquake costing between $1.5 to $3 billion.",
+    "According to FEMA, California accounts for 65% of national average annual earthquake losses and the three West Coast states nearly 80%, while $3.1 billion of annual damages occur elsewhere.",
+    "The National Institute of Building Sciences finds every $1 invested in earthquake resiliency yields $12 of benefit, but the 12:1 ratio holds only in the highest-risk areas.",
+    "A building built to current code in the highest-risk Western areas is 1.5x stronger than one built under the 1988 code.",
+    "Swiss Re's QUAKE parametric product pays within 30 days on ground-shaking thresholds; Utah received a partial payout within four weeks of a 5.7 magnitude earthquake in March 2020.",
+    "Catastrophe bonds pay on proxies such as magnitude and location, giving faster payment and offering investors returns uncorrelated with other markets."
+   ],
+   "keywords": [
+    "earthquakes",
+    "seismic codes",
+    "seismic retrofit",
+    "unreinforced masonry",
+    "parametric insurance",
+    "Swiss Re QUAKE",
+    "catastrophe bonds",
+    "benefit-cost ratio",
+    "base isolation",
+    "West Coast",
+    "Utah",
+    "disaster recovery finance"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
   },
   {
    "nnn": 447,
@@ -25425,6 +26328,150 @@
    "publisher": "NDC Partnership"
   },
   {
+   "nnn": 874,
+   "title": "What is Resiliency? These 10 Examples Prove the Point",
+   "authors": "The Epicenter",
+   "date": "2025-02-25",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Resilience Returns & the Economic Case",
+    "Infrastructure & Real Estate Resilience",
+    "Insurance / Risk Transfer",
+    "Blended / Catalytic / Outcomes-Based Finance",
+    "State / Local / Community Resilience Finance"
+   ],
+   "geographies": [
+    "US",
+    "Florida",
+    "California",
+    "Louisiana",
+    "Alabama",
+    "Minnesota"
+   ],
+   "institutions": [
+    "The Epicenter",
+    "The Resiliency Company",
+    "U.S. Chamber of Commerce",
+    "Insurance Institute for Business & Home Safety (IBHS)",
+    "Federal Emergency Management Agency",
+    "California Building Industry Association",
+    "Swiss Re",
+    "American Planning Association",
+    "Nanotech Materials",
+    "Nextracker",
+    "ARRAY Technologies",
+    "Kisters",
+    "Overstory",
+    "AI-Dash",
+    "PG&E",
+    "Pano",
+    "National Oceanic and Atmospheric Administration",
+    "UC Berkeley",
+    "Blue Forest",
+    "The Nature Conservancy",
+    "California Department of Insurance",
+    "Kettle",
+    "Delos",
+    "Fathom",
+    "City of Miami Beach"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/what-is-resiliency-these-examples-prove-the-point/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This briefing defines resiliency as the ability of physical, economic and social infrastructure to withstand extreme climate impacts and recover quickly, and illustrates it with ten categories of US examples. Each example pairs a current vulnerability with resilient solutions, covering fortified roofing, building codes, zoning, asset-protecting technology, early warning, grid hardening, forest management finance, new insurance models, public-private partnerships and municipal bonds. It cites benefit-cost evidence such as the U.S. Chamber of Commerce claim that each $1 in disaster preparation saves $13. Financial mechanisms it profiles include a $4 million Forest Resilience Bond, AI-based and parametric wildfire insurance, and Miami Beach general obligation bonds for stormwater infrastructure.",
+   "insights": [
+    "The U.S. Chamber of Commerce 2024 Climate Resiliency Report claims each $1 invested in disaster preparation saves $13.",
+    "Impact-resistant asphalt shingles were found to provide $3 of savings for every $1 in added cost.",
+    "FEMA estimates the U.S. will save $132 billion in property damages from 2000 to 2040 with modern building codes, yet 65% of counties, cities and towns have not adopted the most up-to-date codes.",
+    "A $4 million Forest Resilience Bond issued by Blue Forest Conservation funded restoration treatments on 14,545 acres in the Tahoe National Forest.",
+    "Insurers declined to renew 2.8 million homeowner policies in the riskiest areas of California between 2020 and 2022, according to the California Department of Insurance.",
+    "In 2017 Miami Beach issued $162 million in general obligation bonds, approved by referendum, for stormwater upgrades against sea level rise and flooding."
+   ],
+   "keywords": [
+    "resiliency definition",
+    "fortified roofing",
+    "building codes",
+    "zoning",
+    "early warning systems",
+    "grid resilience",
+    "Forest Resilience Bond",
+    "parametric insurance",
+    "public-private partnerships",
+    "municipal bonds",
+    "benefit-cost ratio",
+    "Miami Beach"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
+   "nnn": 873,
+   "title": "Winter Storms: The Cost Drivers and Associated Opportunities For Investors",
+   "authors": "The Epicenter",
+   "date": "2025-02-19",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Infrastructure & Real Estate Resilience",
+    "Resilience Returns & the Economic Case"
+   ],
+   "geographies": [
+    "US",
+    "Texas"
+   ],
+   "institutions": [
+    "The Epicenter",
+    "The Resiliency Company",
+    "National Oceanic and Atmospheric Administration",
+    "Munich RE",
+    "Electric Reliability Council of Texas (ERCOT)",
+    "Beyond Storms Infrastructure Network Resilience Task Committee",
+    "Crawford",
+    "IHS Global Insight",
+    "Federal Reserve Bank of Dallas",
+    "Moody's",
+    "National Roofing Contractors Association",
+    "AccuWeather",
+    "Prisma Photonics",
+    "Futuri",
+    "American Society of Civil Engineers",
+    "Disaster Philanthropy"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/winter-storms-the-cost-drivers-and-associated-opportunities-for-investors-2/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This briefing analyses why winter storms become costly in the United States and where investors can reduce those costs. Using Winter Storm Uri (February 2021) as its case study, it separates direct damages (buildings, infrastructure, vehicle crashes, mostly from freezing and burst pipes) from indirect damages (loss of life, forgone economic activity, grid failure). It identifies three cost drivers: an old and vulnerable power grid, unwinterized assets, and unprepared local response, and argues the grid is by far the largest. It concludes that modernizing and winterizing the grid is the biggest lever, with resilient building materials and local response technologies as smaller ones.",
+   "insights": [
+    "Between 1980 and 2024 there were 24 billion-dollar winter storms versus 23 billion-dollar wildfires.",
+    "Munich Re estimated Uri's total cost at $30 billion and NOAA at $27.2 billion, while one estimate including indirect costs put it at $300 billion; Texas estimates alone ranged from $80 billion to $155 billion.",
+    "Crawford reported that 96% of claims from Uri came from issues related to freezing or water damage.",
+    "During Uri 69% of Texans lost power and 49% had water service disruptions; ERCOT underestimated peak demand by 14%.",
+    "In Winter Storm Elliott (2022), 70% of outages were caused by failing gas plants and 16% by failing coal plants.",
+    "A study by IHS Global Insight found states can lose between $70 million to $700 million per day when winter weather halts economic activity."
+   ],
+   "keywords": [
+    "winter storms",
+    "Winter Storm Uri",
+    "grid winterization",
+    "power outages",
+    "ERCOT",
+    "frozen pipes",
+    "indirect losses",
+    "microgrids",
+    "grid modernization",
+    "billion-dollar disasters",
+    "resilient building materials",
+    "Texas"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
    "nnn": 106,
    "title": "Investing in the Nation’s Future: Why Congress Should Emulate Energy States’ Sovereign Wealth Funds",
    "authors": "Nathan Brooks, Mark Haggerty",
@@ -25468,6 +26515,61 @@
    ],
    "has_attachment": false,
    "publisher": "Center for American Progress"
+  },
+  {
+   "nnn": 872,
+   "title": "Electric Grid Resiliency",
+   "authors": "The Epicenter",
+   "date": "2025-02-12",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Infrastructure & Real Estate Resilience"
+   ],
+   "geographies": [
+    "US",
+    "Florida",
+    "Texas"
+   ],
+   "institutions": [
+    "The Resiliency Company",
+    "American Society of Civil Engineers",
+    "Grid Strategies",
+    "Energy Information Administration",
+    "U.S. Department of Energy",
+    "U.S. Army",
+    "North American Electric Reliability Corporation",
+    "Center for American Progress"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/electric-grid-resiliency/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This briefing argues that the aging US electric grid is increasingly vulnerable to extreme weather and rising demand, and proposes three ways to build grid resilience. It documents that weather drives most outages and that a large funding gap exists for grid upgrades. Its three solutions are modernizing grid infrastructure with grid-enhancing technologies and undergrounding, installing more microgrids, and expanding renewable energy and storage to reduce dependence on fossil generation that performs poorly in extreme weather.",
+   "insights": [
+    "Over 70% of the US electricity grid is more than 25 years old, and 70% of transmission and distribution lines are in the second half of their 50-year lifespan.",
+    "From 2000 to 2021 weather-related events caused 83% of all power outages, and Americans now average five hours of weather-related outages a year, up from two hours 10 years ago.",
+    "ASCE projects a $197 billion gap by 2029 in funding required to strengthen the grid and install critical upgrades.",
+    "In 2024 the US Department of Energy invested $34 million in underground power lines in 11 states.",
+    "Many of the 692 US microgrids use renewables with battery storage; during Hurricane Ian in 2022 microgrids in Florida, Georgia, Virginia and the Carolinas kept power on for communities.",
+    "During a 2023 Texas heatwave, solar and storage stepped in while 10 gigawatts of coal and nuclear power were offline."
+   ],
+   "keywords": [
+    "electric grid",
+    "grid resilience",
+    "power outages",
+    "grid-enhancing technologies",
+    "dynamic line ratings",
+    "undergrounding",
+    "microgrids",
+    "battery storage",
+    "renewable energy",
+    "infrastructure funding gap",
+    "extreme weather"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
   },
   {
    "nnn": 497,
@@ -25856,6 +26958,72 @@
    "publisher": "Swiss Re"
   },
   {
+   "nnn": 871,
+   "title": "Severe Storms: Opportunities To Reduce the Costs",
+   "authors": "The Epicenter",
+   "date": "2025-01-29",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "Infrastructure & Real Estate Resilience",
+    "State / Local / Community Resilience Finance"
+   ],
+   "geographies": [
+    "US",
+    "Alabama",
+    "North Carolina",
+    "Minnesota",
+    "Kentucky",
+    "Louisiana"
+   ],
+   "institutions": [
+    "The Resiliency Company",
+    "Insurance Institute for Business and Home Safety",
+    "Malarkey",
+    "Owens Corning",
+    "Certainteed",
+    "National Institute of Standards and Technology",
+    "North Carolina Insurance Underwriting Association",
+    "Federal Home Loan Bank of Dallas",
+    "Federal Emergency Management Agency",
+    "Nextracker",
+    "ARRAY Technologies",
+    "Kisters",
+    "Hail No"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/severe-storms-opportunities-to-reduce-the-costs/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This second part of a two-part briefing on severe storms sets out three levers to reduce their costs: fortifying roofs with impact-resistant materials, adopting resilient construction materials and practices such as the IBHS FORTIFIED standards, and investing in technologies such as hail-aware solar trackers and hail netting. It shows how insurers reward impact-resistant roofs with premium discounts and lists state programs that fund FORTIFIED upgrades. It notes that ASCE 7-22 is the first code version to make high-occupancy buildings tornado resistant and that no code yet addresses hail.",
+   "insights": [
+    "Traditional roofs in hail-prone areas last about 10 years rather than 20, so with an average US roof costing about $10,000, insurers pay an average of 2x that cost over 20 years.",
+    "Impact-resistant roofs can last 60% longer than traditional roofs, 30-50 years versus 15-30 years.",
+    "Insurers in Oklahoma can cut home premiums by up to 42% for impact-resistant roofing, and Colorado homeowners can save 28%.",
+    "State programs fund FORTIFIED upgrades: Strengthen Alabama Homes up to $10,000, North Carolina's Strengthen Your Roof up to $8,000, Strengthen Minnesota Homes $10,000 and Louisiana Fortify Homes up to $10,000.",
+    "The Federal Home Loan Bank of Dallas provides up to $15,000 to low-to-moderate income homeowners to upgrade an existing roof, or up to $7,500 for a new FORTIFIED roof.",
+    "IBHS research found that shutting doors during severe weather can reduce pressure on a roof by 30%, and ring-shank nails can double a roof's strength against high winds."
+   ],
+   "keywords": [
+    "severe storms",
+    "hail",
+    "tornadoes",
+    "impact-resistant roofing",
+    "FORTIFIED",
+    "IBHS",
+    "insurance premium discounts",
+    "state grant programs",
+    "building codes",
+    "ASCE 7-22",
+    "solar trackers",
+    "secondary peril"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
    "nnn": 334,
    "title": "Africa Delivers the First Mechanism for International Cooperation on Climate Change Adaptation Under the Paris Agreement",
    "authors": "",
@@ -25944,6 +27112,57 @@
    ],
    "has_attachment": false,
    "publisher": "Milken Institute"
+  },
+  {
+   "nnn": 870,
+   "title": "5 Early Insights From the LA Fires",
+   "authors": "The Epicenter",
+   "date": "2025-01-22",
+   "year": 2025,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "Infrastructure & Real Estate Resilience",
+    "Policy / Regulation / Supervision"
+   ],
+   "geographies": [
+    "US",
+    "California"
+   ],
+   "institutions": [
+    "The Resiliency Company",
+    "Brookings Institution",
+    "State Farm",
+    "California FAIR Plan"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/5-early-insights-from-the-los-angeles-fires/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This short briefing draws five early lessons from the January 2025 Los Angeles wildfires. It argues that building above code with fire-resilient design can prevent damage, that California's strict wildfire standards such as the five-foot rule have been slow to implement, and that the wildfire season is shifting as Santa Ana winds move later in the year. It expects the fires to push up rents and fuel displacement, and documents how they strain an already imbalanced California insurance market and the FAIR Plan.",
+   "insights": [
+    "Damage from the Los Angeles wildfires was estimated at $250B as of January 21st, and insured claims were expected to be between $20-$45B.",
+    "In 2024 State Farm declined to renew 72,000 home insurance policies, and FAIR Plan policies grew 123% between September 2020 and 2024.",
+    "The FAIR Plan represented $458 billion in exposure as of Fall 2024, including $5.9 billion in the Palisades, against a surplus of only $200 million as of March 2024.",
+    "Brookings found rents rise 4% after a disaster in a community; rental prices of units on the market had already risen 15-20% since the fires.",
+    "By mid-January 2025 the fires had burned more than 63 square miles, driven by Santa Ana winds moving embers at 100 mph after fall 2024 rainfall 96% below normal.",
+    "Altadena's Black homeownership rate of 81.5% is nearly double the national rate, raising concerns about residents being priced out by rebuilding costs."
+   ],
+   "keywords": [
+    "Los Angeles wildfires",
+    "FAIR Plan",
+    "insurance market",
+    "building codes",
+    "five-foot rule",
+    "Santa Ana winds",
+    "rent increases",
+    "displacement",
+    "fire-resilient design",
+    "California"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
   },
   {
    "nnn": 104,
@@ -27769,6 +28988,72 @@
    "publisher": "World Resources Institute"
   },
   {
+   "nnn": 869,
+   "title": "The 2024 Year In Review For Resiliency",
+   "authors": "The Epicenter; Serena Shi; Alison Smart; Nabig Chaudhry; Shruti Shah; Matt Posner; Emilie Mazzacurati; Carolyn Kousky; Nick Wobbrock; Louie Woodall; Joe Rozza",
+   "date": "2024-12-20",
+   "year": 2024,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "State / Local / Community Resilience Finance",
+    "Disclosure / Metrics / Taxonomies",
+    "Climate Risk Data / Models / Analytics"
+   ],
+   "geographies": [
+    "US",
+    "Rhode Island",
+    "California",
+    "Florida"
+   ],
+   "institutions": [
+    "The Resiliency Company",
+    "The Lightsmith Group",
+    "Probable Futures",
+    "Symphonic Capital",
+    "Tailwind",
+    "Environmental Defense Fund",
+    "Insurance for Good",
+    "Blue Forest",
+    "CSAA",
+    "Climate Proof",
+    "Ryan Companies",
+    "Climate Bonds Initiative",
+    "UNEP FI",
+    "Federal Emergency Management Agency"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/the-2024-year-in-review-for-resiliency/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This year-end piece reviews US resilience in 2024 through five questions and reflections from practitioners in investment, insurance, public finance and frameworks. It argues that land use and asset exposure, rather than climate change alone, were the larger drivers of 2024 disaster costs, and that secondary perils such as severe storms now dominate aggregate insured losses. Practitioners report the rise of state-led resilience revolving funds, the redefinition of green bond frameworks to include resilience, more granular insurance risk pricing, and a proliferation of adaptation and resilience taxonomies. They expect growth in parametric insurance, adaptation bonds and state and local action to fill federal gaps in 2025.",
+   "insights": [
+    "The US had 24 billion-dollar climate disasters in 2024, four fewer than 2023's record 28, costing $61.6 billion with over 418 deaths; Congress appropriated more than $43 billion in disaster relief for fiscal 2024.",
+    "17 of the 24 billion-dollar disasters in 2024 were severe storms, a secondary peril, and for severe convective storms 80% of economic losses can be attributed to growth in asset exposure.",
+    "Homes in the wildland-urban interface grew 47% from 1990 to 2020; the WUI covers 9% of US land but holds 39% of all houses.",
+    "Rhode Island and Virginia pioneered revolving funds specifically for resilience, and Illinois redefined its green bond framework to explicitly include resilience investments.",
+    "An AI model predicted Hurricane Milton's landfall within 7 miles, compared with non-AI models off by over 100 miles.",
+    "Practitioners expect 2025 to bring operationalization of resilience taxonomies by financial institutions and the first sovereign and corporate adaptation bonds."
+   ],
+   "keywords": [
+    "year in review",
+    "billion-dollar disasters",
+    "secondary perils",
+    "asset exposure",
+    "wildland-urban interface",
+    "resilience revolving funds",
+    "green bonds",
+    "parametric insurance",
+    "adaptation bonds",
+    "resilience taxonomy",
+    "insurance pricing",
+    "building codes"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
    "nnn": 287,
    "title": "Measuring Climate-Related and Environmental Risks for Equities",
    "authors": "Emese Lazar, Jingqi Pan, Shixuan Wang",
@@ -27899,6 +29184,127 @@
    ],
    "has_attachment": true,
    "publisher": "US Congress Joint Economic Committee"
+  },
+  {
+   "nnn": 868,
+   "title": "Extreme Heat: Opportunities For Investors",
+   "authors": "The Epicenter",
+   "date": "2024-12-11",
+   "year": 2024,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Blended / Catalytic / Outcomes-Based Finance",
+    "Insurance / Risk Transfer",
+    "Infrastructure & Real Estate Resilience",
+    "State / Local / Community Resilience Finance"
+   ],
+   "geographies": [
+    "US"
+   ],
+   "institutions": [
+    "The Resiliency Company",
+    "Solar Energy Industries Association",
+    "U.S. Department of Energy",
+    "GE Vernova",
+    "AiDash",
+    "RS Technologies",
+    "Enviroshake",
+    "Landmark",
+    "University of Notre Dame",
+    "Phononic",
+    "Eight Sleep",
+    "LifeLabs",
+    "Duke University"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/extreme-heat-opportunities-for-investors/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This second part of a two-part briefing on extreme heat sets out six levers for capital allocators to reduce its cost and danger: hardening the electrical grid, fortifying the built environment, alternative cooling innovations, public-private partnerships for cooling infrastructure, blended public and private finance, and insurance innovation. Drawing on a Duke University report, it describes bundling small heat projects, extending State Revolving Funds to soft infrastructure under the STORM Act of 2021, and pairing green banks with SRFs. It describes parametric heat insurance with temperature triggers that pay municipalities ahead of an event, and community-based self-insured pools. It cites partnership examples including Singapore's distributed district cooling pilot and Phoenix's Tree and Shade Master Plan.",
+   "insights": [
+    "210 million Americans, about 2/3 of the US population, live in counties vulnerable to extreme heat.",
+    "A parametric product could pay a municipality on a temperature trigger before a heat event to fund cooling centers and healthcare preparation, bridging the gap until post-event payouts arrive.",
+    "The STORM Act of 2021 established a State Revolving Fund specifically for climate resilience that includes extreme heat mitigation, allowing SRFs to fund soft, community-based heat programs.",
+    "For one urban reforesting project, Phoenix leveraged $500M of private capital to transform 595 acres of deteriorated river bottom into a riparian corridor.",
+    "A Singapore distributed district cooling pilot used private capital to retrofit 14 buildings, and a feasibility study found energy use could fall by up to 17%.",
+    "GE Vernova estimates a small modular reactor will cost $2-4 billion versus $10-15 billion for a large nuclear plant; reflective roofs can stay more than 50°F cooler than conventional roofs."
+   ],
+   "keywords": [
+    "extreme heat",
+    "parametric insurance",
+    "community insurance pools",
+    "State Revolving Funds",
+    "STORM Act",
+    "green banks",
+    "blended finance",
+    "project bundling",
+    "cool roofs",
+    "district cooling",
+    "grid hardening",
+    "public-private partnerships"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
+   "nnn": 867,
+   "title": "Extreme Heat: The Drivers Making It So Costly and Dangerous",
+   "authors": "The Epicenter",
+   "date": "2024-12-03",
+   "year": 2024,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Resilience Returns & the Economic Case",
+    "Infrastructure & Real Estate Resilience"
+   ],
+   "geographies": [
+    "US",
+    "California",
+    "Texas"
+   ],
+   "institutions": [
+    "The Resiliency Company",
+    "Probable Futures",
+    "First Street Foundation",
+    "Atlantic Council",
+    "Congressional Research Service",
+    "U.S. Census Bureau",
+    "New America",
+    "Portland State University",
+    "Center for American Progress",
+    "National Energy Assistance Directors Association",
+    "Federal Emergency Management Agency"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/extreme-heat-the-drivers-making-it-so-costly-and-dangerous/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This first part of a two-part briefing on extreme heat explains why heat is the deadliest natural disaster in the US and why it is becoming more costly. It documents health, labor productivity and agricultural impacts, and identifies three drivers: population moving into heat-exposed areas, infrastructure vulnerable to heat, and cooling that is expensive and not universally accessible. It notes that most heat costs fall on health and productivity and that federal funding is rarely deployed in response to heat. It finds that mortality can be highest where communities are least accustomed to heat.",
+   "insights": [
+    "Extreme heat killed 2,325 people in the US in 2023, compared with 103 deaths from Hurricane Helene, and US heat mortality rates more than doubled from 1999 to 2023.",
+    "A 2021 Atlantic Council report estimated the US could lose around $100 billion annually from heat-induced lost labor productivity; productivity slumps about 25% at 90°F and 70% past 100 degrees.",
+    "More than 2.5 billion hours of US labor in agriculture, construction, manufacturing and services were lost to heat exposure in 2021.",
+    "An estimated 36,000 US public schools lack adequate HVAC, and upgrading them would cost $4.4 billion according to the Center for American Progress.",
+    "Average summer electricity bills rose 51% in 10 years, from $476 in 2014 to an estimated $719 in 2024.",
+    "Of 54 deaths in the Portland, Oregon area during the 2021 heat dome, none of those who died had central air conditioning."
+   ],
+   "keywords": [
+    "extreme heat",
+    "heat mortality",
+    "labor productivity",
+    "heatflation",
+    "heat dome",
+    "urban heat island",
+    "energy grid",
+    "cooling access",
+    "Sun Belt migration",
+    "public schools HVAC",
+    "energy costs"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
   },
   {
    "nnn": 115,
@@ -28152,6 +29558,119 @@
    ],
    "has_attachment": false,
    "publisher": "The Pew Charitable Trusts"
+  },
+  {
+   "nnn": 866,
+   "title": "Hurricanes: Opportunities for the Private Sector",
+   "authors": "The Epicenter",
+   "date": "2024-11-19",
+   "year": 2024,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "Capital Markets / Credit / Risk Pricing",
+    "Infrastructure & Real Estate Resilience",
+    "State / Local / Community Resilience Finance"
+   ],
+   "geographies": [
+    "US",
+    "Florida",
+    "Texas",
+    "North Carolina"
+   ],
+   "institutions": [
+    "The Resiliency Company",
+    "Climate Core Capital",
+    "Swiss Re",
+    "Federal Emergency Management Agency",
+    "Realtor.com",
+    "First Street Foundation",
+    "ISeeChange",
+    "Climate Check",
+    "Aquafence",
+    "Tampa General Hospital",
+    "Florida Division of Emergency Management",
+    "Houston Mayor's Office of Public Safety and Homeland Security"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/hurricanes-opportunities-for-the-private-sector/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This second part of a two-part hurricane briefing sets out three levers for private capital to reduce hurricane losses: pricing disaster risk into investment decisions, fortifying assets with hurricane-resilient materials, and public-private partnerships for hurricane mitigation. It argues that disaster risk is underpriced in US residential real estate and that insurers' retreat from states such as Florida and California is a signal other investors may follow. It reports Swiss Re evidence that Florida's stricter building standards reduced damage, but that growth in expected losses from population growth was double the savings from better construction. It cites examples including Hunters Point in Cortez, Florida, Tampa General Hospital's flood barrier and Houston's regional Supply Chain Group.",
+   "insights": [
+    "Research from 2023 found US residential properties overvalued by $121 billion to $237 billion for current flood risks alone, with knock-on risk to municipal property tax revenue.",
+    "Nine Florida-focused insurers have become insolvent since 2021, and commercial real estate premiums rose an average of 11% nationally in 2023 and as much as 50% in riskier markets such as the Gulf Coast.",
+    "Renovations at one Boston development cut estimated flood loss risk from $10 million to $1 million, making annual flood insurance premiums 10x cheaper.",
+    "Tampa General Hospital withstood two recent hurricanes using a reusable 10-ft Aquafence flood barrier rated for surges up to 15-ft, for an initial capital investment of $1M.",
+    "Swiss Re data show growth in Florida's annual expected losses from population growth was double the savings generated by better construction.",
+    "For Hurricane Helene, insurers could face as much as $75 billion in damage."
+   ],
+   "keywords": [
+    "hurricanes",
+    "risk pricing",
+    "property overvaluation",
+    "insurer insolvency",
+    "insurance premiums",
+    "resilient materials",
+    "flood barrier",
+    "public-private partnership",
+    "Florida",
+    "building standards",
+    "private capital",
+    "CapEx"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
+  },
+  {
+   "nnn": 861,
+   "title": "Tokio Marine Group Partners With Resilient Cities Network to Accelerate Investments in Urban Resilience",
+   "authors": "Resilient Cities Network",
+   "date": "2024-11-14",
+   "year": 2024,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "State / Local / Community Resilience Finance",
+    "Adaptation Finance Flows & Capital Mobilization"
+   ],
+   "geographies": [
+    "Global"
+   ],
+   "institutions": [
+    "Tokio Marine Group",
+    "Tokio Marine Holdings",
+    "Tokio Marine Kiln",
+    "Resilient Cities Network"
+   ],
+   "permissions": "Open Access",
+   "url": "https://resilientcitiesnetwork.org/tokio-marine-group-partners-with-resilient-cities-network-to-accelerate-investments-in-urban-resilience/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This press release announces a partnership under which Tokio Marine Group becomes the inaugural underwriting partner of the Resilient Cities Network's new Resilience Finance Taskforce. With financial support from Tokio Marine Kiln, the Taskforce will develop frameworks and methodologies cities need to scale resilience finance, using a portfolio approach to investment in city resilience. It frames the effort against a gap between economic losses and insurance coverage for climate-related events of over $100 billion per year. The Taskforce was to be discussed at a roundtable at the U20 in Rio de Janeiro.",
+   "insights": [
+    "Tokio Marine Group is the inaugural underwriting partner of the Resilience Finance Taskforce, with financial support provided by Tokio Marine Kiln.",
+    "From 2018 to 2022 the average gap between economic losses and insured losses grew to over $100 billion per year, nearly 20% higher than the average over the last 10 years.",
+    "The Taskforce aims to help cities build holistic portfolios of resilience projects attractive to investors, because many cities have resilience strategies but lack capital and rely on incidental funding.",
+    "The partnership targets commercially viable finance and insurance solutions for project portfolios enhancing climate resilience in more than 100 cities.",
+    "Tokio Marine Group reports a market capitalization of $73 billion as of June 30, 2024, operations in Japan and 46 countries and regions, and over 43,000 employees."
+   ],
+   "keywords": [
+    "Resilience Finance Taskforce",
+    "urban resilience",
+    "protection gap",
+    "underwriting partner",
+    "city resilience portfolios",
+    "insurance",
+    "Tokio Marine",
+    "Resilient Cities Network",
+    "U20",
+    "resilience finance"
+   ],
+   "has_attachment": false,
+   "publisher": "Resilient Cities Network"
   },
   {
    "nnn": 466,
@@ -28987,6 +30506,63 @@
    ],
    "has_attachment": true,
    "publisher": "Proceedings of the National Academy of Sciences"
+  },
+  {
+   "nnn": 865,
+   "title": "The Perfect Storm: Why Disasters Are So Expensive",
+   "authors": "The Epicenter",
+   "date": "2024-09-24",
+   "year": 2024,
+   "resource_type": "News Article / Blog Post",
+   "themes": [
+    "Resilience Returns & the Economic Case",
+    "Infrastructure & Real Estate Resilience",
+    "Insurance / Risk Transfer"
+   ],
+   "geographies": [
+    "US",
+    "Texas",
+    "Florida",
+    "California"
+   ],
+   "institutions": [
+    "The Resiliency Company",
+    "National Oceanic and Atmospheric Administration",
+    "Federal Emergency Management Agency",
+    "Pew Research",
+    "Harvard University Joint Center for Housing Studies",
+    "U.S. Chamber of Commerce"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.epicenterinsights.com/the-perfect-storm-why-disasters-are-so-expensive-2/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This briefing explains why billion-dollar disasters in the US have become so frequent and costly. Drawing on NOAA data, it identifies four drivers: higher frequency and severity of extremes, greater asset exposure, more vulnerable assets, and rebuilding premiums that raise reconstruction costs. It argues that rebuilding the same way perpetuates a cycle of destruction and reconstruction. It closes with benefit-cost evidence for resilience investments such as updated building codes, early warning, wetland restoration and impact-resistant shingles.",
+   "insights": [
+    "Since 1980 the US has had 395 weather and climate disasters each exceeding $1 billion (CPI adjusted), with cumulative costs over $2.7 trillion; 327 of them occurred since 2010, or 82%.",
+    "In the 1980s the US averaged four months between billion-dollar disasters; in 2024 there was one every other week.",
+    "39% of all houses in the US are in the wildland-urban interface, and more than 1 in 10 US homes is uninsured.",
+    "A 2023 Harvard Joint Center for Housing Studies report found $20 billion a year spent repairing homes after storms and disasters, a $3 billion increase from 2021 and nearly double the $12 billion annual average of 2000 to 2010.",
+    "Cited returns on resilience: every $1 in disaster preparation saves $13 (U.S. Chamber of Commerce), updated building codes have an 11:1 benefit cost ratio, wetland and reef restoration saves $7 per $1, and impact-resistant shingles save $3 per $1.",
+    "Just 24 hours of warning for a storm or heat wave can cut ensuing damage by 30%."
+   ],
+   "keywords": [
+    "billion-dollar disasters",
+    "NOAA",
+    "asset exposure",
+    "vulnerability",
+    "rebuilding premium",
+    "building codes",
+    "benefit cost ratio",
+    "early warning",
+    "wildland-urban interface",
+    "uninsured homes",
+    "disaster costs",
+    "resilience investment"
+   ],
+   "has_attachment": false,
+   "publisher": "The Epicenter"
   },
   {
    "nnn": 712,
@@ -31661,6 +33237,72 @@
     "mortality",
     "health inequity",
     "risk assessment"
+   ],
+   "has_attachment": true,
+   "publisher": "World Economic Forum"
+  },
+  {
+   "nnn": 863,
+   "title": "Building a Resilient Tomorrow: Concrete Actions for Global Leaders",
+   "authors": "World Economic Forum; McKinsey & Company",
+   "date": "2024-01-01",
+   "year": 2024,
+   "resource_type": "Report",
+   "themes": [
+    "Resilience Returns & the Economic Case",
+    "Federal Resilience Policy & Funding",
+    "Adaptation Finance Flows & Capital Mobilization"
+   ],
+   "geographies": [
+    "Global",
+    "US",
+    "Africa",
+    "Europe",
+    "Asia"
+   ],
+   "institutions": [
+    "World Economic Forum",
+    "McKinsey & Company",
+    "Resilience Consortium",
+    "Siemens",
+    "World Food Programme",
+    "Federal Emergency Management Agency",
+    "Iberdrola",
+    "National Emergency Supply Agency (Finland)",
+    "UNICEF",
+    "Farmerline",
+    "German Development Cooperation (GIZ)",
+    "International Development Association"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.weforum.org/publications/building-a-resilient-tomorrow-concrete-actions-for-global-leaders/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This World Economic Forum white paper, written with McKinsey & Company for the Resilience Consortium, presents nine resilience pioneer case studies across three themes: climate, energy and food; supply chain; and organizational readiness. The cases, selected by an independent panel from 36 submissions, include FEMA's Building Resilient Infrastructure and Communities programme, the World Food Programme's Sahel Integrated Resilience Programme and Siemens microgrids. It distils seven actions for leaders under three pillars: building resilience leadership and capabilities, measuring and monitoring resilience, and public-private partnerships. One action calls for new financing and insurance mechanisms to de-risk resilience, such as transition finance, hybrid capital and parametric insurance.",
+   "insights": [
+    "The consortium estimates resilience themes can shift GDP by between -8% and +15%, and that action or inaction on climate, energy and food will shift global GDP from -1% to +7.4% by 2030.",
+    "FEMA's BRIC programme has allocated nearly $4 billion to more than 1,000 applications, with $2.3 billion for over 400 projects in FY22, across 55 states and territories and 34 tribal nations.",
+    "The Sahel Integrated Resilience Programme reached over 3.2 million people across 3,000 villages and rehabilitated 280,000 hectares with an investment of over $500 million.",
+    "In Chad a $960,000 dike created 500 hectares of fertile land and paid for itself in three years; $750,000 of micro dams had a 1.5-year return period and a benefit-to-cost ratio of four.",
+    "A drought anticipatory-action case in the Philippines reports savings and avoided losses of $538 per family and benefits of $4.4 per $1 invested.",
+    "Case studies were chosen by analysing over 1,000 organizations, inviting over 100, and reviewing 36 submissions against five criteria."
+   ],
+   "keywords": [
+    "Resilience Consortium",
+    "resilience pioneers",
+    "case studies",
+    "FEMA BRIC",
+    "anticipatory action",
+    "Sahel",
+    "microgrids",
+    "supply chain resilience",
+    "organizational readiness",
+    "public-private partnerships",
+    "parametric insurance",
+    "benefit-cost ratio",
+    "World Economic Forum",
+    "McKinsey"
    ],
    "has_attachment": true,
    "publisher": "World Economic Forum"
@@ -35297,6 +36939,57 @@
    ],
    "has_attachment": true,
    "publisher": "Ecosystem Services"
+  },
+  {
+   "nnn": 864,
+   "title": "Resilience for Sustainable, Inclusive Growth",
+   "authors": "World Economic Forum; McKinsey & Company",
+   "date": "2022-05-01",
+   "year": 2022,
+   "resource_type": "Report",
+   "themes": [
+    "Resilience Returns & the Economic Case"
+   ],
+   "geographies": [
+    "Global"
+   ],
+   "institutions": [
+    "World Economic Forum",
+    "McKinsey & Company",
+    "Resilience Consortium",
+    "OECD",
+    "World Bank",
+    "EDISON Alliance"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.weforum.org/publications/resilience-for-sustainable-inclusive-growth/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This World Economic Forum white paper, written with McKinsey & Company, launches the Resilience Consortium and argues for a common resilience framework for public and private organizations. It draws lessons from recent crises, including the pandemic, the war in Ukraine and climate change, and defines resilience as the ability to deal with adversity, withstand shocks and continuously adapt. It proposes building a resilience muscle through three actions, prepare, perceive and propel, and identifies seven resilience themes including climate, food and energy and finance and risk capacity. It presents evidence that resilient companies outperformed peers through the financial crisis and the COVID-19 downturn.",
+   "insights": [
+    "World Economic Forum research suggests the impact of resilience, or its lack, on annual GDP growth is 1% to 5% globally; extreme weather events are taking 0.4% of growth.",
+    "In the 2007-09 financial crisis, resilient companies generated around 20% more shareholder returns, rising to around 50% in 2009-11 and 120% in 2011-17.",
+    "During the COVID-19 downturn of Q4 2019 to Q2 2020, resilient companies generated 10% more total return to shareholders, and the differential reached 50% in the recovery.",
+    "The paper suggests measuring resilience investment by reducing tail value at risk, as insurers and rating agencies do, rather than by expected value losses.",
+    "An OECD estimate cited finds a 1% increase in income inequality lowers overall GDP potential by 0.6% to 1.1%."
+   ],
+   "keywords": [
+    "Resilience Consortium",
+    "resilience framework",
+    "resilience muscle",
+    "prepare perceive propel",
+    "organizational resilience",
+    "economic resilience",
+    "shareholder returns",
+    "tail value at risk",
+    "crisis preparedness",
+    "public-private cooperation",
+    "inclusive growth",
+    "World Economic Forum"
+   ],
+   "has_attachment": true,
+   "publisher": "World Economic Forum"
   },
   {
    "nnn": 647,
