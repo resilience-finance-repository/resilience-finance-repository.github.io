@@ -166,7 +166,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 /* ── stats ────────────────────────────────────────────────────────────── */
 
-.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 13px; margin-bottom: 26px; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 13px; margin-bottom: 26px; }
 .stat {
   background: var(--surface); border: 1px solid var(--line);
   border-radius: var(--radius); padding: 16px 18px;
@@ -631,6 +631,7 @@ mark { background: color-mix(in srgb, var(--gold) 30%, transparent); color: inhe
   .tabs { padding-left: 16px; padding-right: 16px; overflow-x: auto; flex-wrap: nowrap; gap: 16px; }
   .tabs button { flex: none; white-space: nowrap; }
   .stats { grid-template-columns: repeat(2, 1fr); }
+  .stat:last-child:nth-child(odd) { grid-column: 1 / -1; }
   .facets, .field-grid, .about-grid, .criteria-list { grid-template-columns: 1fr; }
   .gallery { grid-template-columns: repeat(2, 1fr); gap: 13px; }
   .masthead-meta { text-align: left; }

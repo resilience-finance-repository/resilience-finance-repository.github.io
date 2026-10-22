@@ -1257,7 +1257,6 @@
     var rows = [
       ["Records", c.records || DATA.records.length],
       ["Published", (c.year_min || "") + " to " + (c.year_max || "")],
-      ["Finance themes", (DATA.facets.theme || []).length],
       ["Case studies and deals", cases]
     ];
     var host = $("stats");
