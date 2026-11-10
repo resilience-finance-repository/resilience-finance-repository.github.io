@@ -1,11 +1,11 @@
 {
   "_readme": "Which PDF source URLs may be framed, so site/viewer.html can offer to render them. Written by scripts/check_pdf_embedding.py, never by hand and never by the exporter. `embeddable: null` is UNCONFIRMED, a recorded outcome rather than a soft no, and the page treats it exactly as it treats a refusal: no button. A blocked frame renders blank, which is why this is measured rather than assumed.",
-  "generated_utc": "2026-09-22T02:30:31Z",
-  "payload_generated_utc": "2026-09-22T02:28:52Z",
+  "generated_utc": "2026-11-10T02:25:14Z",
+  "payload_generated_utc": "2026-11-10T02:25:00Z",
   "counts": {
-    "embeddable": 41,
-    "refused": 25,
-    "unconfirmed": 7
+    "embeddable": 81,
+    "refused": 42,
+    "unconfirmed": 9
   },
   "records": {
     "15": {
@@ -14,8 +14,8 @@
       "host_url": "https://lci.ca.gov/docs/20181106-Keenan_Climate_Adaptation_Finance_and_Investment_in_California_2018.pdf"
     },
     "16": {
-      "embeddable": false,
-      "reason": "X-Frame-Options: SAMEORIGIN",
+      "embeddable": null,
+      "reason": "HTTP 403, unconfirmed",
       "host_url": "https://www.marsh.com/content/dam/marsh/Documents/PDF/US-en/Climate-resilience-handbook-2018.pdf"
     },
     "25": {
@@ -124,8 +124,8 @@
       "host_url": "https://www.unccd.int/sites/default/files/2023-12/20231207_The%20cascading%20and%20compounding%20impacts%20of%20drought_DRAFT_V4.pdf"
     },
     "322": {
-      "embeddable": true,
-      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "embeddable": null,
+      "reason": "HTTP 403, unconfirmed",
       "host_url": "https://sydney.org.au/wp-content/uploads/2025/09/Committee-for-Sydney-Natures-Resilience-Dividend-September-2025.pdf"
     },
     "325": {
@@ -234,9 +234,9 @@
       "host_url": "https://www.federalreserve.gov/publications/files/csa-exercise-summary-20240509.pdf"
     },
     "506": {
-      "embeddable": null,
-      "reason": "HTTP 404, unconfirmed",
-      "host_url": "https://resilience.la.gov/media/ru0cr43b/statewide-resilience-report-v1-final.pdf"
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://gov.louisiana.gov/assets/statewide-resilience-report-final.pdf"
     },
     "509": {
       "embeddable": true,
@@ -365,13 +365,308 @@
     },
     "628": {
       "embeddable": false,
-      "reason": "served text/html; charset=UTF-8 rather than a PDF",
+      "reason": "Content-Security-Policy frame-ancestors 'self' https://www.goldmansachs.com *.gs.com:* https://*.targetcdn.adobe.com https://*.experience.adobe.com https://*.adobe.io",
       "host_url": "https://www.goldmansachs.com/our-commitments/sustainability/tcfd-report-2023/report.pdf"
     },
     "630": {
       "embeddable": false,
       "reason": "X-Frame-Options: SAMEORIGIN",
       "host_url": "https://www.nber.org/system/files/working_papers/w29994/w29994.pdf"
+    },
+    "634": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://blogs.edf.org/growingreturns/wp-content/blogs.dir/52/files//UPDATED-Measuring-Resilience-Draft-Report_2.22-v2-1.pdf"
+    },
+    "636": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.gic.com.sg/uploads/2024/09/Integrating-Climate-Adaptation-into-Physical-Risk-Models_SP_GIC_Final.pdf"
+    },
+    "638": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://refocuspartners.com/wp-content/uploads/pdf/Build_It_Green_Final_Report.pdf"
+    },
+    "641": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://impact.wharton.upenn.edu/wp-content/uploads/2023/07/Flood_Risk_and_the_U.S_._Housing_Market_10-30_-1.pdf"
+    },
+    "642": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://impact.wharton.upenn.edu/wp-content/uploads/2023/07/Assessing-the-Feasibility-of-Conducting-Social-Return-on-Investment-Analyses-for-Whole-Community-Engagement-Activities.pdf"
+    },
+    "643": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://impact.wharton.upenn.edu/wp-content/uploads/2023/07/The-Mandatory-Purchase-Requirement-September-2019.pdf"
+    },
+    "644": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://impact.wharton.upenn.edu/wp-content/uploads/2023/08/Climate-Risk-Solutions-Report.pdf"
+    },
+    "645": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://impact.wharton.upenn.edu/wp-content/uploads/2023/08/flood-risk-management-usa.pdf"
+    },
+    "646": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://impact.wharton.upenn.edu/wp-content/uploads/2023/07/Proof-of-Concept-report-2020.pdf"
+    },
+    "647": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://impact.wharton.upenn.edu/wp-content/uploads/2023/07/Hurricane-Michael-The-Challenge-of-Financial-Recovery-from-Disasters.pdf"
+    },
+    "665": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://thedocs.worldbank.org/en/doc/f8a2c887929c44d9dab187f3fc1ad293-0040012025/original/WB-FY25-Climate-Related-Disclosures.pdf"
+    },
+    "681": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://rebuildbydesign.org/wp-content/uploads/Atlas-of-Disaster-New-York.pdf"
+    },
+    "682": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://rebuildbydesign.org/wp-content/uploads/Atlas-of-Disaster-New-Jersey.pdf"
+    },
+    "683": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://rebuildbydesign.org/wp-content/uploads/Atlas-of-Disaster-Massachusetts.pdf"
+    },
+    "684": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://rebuildbydesign.org/wp-content/uploads/Atlas-of-Disaster-Connecticut.pdf"
+    },
+    "711": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.forecast-based-financing.org/wp-content/uploads/2019/03/DRK_Broschuere_2019_new_era.pdf"
+    },
+    "801": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.unepfi.org/wordpress/wp-content/uploads/2023/11/PRB-Adaptation-Target-Setting-Guidance.pdf"
+    },
+    "816": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://content.naic.org/sites/default/files/research-climate-scenario-naic-presentation.pdf"
+    },
+    "817": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://content.naic.org/sites/default/files/cipr-report-assessment-insights-climate-risk-data.pdf"
+    },
+    "822": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.artemis.bm/wp-content/uploads/2026/01/catastrophe-bond-ils-market-report-q4-2025.pdf"
+    },
+    "831": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://www.nber.org/system/files/working_papers/w30280/w30280.pdf"
+    },
+    "839": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://southeastfloridaclimatecompact.org/wp-content/uploads/2020/03/RCAP_Funding-and-Financing-Models.pdf"
+    },
+    "840": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1059.pdf"
+    },
+    "841": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: DENY",
+      "host_url": "https://home.treasury.gov/system/files/261/FSOC-Climate-Report.pdf"
+    },
+    "842": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://uphelp.org/wp-content/uploads/2026/05/UP-Mtg-Schwarcz-Paper-3.20.26.pdf"
+    },
+    "843": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr977.pdf"
+    },
+    "846": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://business.libertymutual.com/wp-content/uploads/2021/06/NI5083_ClimateChange.pdf"
+    },
+    "848": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2024/EPR_2024_climate-financial-stability_brunetti.pdf"
+    },
+    "849": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.fsb.org/uploads/P160125.pdf"
+    },
+    "850": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://documents1.worldbank.org/curated/en/566041614722486484/pdf/Enabling-Private-Investment-in-Climate-Adaptation-and-Resilience-Current-Status-Barriers-to-Investment-and-Blueprint-for-Action.pdf"
+    },
+    "856": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.citigroup.com/rcs/citigpa/storage/public/finance-for-a-climate-resilient-future-2.pdf"
+    },
+    "887": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.unepfi.org/wordpress/wp-content/uploads/2022/11/Adapting-to-a-New-Climate.pdf"
+    },
+    "888": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.unepfi.org/wordpress/wp-content/uploads/2025/11/White-Paper-for-Adaptation-and-Resilience-Guide-for-ASEAN-Taxonomy.pdf"
+    },
+    "890": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://reports.weforum.org/docs/WEF_Resilient_Firms_and_Economies_2025.pdf"
+    },
+    "891": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.brookings.edu/wp-content/uploads/2021/06/financial-stability_report.pdf"
+    },
+    "892": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://reports.weforum.org/docs/WEF_Building_Economic_Resilience_to_the_Health_Impacts_of_Climate_Change_2025.pdf"
+    },
+    "893": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://www.ifc.org/content/dam/ifc/doc/2025/role-of-blended-finance-in-an-evolving-global-context.pdf"
+    },
+    "894": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://documents1.worldbank.org/curated/en/546611605298449211/pdf/The-Adaptation-Principles-A-Guide-for-Designing-Strategies-for-Climate-Change-Adaptation-and-Resilience.pdf"
+    },
+    "895": {
+      "embeddable": null,
+      "reason": "HTTP 403, unconfirmed",
+      "host_url": "https://www.climatebonds.net/files/documents/publications/Financing-the-Corporate-Climate-Transition-with-Bonds.pdf"
+    },
+    "896": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://documents1.worldbank.org/curated/en/099050725135521570/pdf/P501013-299da78d-86cc-4f74-a095-cde17655875a.pdf"
+    },
+    "897": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://recovery.pr.gov/documents/14th_Congressional_Report_on_PR_Economic_and_Disaster_Recovery_Plan_20251231T154128.713Z.pdf"
+    },
+    "899": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.unepfi.org/wordpress/wp-content/uploads/2025/11/Transformational-Finance-for-Climate-Group-Position-Paper-final.pdf"
+    },
+    "900": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://coast.noaa.gov/data/czm/media/puertorico-cmp.pdf"
+    },
+    "901": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.unepfi.org/wordpress/wp-content/uploads/2025/07/PRB_Adaptation-resilience-guidance.pdf"
+    },
+    "902": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.climatepolicyinitiative.org/wp-content/uploads/2023/12/State-and-Trends-in-Climate-Adaptation-Finance-2023_.pdf"
+    },
+    "903": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://docs.pr.gov/files/OCS/English/Our%20Office/Our%20Office%20_%20Annual%20and%20Quarter%20Reports/Informe%20Anual/2023/Anual%20Reports%20OCS%202023%20Eng.pdf"
+    },
+    "904": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.artemis.bm/wp-content/uploads/2026/03/catastrophe-bond-ils-market-report-q1-2026.pdf"
+    },
+    "906": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.ccrif.org/sites/default/files/DRF-Course-2022/DRF-Course-Summer-2022-Social-Protection-DRF-Day-5.pdf"
+    },
+    "907": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://assets.aon.com/-/media/files/aon/insights/2026/2026-catastrophe-risk-tolerance-study.pdf"
+    },
+    "909": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.brookings.edu/wp-content/uploads/2026/09/nature-people-sustainable-development-ch06-nature-finance.pdf"
+    },
+    "911": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://www.munichre.com/content/dam/munichre/mrwebsiteslaunches/natcat-2026/MunichRe-Mediarelease2026-NatCat2025.pdf/_jcr_content/renditions/original./MunichRe-Mediarelease2026-NatCat2025.pdf"
+    },
+    "912": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://www.ifc.org/content/dam/ifc/doc/2025/2023-joint-report-mobilization-of-private-finance-by-mdbs-dfis.pdf"
+    },
+    "913": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://content.naic.org/sites/default/files/call_materials/david-carlin-ceres-naic-jun-13-webinar.pdf"
+    },
+    "915": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/07/scaling-finance-and-investment-for-climate-adaptation_be6892fb/eeec8b52-en.pdf"
+    },
+    "916": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.fhfa.gov/sites/default/files/discussion_topics/Attachments/1426/Union%20of%20Concerned%20Scientists%20response%20to%20FHFA%20RFI%20on%20Climate%20Risk_April%2019.pdf"
+    },
+    "919": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://www.oecd.org/content/dam/oecd/en/publications/support-materials/2024/11/FCA-Highlights-final.pdf"
+    },
+    "921": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.systemiq.earth/wp-content/uploads/2026/01/Returns-on-Resilience_Technical-Annex.pdf"
+    },
+    "922": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://www.epa.gov/system/files/documents/2021-09/epa-climate-adaptation-plan-pdf-version.pdf"
+    },
+    "924": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://www.meridiam.com/wp-content/uploads/2023/09/CS35-Sustainable-and-Resilient-cities-Americas-Europe-Africa-Critical-Public-Services.pdf"
     }
   }
 }
