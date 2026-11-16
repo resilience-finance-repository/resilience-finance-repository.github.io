@@ -1,12 +1,12 @@
 {
   "_readme": "First-page renders of Open Access PDFs, by NNN. Written by scripts/build_thumbnails.py. The images live in site/thumbs/, which is GITIGNORED: a page image is derived from a source document and a committed one cannot be taken back without rewriting history, so they reach a host through the deploy rather than through a commit. Copy site/thumbs/ alongside site/ when publishing. A record absent from here is not an error: the page draws a tile from its kind and year instead.",
-  "generated_utc": "2026-11-10T02:26:08Z",
-  "payload_generated_utc": "2026-11-10T02:25:00Z",
+  "generated_utc": "2026-11-16T15:40:10Z",
+  "payload_generated_utc": "2026-11-16T15:39:59Z",
   "width": 400,
   "counts": {
-    "rendered": 716,
-    "open_access": 758,
-    "records": 801
+    "rendered": 726,
+    "open_access": 768,
+    "records": 822
   },
   "records": {
     "7": {
@@ -2032,255 +2032,189 @@
       "file": "thumbs/883.jpg"
     },
     "884": {
-      "file": "thumbs/884.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/884.jpg"
     },
     "885": {
-      "file": "thumbs/885.jpg",
-      "w": 400,
-      "h": 225,
-      "from": "attachment"
+      "file": "thumbs/885.jpg"
     },
     "886": {
-      "file": "thumbs/886.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/886.jpg"
     },
     "887": {
-      "file": "thumbs/887.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/887.jpg"
     },
     "888": {
-      "file": "thumbs/888.jpg",
-      "w": 400,
-      "h": 568,
-      "from": "attachment"
+      "file": "thumbs/888.jpg"
     },
     "889": {
-      "file": "thumbs/889.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/889.jpg"
     },
     "890": {
-      "file": "thumbs/890.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/890.jpg"
     },
     "891": {
-      "file": "thumbs/891.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/891.jpg"
     },
     "892": {
-      "file": "thumbs/892.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/892.jpg"
     },
     "893": {
-      "file": "thumbs/893.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/893.jpg"
     },
     "894": {
-      "file": "thumbs/894.jpg",
-      "w": 400,
-      "h": 572,
-      "from": "attachment"
+      "file": "thumbs/894.jpg"
     },
     "895": {
-      "file": "thumbs/895.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/895.jpg"
     },
     "896": {
-      "file": "thumbs/896.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/896.jpg"
     },
     "897": {
-      "file": "thumbs/897.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/897.jpg"
     },
     "898": {
-      "file": "thumbs/898.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/898.jpg"
     },
     "899": {
-      "file": "thumbs/899.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/899.jpg"
     },
     "900": {
-      "file": "thumbs/900.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/900.jpg"
     },
     "901": {
-      "file": "thumbs/901.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/901.jpg"
     },
     "902": {
-      "file": "thumbs/902.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/902.jpg"
     },
     "903": {
-      "file": "thumbs/903.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/903.jpg"
     },
     "904": {
-      "file": "thumbs/904.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/904.jpg"
     },
     "906": {
-      "file": "thumbs/906.jpg",
-      "w": 400,
-      "h": 225,
-      "from": "attachment"
+      "file": "thumbs/906.jpg"
     },
     "907": {
-      "file": "thumbs/907.jpg",
-      "w": 400,
-      "h": 226,
-      "from": "attachment"
+      "file": "thumbs/907.jpg"
     },
     "909": {
-      "file": "thumbs/909.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/909.jpg"
     },
     "910": {
-      "file": "thumbs/910.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/910.jpg"
     },
     "911": {
-      "file": "thumbs/911.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/911.jpg"
     },
     "912": {
-      "file": "thumbs/912.jpg",
+      "file": "thumbs/912.jpg"
+    },
+    "913": {
+      "file": "thumbs/913.jpg"
+    },
+    "914": {
+      "file": "thumbs/914.jpg"
+    },
+    "915": {
+      "file": "thumbs/915.jpg"
+    },
+    "916": {
+      "file": "thumbs/916.jpg"
+    },
+    "917": {
+      "file": "thumbs/917.jpg"
+    },
+    "918": {
+      "file": "thumbs/918.jpg"
+    },
+    "919": {
+      "file": "thumbs/919.jpg"
+    },
+    "920": {
+      "file": "thumbs/920.jpg"
+    },
+    "921": {
+      "file": "thumbs/921.jpg"
+    },
+    "922": {
+      "file": "thumbs/922.jpg"
+    },
+    "923": {
+      "file": "thumbs/923.jpg"
+    },
+    "924": {
+      "file": "thumbs/924.jpg"
+    },
+    "925": {
+      "file": "thumbs/925.jpg"
+    },
+    "926": {
+      "file": "thumbs/926.jpg"
+    },
+    "927": {
+      "file": "thumbs/927.jpg"
+    },
+    "928": {
+      "file": "thumbs/928.jpg",
       "w": 400,
       "h": 518,
       "from": "attachment"
     },
-    "913": {
-      "file": "thumbs/913.jpg",
+    "929": {
+      "file": "thumbs/929.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "930": {
+      "file": "thumbs/930.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "942": {
+      "file": "thumbs/942.jpg",
+      "w": 400,
+      "h": 619,
+      "from": "attachment"
+    },
+    "943": {
+      "file": "thumbs/943.jpg",
+      "w": 400,
+      "h": 518,
+      "from": "attachment"
+    },
+    "944": {
+      "file": "thumbs/944.jpg",
       "w": 400,
       "h": 225,
       "from": "attachment"
     },
-    "914": {
-      "file": "thumbs/914.jpg",
+    "945": {
+      "file": "thumbs/945.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "946": {
+      "file": "thumbs/946.jpg",
+      "w": 400,
+      "h": 566,
+      "from": "attachment"
+    },
+    "947": {
+      "file": "thumbs/947.jpg",
+      "w": 400,
+      "h": 532,
+      "from": "attachment"
+    },
+    "948": {
+      "file": "thumbs/948.jpg",
       "w": 400,
       "h": 518,
-      "from": "attachment"
-    },
-    "915": {
-      "file": "thumbs/915.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
-    },
-    "916": {
-      "file": "thumbs/916.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
-    },
-    "917": {
-      "file": "thumbs/917.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
-    },
-    "918": {
-      "file": "thumbs/918.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
-    },
-    "919": {
-      "file": "thumbs/919.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
-    },
-    "920": {
-      "file": "thumbs/920.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
-    },
-    "921": {
-      "file": "thumbs/921.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
-    },
-    "922": {
-      "file": "thumbs/922.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
-    },
-    "923": {
-      "file": "thumbs/923.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
-    },
-    "924": {
-      "file": "thumbs/924.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
-    },
-    "925": {
-      "file": "thumbs/925.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
-    },
-    "926": {
-      "file": "thumbs/926.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
-    },
-    "927": {
-      "file": "thumbs/927.jpg",
-      "w": 400,
-      "h": 566,
       "from": "attachment"
     }
   }

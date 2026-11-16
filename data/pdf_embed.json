@@ -1,11 +1,11 @@
 {
   "_readme": "Which PDF source URLs may be framed, so site/viewer.html can offer to render them. Written by scripts/check_pdf_embedding.py, never by hand and never by the exporter. `embeddable: null` is UNCONFIRMED, a recorded outcome rather than a soft no, and the page treats it exactly as it treats a refusal: no button. A blocked frame renders blank, which is why this is measured rather than assumed.",
-  "generated_utc": "2026-11-10T02:25:14Z",
-  "payload_generated_utc": "2026-11-10T02:25:00Z",
+  "generated_utc": "2026-11-16T15:40:16Z",
+  "payload_generated_utc": "2026-11-16T15:39:59Z",
   "counts": {
-    "embeddable": 81,
-    "refused": 42,
-    "unconfirmed": 9
+    "embeddable": 82,
+    "refused": 44,
+    "unconfirmed": 8
   },
   "records": {
     "15": {
@@ -14,8 +14,8 @@
       "host_url": "https://lci.ca.gov/docs/20181106-Keenan_Climate_Adaptation_Finance_and_Investment_in_California_2018.pdf"
     },
     "16": {
-      "embeddable": null,
-      "reason": "HTTP 403, unconfirmed",
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
       "host_url": "https://www.marsh.com/content/dam/marsh/Documents/PDF/US-en/Climate-resilience-handbook-2018.pdf"
     },
     "25": {
@@ -667,6 +667,16 @@
       "embeddable": false,
       "reason": "X-Frame-Options: SAMEORIGIN",
       "host_url": "https://www.meridiam.com/wp-content/uploads/2023/09/CS35-Sustainable-and-Resilient-cities-Americas-Europe-Africa-Critical-Public-Services.pdf"
+    },
+    "929": {
+      "embeddable": false,
+      "reason": "X-Frame-Options: SAMEORIGIN",
+      "host_url": "https://www.floridadisaster.org/globalassets/importedpdfs/section-5-funding-and-projects-final.pdf"
+    },
+    "930": {
+      "embeddable": true,
+      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "host_url": "https://www.fhfa.gov/sites/default/files/discussion_topics/Attachments/1506/PDR%20HFAD%20Response%20to%20FHFA%20Climate%20Change%20Mortgage%20Risk%20RFI%20v2.pdf"
     }
   }
 }

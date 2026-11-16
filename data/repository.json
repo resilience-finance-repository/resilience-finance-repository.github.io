@@ -1,20 +1,20 @@
 {
  "payload_version": 2,
- "generated_utc": "2026-11-10T02:25:00Z",
+ "generated_utc": "2026-11-16T15:39:59Z",
  "origin": {
   "kind": "live",
   "database_title": "Resilience Finance Repository",
   "recorded_basis": "measured at export time"
  },
  "counts": {
-  "records": 801,
-  "with_link": 801,
+  "records": 822,
+  "with_link": 822,
   "without_link": 0,
-  "with_attachment": 424,
-  "open_access": 758,
+  "with_attachment": 434,
+  "open_access": 768,
   "access_states": {
-   "source": 758,
-   "paywall": 43
+   "source": 768,
+   "paywall": 54
   },
   "year_min": 2012,
   "year_max": 2026
@@ -23,7 +23,7 @@
   "resource_type": [
    {
     "name": "Report",
-    "count": 285
+    "count": 288
    },
    {
     "name": "News Article / Blog Post",
@@ -31,7 +31,7 @@
    },
    {
     "name": "Academic Paper",
-    "count": 107
+    "count": 122
    },
    {
     "name": "Case Study / Deal Profile",
@@ -43,19 +43,19 @@
    },
    {
     "name": "Policy Brief",
-    "count": 28
+    "count": 30
    },
    {
     "name": "Podcast",
     "count": 19
    },
    {
-    "name": "Regulatory / Legislative Document",
+    "name": "Book",
     "count": 5
    },
    {
-    "name": "Book",
-    "count": 4
+    "name": "Regulatory / Legislative Document",
+    "count": 5
    },
    {
     "name": "Tool / Resource Hub",
@@ -69,105 +69,105 @@
   "theme": [
    {
     "name": "Insurance / Risk Transfer",
-    "count": 300
+    "count": 307
    },
    {
     "name": "State / Local / Community Resilience Finance",
-    "count": 236
+    "count": 237
    },
    {
     "name": "Infrastructure & Real Estate Resilience",
-    "count": 223
+    "count": 228
    },
    {
     "name": "Capital Markets / Credit / Risk Pricing",
-    "count": 177
+    "count": 182
    },
    {
     "name": "Adaptation Finance Flows & Capital Mobilization",
-    "count": 158
-   },
-   {
-    "name": "Resilience Returns & the Economic Case",
-    "count": 144
+    "count": 162
    },
    {
     "name": "Climate Risk Data / Models / Analytics",
-    "count": 143
+    "count": 152
    },
    {
     "name": "Policy / Regulation / Supervision",
-    "count": 140
+    "count": 148
+   },
+   {
+    "name": "Resilience Returns & the Economic Case",
+    "count": 147
    },
    {
     "name": "Blended / Catalytic / Outcomes-Based Finance",
-    "count": 128
+    "count": 129
    },
    {
     "name": "Nature-Based Solutions & Natural Capital",
-    "count": 112
+    "count": 116
    },
    {
     "name": "Federal Resilience Policy & Funding",
-    "count": 93
+    "count": 95
    },
    {
     "name": "Disclosure / Metrics / Taxonomies",
-    "count": 87
+    "count": 92
    }
   ],
   "geography": [
    {
     "name": "US",
-    "count": 542
+    "count": 552
    },
    {
     "name": "Global",
-    "count": 287
+    "count": 297
    },
    {
     "name": "California",
-    "count": 128
+    "count": 130
    },
    {
     "name": "Florida",
-    "count": 88
+    "count": 91
    },
    {
     "name": "Europe",
-    "count": 40
+    "count": 45
    },
    {
     "name": "Texas",
-    "count": 37
+    "count": 39
    },
    {
     "name": "Africa",
-    "count": 36
+    "count": 38
    },
    {
     "name": "Latin America",
-    "count": 35
+    "count": 36
+   },
+   {
+    "name": "Asia",
+    "count": 34
    },
    {
     "name": "Louisiana",
-    "count": 32
+    "count": 33
    },
    {
     "name": "New York",
     "count": 32
    },
    {
-    "name": "Asia",
-    "count": 31
+    "name": "North Carolina",
+    "count": 25
    },
    {
     "name": "Alabama",
     "count": 24
-   },
-   {
-    "name": "North Carolina",
-    "count": 23
    },
    {
     "name": "Caribbean",
@@ -178,19 +178,19 @@
     "count": 15
    },
    {
+    "name": "Massachusetts",
+    "count": 11
+   },
+   {
     "name": "Rhode Island",
     "count": 11
    },
    {
-    "name": "Massachusetts",
+    "name": "Oceania",
     "count": 10
    },
    {
     "name": "Hawaii",
-    "count": 9
-   },
-   {
-    "name": "Oceania",
     "count": 9
    },
    {
@@ -215,7 +215,7 @@
    },
    {
     "name": "Michigan",
-    "count": 5
+    "count": 6
    },
    {
     "name": "Missouri",
@@ -241,7 +241,7 @@
   "institution": [
    {
     "name": "Federal Emergency Management Agency",
-    "count": 113
+    "count": 114
    },
    {
     "name": "The Resiliency Company",
@@ -249,7 +249,7 @@
    },
    {
     "name": "World Bank",
-    "count": 75
+    "count": 79
    },
    {
     "name": "The Epicenter",
@@ -265,11 +265,11 @@
    },
    {
     "name": "National Oceanic and Atmospheric Administration",
-    "count": 31
+    "count": 33
    },
    {
     "name": "The Nature Conservancy",
-    "count": 31
+    "count": 32
    },
    {
     "name": "Insurance Institute for Business & Home Safety",
@@ -277,34 +277,38 @@
    },
    {
     "name": "World Resources Institute",
-    "count": 28
+    "count": 29
    },
    {
     "name": "Climate Bonds Initiative",
-    "count": 26
+    "count": 28
    },
    {
     "name": "Moody's",
-    "count": 25
+    "count": 26
    },
    {
     "name": "OECD",
-    "count": 25
+    "count": 26
    },
    {
     "name": "World Economic Forum",
     "count": 24
    },
    {
+    "name": "National Flood Insurance Program",
+    "count": 23
+   },
+   {
     "name": "United Nations Environment Programme",
     "count": 23
    },
    {
-    "name": "National Flood Insurance Program",
-    "count": 22
+    "name": "Green Climate Fund",
+    "count": 21
    },
    {
-    "name": "Green Climate Fund",
+    "name": "University of Miami",
     "count": 21
    },
    {
@@ -313,6 +317,10 @@
    },
    {
     "name": "Brookings Institution",
+    "count": 19
+   },
+   {
+    "name": "First Street Foundation",
     "count": 19
    },
    {
@@ -328,15 +336,7 @@
     "count": 18
    },
    {
-    "name": "First Street Foundation",
-    "count": 18
-   },
-   {
     "name": "Rebuild by Design",
-    "count": 17
-   },
-   {
-    "name": "University of Miami",
     "count": 17
    },
    {
@@ -345,6 +345,10 @@
    },
    {
     "name": "Environmental Defense Fund",
+    "count": 16
+   },
+   {
+    "name": "Munich RE",
     "count": 16
    },
    {
@@ -364,11 +368,11 @@
     "count": 15
    },
    {
-    "name": "Munich RE",
-    "count": 15
+    "name": "California FAIR Plan",
+    "count": 14
    },
    {
-    "name": "California FAIR Plan",
+    "name": "International Finance Corporation",
     "count": 14
    },
    {
@@ -384,12 +388,16 @@
     "count": 14
    },
    {
-    "name": "International Finance Corporation",
+    "name": "Intergovernmental Panel on Climate Change",
     "count": 13
    },
    {
     "name": "U.S. Department of Housing and Urban Development",
     "count": 13
+   },
+   {
+    "name": "Asian Development Bank",
+    "count": 12
    },
    {
     "name": "Center for Disaster Philanthropy",
@@ -400,7 +408,11 @@
     "count": 12
    },
    {
-    "name": "Intergovernmental Panel on Climate Change",
+    "name": "European Investment Bank",
+    "count": 12
+   },
+   {
+    "name": "Financial Stability Board",
     "count": 12
    },
    {
@@ -409,6 +421,10 @@
    },
    {
     "name": "Probable Futures",
+    "count": 12
+   },
+   {
+    "name": "Task Force on Climate-related Financial Disclosures",
     "count": 12
    },
    {
@@ -432,11 +448,7 @@
     "count": 11
    },
    {
-    "name": "Asian Development Bank",
-    "count": 11
-   },
-   {
-    "name": "European Investment Bank",
+    "name": "Blue Forest",
     "count": 11
    },
    {
@@ -456,15 +468,11 @@
     "count": 10
    },
    {
-    "name": "Blue Forest",
+    "name": "Center for Coastal Climate Resilience at UC Santa Cruz",
     "count": 10
    },
    {
-    "name": "Financial Stability Board",
-    "count": 10
-   },
-   {
-    "name": "Task Force on Climate-related Financial Disclosures",
+    "name": "Fannie Mae",
     "count": 10
    },
    {
@@ -476,19 +484,15 @@
     "count": 10
    },
    {
-    "name": "Center for Coastal Climate Resilience at UC Santa Cruz",
-    "count": 9
-   },
-   {
     "name": "Ceres",
     "count": 9
    },
    {
-    "name": "European Bank for Reconstruction and Development",
+    "name": "Environmental Protection Agency",
     "count": 9
    },
    {
-    "name": "Fannie Mae",
+    "name": "European Bank for Reconstruction and Development",
     "count": 9
    },
    {
@@ -520,15 +524,19 @@
     "count": 8
    },
    {
-    "name": "Environmental Protection Agency",
-    "count": 8
-   },
-   {
     "name": "Global Commission on Adaptation",
     "count": 8
    },
    {
+    "name": "International Sustainability Standards Board",
+    "count": 8
+   },
+   {
     "name": "Milken Institute",
+    "count": 8
+   },
+   {
+    "name": "Securities and Exchange Commission",
     "count": 8
    },
    {
@@ -545,6 +553,10 @@
    },
    {
     "name": "Federal Reserve Board",
+    "count": 7
+   },
+   {
+    "name": "Fitch Ratings",
     "count": 7
    },
    {
@@ -576,10 +588,6 @@
     "count": 7
    },
    {
-    "name": "Securities and Exchange Commission",
-    "count": 7
-   },
-   {
     "name": "U.S. Army Corps of Engineers",
     "count": 7
    },
@@ -589,6 +597,10 @@
    },
    {
     "name": "U.S. Chamber of Commerce Foundation",
+    "count": 7
+   },
+   {
+    "name": "U.S. Geological Survey",
     "count": 7
    },
    {
@@ -612,6 +624,10 @@
     "count": 6
    },
    {
+    "name": "Bank of England",
+    "count": 6
+   },
+   {
     "name": "California Earthquake Authority",
     "count": 6
    },
@@ -624,7 +640,11 @@
     "count": 6
    },
    {
-    "name": "Fitch Ratings",
+    "name": "Federal Housing Finance Agency",
+    "count": 6
+   },
+   {
+    "name": "Freddie Mac",
     "count": 6
    },
    {
@@ -645,10 +665,6 @@
    },
    {
     "name": "Insurance Institute for Business and Home Safety",
-    "count": 6
-   },
-   {
-    "name": "International Sustainability Standards Board",
     "count": 6
    },
    {
@@ -688,11 +704,11 @@
     "count": 6
    },
    {
-    "name": "U.S. Geological Survey",
+    "name": "UNFCCC",
     "count": 6
    },
    {
-    "name": "UNFCCC",
+    "name": "Union of Concerned Scientists (UCS)",
     "count": 6
    },
    {
@@ -709,10 +725,6 @@
    },
    {
     "name": "Appleby",
-    "count": 5
-   },
-   {
-    "name": "Bank of England",
     "count": 5
    },
    {
@@ -736,10 +748,6 @@
     "count": 5
    },
    {
-    "name": "Federal Housing Finance Agency",
-    "count": 5
-   },
-   {
     "name": "Federal Reserve Bank of New York",
     "count": 5
    },
@@ -749,10 +757,6 @@
    },
    {
     "name": "Florida International University",
-    "count": 5
-   },
-   {
-    "name": "Freddie Mac",
     "count": 5
    },
    {
@@ -773,6 +777,10 @@
    },
    {
     "name": "KB Home",
+    "count": 5
+   },
+   {
+    "name": "National Oceanic and Atmospheric Administration (NOAA)",
     "count": 5
    },
    {
@@ -808,15 +816,19 @@
     "count": 5
    },
    {
+    "name": "U.S. Census Bureau",
+    "count": 5
+   },
+   {
     "name": "U.S. Forest Service",
     "count": 5
    },
    {
-    "name": "US Environmental Protection Agency",
+    "name": "UNEP Finance Initiative",
     "count": 5
    },
    {
-    "name": "Union of Concerned Scientists (UCS)",
+    "name": "US Environmental Protection Agency",
     "count": 5
    },
    {
@@ -892,6 +904,10 @@
     "count": 4
    },
    {
+    "name": "Florida Department of Environmental Protection",
+    "count": 4
+   },
+   {
     "name": "International Development Association",
     "count": 4
    },
@@ -901,10 +917,6 @@
    },
    {
     "name": "McKinsey Global Institute",
-    "count": 4
-   },
-   {
-    "name": "National Oceanic and Atmospheric Administration (NOAA)",
     "count": 4
    },
    {
@@ -948,10 +960,6 @@
     "count": 4
    },
    {
-    "name": "U.S. Census Bureau",
-    "count": 4
-   },
-   {
     "name": "U.S. Commodity Futures Trading Commission",
     "count": 4
    },
@@ -960,7 +968,7 @@
     "count": 4
    },
    {
-    "name": "UNEP Finance Initiative",
+    "name": "U.S. Securities and Exchange Commission",
     "count": 4
    },
    {
@@ -1012,6 +1020,14 @@
     "count": 3
    },
    {
+    "name": "BurnBot",
+    "count": 3
+   },
+   {
+    "name": "California Department of Water Resources",
+    "count": 3
+   },
+   {
     "name": "Caribbean Catastrophe Risk Insurance Facility",
     "count": 3
    },
@@ -1040,7 +1056,11 @@
     "count": 3
    },
    {
-    "name": "Florida Department of Environmental Protection",
+    "name": "Federal Housing Administration",
+    "count": 3
+   },
+   {
+    "name": "Florida Department of Financial Services",
     "count": 3
    },
    {
@@ -1049,6 +1069,10 @@
    },
    {
     "name": "G20",
+    "count": 3
+   },
+   {
+    "name": "Ginnie Mae",
     "count": 3
    },
    {
@@ -1073,6 +1097,10 @@
    },
    {
     "name": "IPCC",
+    "count": 3
+   },
+   {
+    "name": "International Capital Market Association",
     "count": 3
    },
    {
@@ -1112,6 +1140,10 @@
     "count": 3
    },
    {
+    "name": "Nanyang Technological University",
+    "count": 3
+   },
+   {
     "name": "National Association of Counties",
     "count": 3
    },
@@ -1121,6 +1153,10 @@
    },
    {
     "name": "National Centers for Environmental Information",
+    "count": 3
+   },
+   {
+    "name": "Network for Greening the Financial System (NGFS)",
     "count": 3
    },
    {
@@ -1176,10 +1212,6 @@
     "count": 3
    },
    {
-    "name": "U.S. Securities and Exchange Commission",
-    "count": 3
-   },
-   {
     "name": "US Securities and Exchange Commission (SEC)",
     "count": 3
    },
@@ -1200,6 +1232,10 @@
     "count": 3
    },
    {
+    "name": "University of California",
+    "count": 3
+   },
+   {
     "name": "University of California Santa Cruz",
     "count": 3
    },
@@ -1209,6 +1245,10 @@
    },
    {
     "name": "University of Wisconsin-Madison",
+    "count": 3
+   },
+   {
+    "name": "Utrecht University",
     "count": 3
    },
    {
@@ -1292,6 +1332,10 @@
     "count": 2
    },
    {
+    "name": "Arizona State University",
+    "count": 2
+   },
+   {
     "name": "Artemis.bm",
     "count": 2
    },
@@ -1332,10 +1376,6 @@
     "count": 2
    },
    {
-    "name": "BurnBot",
-    "count": 2
-   },
-   {
     "name": "C40 Cities Climate Leadership Group",
     "count": 2
    },
@@ -1361,10 +1401,6 @@
    },
    {
     "name": "California Community Foundation",
-    "count": 2
-   },
-   {
-    "name": "California Department of Water Resources",
     "count": 2
    },
    {
@@ -1480,7 +1516,19 @@
     "count": 2
    },
    {
+    "name": "Delft University of Technology",
+    "count": 2
+   },
+   {
     "name": "Delos",
+    "count": 2
+   },
+   {
+    "name": "Deltares",
+    "count": 2
+   },
+   {
+    "name": "Department of Homeland Security",
     "count": 2
    },
    {
@@ -1516,6 +1564,14 @@
     "count": 2
    },
    {
+    "name": "European Environment Agency",
+    "count": 2
+   },
+   {
+    "name": "European Financial Reporting Advisory Group",
+    "count": 2
+   },
+   {
     "name": "European Insurance and Occupational Pensions Authority",
     "count": 2
    },
@@ -1532,11 +1588,11 @@
     "count": 2
    },
    {
-    "name": "Federal Home Loan Bank of Dallas",
+    "name": "Federal Emergency Management Agency (FEMA)",
     "count": 2
    },
    {
-    "name": "Federal Housing Administration",
+    "name": "Federal Home Loan Bank of Dallas",
     "count": 2
    },
    {
@@ -1564,7 +1620,11 @@
     "count": 2
    },
    {
-    "name": "Florida Department of Financial Services",
+    "name": "Florida Office of Insurance Regulation",
+    "count": 2
+   },
+   {
+    "name": "Florida State University",
     "count": 2
    },
    {
@@ -1589,10 +1649,6 @@
    },
    {
     "name": "Germania Insurance",
-    "count": 2
-   },
-   {
-    "name": "Ginnie Mae",
     "count": 2
    },
    {
@@ -1756,6 +1812,10 @@
     "count": 2
    },
    {
+    "name": "Metropolitan Water District of Southern California",
+    "count": 2
+   },
+   {
     "name": "Miami-Dade County Office of Resilience",
     "count": 2
    },
@@ -1784,10 +1844,6 @@
     "count": 2
    },
    {
-    "name": "Nanyang Technological University",
-    "count": 2
-   },
-   {
     "name": "National Association of Insurance Commissioners (NAIC)",
     "count": 2
    },
@@ -1813,10 +1869,6 @@
    },
    {
     "name": "Neptune Research Group",
-    "count": 2
-   },
-   {
-    "name": "Network for Greening the Financial System (NGFS)",
     "count": 2
    },
    {
@@ -1864,11 +1916,19 @@
     "count": 2
    },
    {
+    "name": "Oregon State University",
+    "count": 2
+   },
+   {
     "name": "Palm Beach County",
     "count": 2
    },
    {
     "name": "Pano",
+    "count": 2
+   },
+   {
+    "name": "Pennsylvania State University",
     "count": 2
    },
    {
@@ -2096,7 +2156,11 @@
     "count": 2
    },
    {
-    "name": "University of California",
+    "name": "University College London",
+    "count": 2
+   },
+   {
+    "name": "University of Bologna",
     "count": 2
    },
    {
@@ -2129,10 +2193,6 @@
    },
    {
     "name": "University of Texas at Austin",
-    "count": 2
-   },
-   {
-    "name": "Utrecht University",
     "count": 2
    },
    {
@@ -2180,12 +2240,20 @@
     "count": 2
    },
    {
+    "name": "Yuba Water Agency",
+    "count": 2
+   },
+   {
     "name": "Zillow",
     "count": 2
    },
    {
     "name": "Zoological Society of London",
     "count": 2
+   },
+   {
+    "name": "2M Research",
+    "count": 1
    },
    {
     "name": "60 Decibels",
@@ -2229,6 +2297,10 @@
    },
    {
     "name": "ASEAN Taxonomy Board",
+    "count": 1
+   },
+   {
+    "name": "ASTM International",
     "count": 1
    },
    {
@@ -2312,11 +2384,23 @@
     "count": 1
    },
    {
+    "name": "Amador Water Agency",
+    "count": 1
+   },
+   {
     "name": "America Adapts",
     "count": 1
    },
    {
+    "name": "American Association of State Highway and Transportation Officials",
+    "count": 1
+   },
+   {
     "name": "American Coastal Insurance",
+    "count": 1
+   },
+   {
+    "name": "American Concrete Institute",
     "count": 1
    },
    {
@@ -2396,10 +2480,6 @@
     "count": 1
    },
    {
-    "name": "Arizona State University",
-    "count": 1
-   },
-   {
     "name": "Army Corps of Engineers",
     "count": 1
    },
@@ -2420,7 +2500,15 @@
     "count": 1
    },
    {
+    "name": "Association of Mortgage Investors",
+    "count": 1
+   },
+   {
     "name": "Assured Guaranty",
+    "count": 1
+   },
+   {
+    "name": "Atmospheric",
     "count": 1
    },
    {
@@ -2509,6 +2597,10 @@
    },
    {
     "name": "Beinsure",
+    "count": 1
+   },
+   {
+    "name": "Berhampur University",
     "count": 1
    },
    {
@@ -2648,6 +2740,10 @@
     "count": 1
    },
    {
+    "name": "Bulacan State University",
+    "count": 1
+   },
+   {
     "name": "Buncombe County",
     "count": 1
    },
@@ -2697,6 +2793,10 @@
    },
    {
     "name": "CFA Institute",
+    "count": 1
+   },
+   {
+    "name": "CIMA Research Foundation",
     "count": 1
    },
    {
@@ -2768,6 +2868,10 @@
     "count": 1
    },
    {
+    "name": "California State Water Resources Control Board",
+    "count": 1
+   },
+   {
     "name": "California Wellness Foundation",
     "count": 1
    },
@@ -2777,6 +2881,10 @@
    },
    {
     "name": "Camoin",
+    "count": 1
+   },
+   {
+    "name": "Campus Mérida",
     "count": 1
    },
    {
@@ -2801,6 +2909,10 @@
    },
    {
     "name": "Carlyle Group",
+    "count": 1
+   },
+   {
+    "name": "Carnegie Science",
     "count": 1
    },
    {
@@ -2836,6 +2948,10 @@
     "count": 1
    },
    {
+    "name": "Center for Research and Advanced Studies",
+    "count": 1
+   },
+   {
     "name": "Center for Risk and Insurance Research",
     "count": 1
    },
@@ -2868,6 +2984,10 @@
     "count": 1
    },
    {
+    "name": "Chiang Mai University",
+    "count": 1
+   },
+   {
     "name": "China Agricultural Reinsurance Corporation",
     "count": 1
    },
@@ -2881,6 +3001,10 @@
    },
    {
     "name": "Chinese Academy of Agricultural Sciences",
+    "count": 1
+   },
+   {
+    "name": "Chulalongkorn University",
     "count": 1
    },
    {
@@ -3000,6 +3124,10 @@
     "count": 1
    },
    {
+    "name": "City of St. Augustine",
+    "count": 1
+   },
+   {
     "name": "City of Toronto",
     "count": 1
    },
@@ -3112,6 +3240,10 @@
     "count": 1
    },
    {
+    "name": "Colfax-Todds Valley Consolidated Tribe",
+    "count": 1
+   },
+   {
     "name": "Colorado Clean Energy Fund",
     "count": 1
    },
@@ -3137,6 +3269,10 @@
    },
    {
     "name": "Commodity Futures Trading Commission (CFTC)",
+    "count": 1
+   },
+   {
+    "name": "Commonwealth Scientific Industrial Research Organisation",
     "count": 1
    },
    {
@@ -3185,6 +3321,10 @@
    },
    {
     "name": "Consorcio de Compensación de Seguros",
+    "count": 1
+   },
+   {
+    "name": "Construction Industry Licensing Board",
     "count": 1
    },
    {
@@ -3276,6 +3416,10 @@
     "count": 1
    },
    {
+    "name": "Cranfield University",
+    "count": 1
+   },
+   {
     "name": "Crawford",
     "count": 1
    },
@@ -3332,6 +3476,10 @@
     "count": 1
    },
    {
+    "name": "Davis",
+    "count": 1
+   },
+   {
     "name": "DebtBook",
     "count": 1
    },
@@ -3340,23 +3488,11 @@
     "count": 1
    },
    {
-    "name": "Delft University of Technology",
-    "count": 1
-   },
-   {
     "name": "Deloitte Consulting LLP",
     "count": 1
    },
    {
-    "name": "Deltares",
-    "count": 1
-   },
-   {
     "name": "Department of Economic Development and Commerce of Puerto Rico",
-    "count": 1
-   },
-   {
-    "name": "Department of Homeland Security",
     "count": 1
    },
    {
@@ -3420,6 +3556,10 @@
     "count": 1
    },
    {
+    "name": "Dutch Authority for Financial Markets",
+    "count": 1
+   },
+   {
     "name": "ECC",
     "count": 1
    },
@@ -3449,6 +3589,10 @@
    },
    {
     "name": "Earth Analytics Group",
+    "count": 1
+   },
+   {
+    "name": "East Bay Municipal Utility District",
     "count": 1
    },
    {
@@ -3493,6 +3637,10 @@
    },
    {
     "name": "Elemental Impact",
+    "count": 1
+   },
+   {
+    "name": "Elkhorn Slough National Estuarine Research Reserve",
     "count": 1
    },
    {
@@ -3552,6 +3700,10 @@
     "count": 1
    },
    {
+    "name": "Environmental Working Group",
+    "count": 1
+   },
+   {
     "name": "Envision ESG",
     "count": 1
    },
@@ -3564,15 +3716,15 @@
     "count": 1
    },
    {
+    "name": "European Commission DG CLIMA",
+    "count": 1
+   },
+   {
+    "name": "European Commission Joint Research Centre",
+    "count": 1
+   },
+   {
     "name": "European Development Finance Institutions (EDFI)",
-    "count": 1
-   },
-   {
-    "name": "European Environment Agency",
-    "count": 1
-   },
-   {
-    "name": "European Financial Reporting Advisory Group",
     "count": 1
    },
    {
@@ -3589,6 +3741,14 @@
    },
    {
     "name": "European Investment Bank (EIB Group)",
+    "count": 1
+   },
+   {
+    "name": "European Research Council",
+    "count": 1
+   },
+   {
+    "name": "European Securities and Markets Authority",
     "count": 1
    },
    {
@@ -3621,6 +3781,10 @@
    },
    {
     "name": "FEMA Review Council",
+    "count": 1
+   },
+   {
+    "name": "FINCONS SPA",
     "count": 1
    },
    {
@@ -3665,10 +3829,6 @@
    },
    {
     "name": "Federal Deposit Insurance Corporation (FDIC)",
-    "count": 1
-   },
-   {
-    "name": "Federal Emergency Management Agency (FEMA)",
     "count": 1
    },
    {
@@ -3748,7 +3908,19 @@
     "count": 1
    },
    {
+    "name": "Florida Department of Business and Professional Regulation",
+    "count": 1
+   },
+   {
+    "name": "Florida Department of Economic Opportunity",
+    "count": 1
+   },
+   {
     "name": "Florida Division of Bond Finance",
+    "count": 1
+   },
+   {
+    "name": "Florida Division of Emergency Management (DEM)",
     "count": 1
    },
    {
@@ -3760,15 +3932,7 @@
     "count": 1
    },
    {
-    "name": "Florida Office of Insurance Regulation",
-    "count": 1
-   },
-   {
     "name": "Florida Peninsula",
-    "count": 1
-   },
-   {
-    "name": "Florida State University",
     "count": 1
    },
    {
@@ -3857,6 +4021,10 @@
    },
    {
     "name": "Galapagos Capital",
+    "count": 1
+   },
+   {
+    "name": "Gates Ventures",
     "count": 1
    },
    {
@@ -4036,7 +4204,15 @@
     "count": 1
    },
    {
+    "name": "HDFC ERGO General Insurance",
+    "count": 1
+   },
+   {
     "name": "HEC Montréal",
+    "count": 1
+   },
+   {
+    "name": "HHL Leipzig Graduate School of Management",
     "count": 1
    },
    {
@@ -4045,6 +4221,14 @@
    },
    {
     "name": "HSBC Bank USA",
+    "count": 1
+   },
+   {
+    "name": "HUD Office of Inspector General",
+    "count": 1
+   },
+   {
+    "name": "HUD Office of Policy Development and Research",
     "count": 1
    },
    {
@@ -4084,6 +4268,10 @@
     "count": 1
    },
    {
+    "name": "Hebei Finance University",
+    "count": 1
+   },
+   {
     "name": "Heidelberg Materials",
     "count": 1
    },
@@ -4093,6 +4281,14 @@
    },
    {
     "name": "Herrington & Sutcliffe",
+    "count": 1
+   },
+   {
+    "name": "High-Level Panel for a Sustainable Ocean Economy",
+    "count": 1
+   },
+   {
+    "name": "Hog Island Oyster Company",
     "count": 1
    },
    {
@@ -4204,6 +4400,10 @@
     "count": 1
    },
    {
+    "name": "INTI International University",
+    "count": 1
+   },
+   {
     "name": "IP Quarterly",
     "count": 1
    },
@@ -4233,6 +4433,10 @@
    },
    {
     "name": "Iberdrola",
+    "count": 1
+   },
+   {
+    "name": "Iberostar Hotels",
     "count": 1
    },
    {
@@ -4404,10 +4608,6 @@
     "count": 1
    },
    {
-    "name": "International Capital Market Association",
-    "count": 1
-   },
-   {
     "name": "International Chamber of Commerce (ICC)",
     "count": 1
    },
@@ -4564,6 +4764,10 @@
     "count": 1
    },
    {
+    "name": "Kedge Business School",
+    "count": 1
+   },
+   {
     "name": "Kenya Livestock Insurance Programme",
     "count": 1
    },
@@ -4580,7 +4784,15 @@
     "count": 1
    },
    {
+    "name": "King Mongkut's University of Technology",
+    "count": 1
+   },
+   {
     "name": "Kleinman Center for Energy Policy",
+    "count": 1
+   },
+   {
+    "name": "Koy'o Land Conservancy",
     "count": 1
    },
    {
@@ -4604,6 +4816,10 @@
     "count": 1
    },
    {
+    "name": "La Trobe University",
+    "count": 1
+   },
+   {
     "name": "Landbanking Group",
     "count": 1
    },
@@ -4620,7 +4836,15 @@
     "count": 1
    },
    {
+    "name": "Leiden University (Hazelhoff Centre for Financial Law)",
+    "count": 1
+   },
+   {
     "name": "Lemelson Foundation",
+    "count": 1
+   },
+   {
+    "name": "Leonard and Jayne Abess Center for Ecosystem Science and Policy",
     "count": 1
    },
    {
@@ -4808,10 +5032,6 @@
     "count": 1
    },
    {
-    "name": "Metropolitan Water District of Southern California",
-    "count": 1
-   },
-   {
     "name": "Miami University",
     "count": 1
    },
@@ -4829,6 +5049,10 @@
    },
    {
     "name": "Michigan Municipal League Foundation",
+    "count": 1
+   },
+   {
+    "name": "Michigan State University",
     "count": 1
    },
    {
@@ -4864,11 +5088,19 @@
     "count": 1
    },
    {
+    "name": "Model Library",
+    "count": 1
+   },
+   {
     "name": "Momentus Securities",
     "count": 1
    },
    {
     "name": "Monash University",
+    "count": 1
+   },
+   {
+    "name": "Mote Marine Laboratory",
     "count": 1
    },
    {
@@ -4901,6 +5133,10 @@
    },
    {
     "name": "MunicipalBonds.com",
+    "count": 1
+   },
+   {
+    "name": "My Safe Florida Home",
     "count": 1
    },
    {
@@ -4976,6 +5212,10 @@
     "count": 1
    },
    {
+    "name": "Nanyang Business School",
+    "count": 1
+   },
+   {
     "name": "NatWest Group",
     "count": 1
    },
@@ -4989,6 +5229,10 @@
    },
    {
     "name": "National Center for Climate Change Strategy and International Cooperation",
+    "count": 1
+   },
+   {
+    "name": "National Center for Ecological Analysis and Synthesis",
     "count": 1
    },
    {
@@ -5036,6 +5280,14 @@
     "count": 1
    },
    {
+    "name": "National Flood Insurance Program (NFIP)",
+    "count": 1
+   },
+   {
+    "name": "National Forest Foundation",
+    "count": 1
+   },
+   {
     "name": "National Governors Association",
     "count": 1
    },
@@ -5049,6 +5301,10 @@
    },
    {
     "name": "National Institute of Building Sciences (NIBS)",
+    "count": 1
+   },
+   {
+    "name": "National Institutes of Health",
     "count": 1
    },
    {
@@ -5272,6 +5528,14 @@
     "count": 1
    },
    {
+    "name": "Northwest Florida Water Management District",
+    "count": 1
+   },
+   {
+    "name": "Norway's Climate Risk Commission",
+    "count": 1
+   },
+   {
     "name": "Nova School of Business and Economics",
     "count": 1
    },
@@ -5332,7 +5596,7 @@
     "count": 1
    },
    {
-    "name": "Oregon State University",
+    "name": "Orca Sciences LLC",
     "count": 1
    },
    {
@@ -5376,6 +5640,10 @@
     "count": 1
    },
    {
+    "name": "PBL Netherlands Environmental Assessment Agency",
+    "count": 1
+   },
+   {
     "name": "PBS",
     "count": 1
    },
@@ -5416,6 +5684,10 @@
     "count": 1
    },
    {
+    "name": "Pacific Gas and Electric",
+    "count": 1
+   },
+   {
     "name": "Pacific Insurance and Climate Adaptation Programme (PICAP)",
     "count": 1
    },
@@ -5453,10 +5725,6 @@
    },
    {
     "name": "Penn Program on Regulation",
-    "count": 1
-   },
-   {
-    "name": "Pennsylvania State University",
     "count": 1
    },
    {
@@ -5553,6 +5821,10 @@
    },
    {
     "name": "Project TMRW",
+    "count": 1
+   },
+   {
+    "name": "Projekt DEAL",
     "count": 1
    },
    {
@@ -5672,6 +5944,10 @@
     "count": 1
    },
    {
+    "name": "RILEM",
+    "count": 1
+   },
+   {
     "name": "RMAGIR",
     "count": 1
    },
@@ -5737,6 +6013,10 @@
    },
    {
     "name": "Reask",
+    "count": 1
+   },
+   {
+    "name": "Rebuild Northwest Florida",
     "count": 1
    },
    {
@@ -5836,6 +6116,10 @@
     "count": 1
    },
    {
+    "name": "Rosenstiel School of Marine",
+    "count": 1
+   },
+   {
     "name": "Royal Danish Ministry of Foreign Affairs",
     "count": 1
    },
@@ -5848,11 +6132,19 @@
     "count": 1
    },
    {
+    "name": "S.B.R. Government Women's College",
+    "count": 1
+   },
+   {
     "name": "SCAPE",
     "count": 1
    },
    {
     "name": "SEC (U.S. Securities and Exchange Commission)",
+    "count": 1
+   },
+   {
+    "name": "SECORE International",
     "count": 1
    },
    {
@@ -5900,7 +6192,19 @@
     "count": 1
    },
    {
+    "name": "San Jose State University",
+    "count": 1
+   },
+   {
     "name": "Sant'Anna School of Advanced Studies",
+    "count": 1
+   },
+   {
+    "name": "Santa Barbara",
+    "count": 1
+   },
+   {
+    "name": "Science for Nature and People Partnership",
     "count": 1
    },
    {
@@ -5913,6 +6217,10 @@
    },
    {
     "name": "Securities Commission Malaysia",
+    "count": 1
+   },
+   {
+    "name": "Securities and Exchange Board of India",
     "count": 1
    },
    {
@@ -5936,11 +6244,19 @@
     "count": 1
    },
    {
+    "name": "Sierra Institute for Community and Environment",
+    "count": 1
+   },
+   {
     "name": "Skandinaviska Enskilda Banken AB",
     "count": 1
    },
    {
     "name": "Skyward Wildfire Technologies",
+    "count": 1
+   },
+   {
+    "name": "Small Business Administration (SBA)",
     "count": 1
    },
    {
@@ -5980,6 +6296,10 @@
     "count": 1
    },
    {
+    "name": "South Yuba River Citizens League",
+    "count": 1
+   },
+   {
     "name": "Southeast Asia Disaster Risk Insurance Facility",
     "count": 1
    },
@@ -6005,6 +6325,14 @@
    },
    {
     "name": "Spatial Risk Systems",
+    "count": 1
+   },
+   {
+    "name": "Springer",
+    "count": 1
+   },
+   {
+    "name": "Springer Nature",
     "count": 1
    },
    {
@@ -6104,6 +6432,10 @@
     "count": 1
    },
    {
+    "name": "Swinomish Indian Tribal Community",
+    "count": 1
+   },
+   {
     "name": "Swiss Finance Institute",
     "count": 1
    },
@@ -6192,6 +6524,10 @@
     "count": 1
    },
    {
+    "name": "Texas A&M University",
+    "count": 1
+   },
+   {
     "name": "Texas Water Development Board",
     "count": 1
    },
@@ -6225,6 +6561,10 @@
    },
    {
     "name": "The Finance Hub",
+    "count": 1
+   },
+   {
+    "name": "The George Washington University",
     "count": 1
    },
    {
@@ -6265,6 +6605,10 @@
    },
    {
     "name": "The PFM Group",
+    "count": 1
+   },
+   {
+    "name": "The Pennsylvania State University",
     "count": 1
    },
    {
@@ -6436,6 +6780,10 @@
     "count": 1
    },
    {
+    "name": "U.S. National Science Foundation",
+    "count": 1
+   },
+   {
     "name": "U.S. Resiliency Council",
     "count": 1
    },
@@ -6461,6 +6809,10 @@
    },
    {
     "name": "UC Merced",
+    "count": 1
+   },
+   {
+    "name": "UCD",
     "count": 1
    },
    {
@@ -6540,6 +6892,10 @@
     "count": 1
    },
    {
+    "name": "US Department of Housing and Urban Development",
+    "count": 1
+   },
+   {
     "name": "US Forest Service",
     "count": 1
    },
@@ -6549,6 +6905,10 @@
    },
    {
     "name": "USC CLEAN program",
+    "count": 1
+   },
+   {
+    "name": "USDA Forest Service",
     "count": 1
    },
    {
@@ -6600,6 +6960,10 @@
     "count": 1
    },
    {
+    "name": "United Nations Global Compact",
+    "count": 1
+   },
+   {
     "name": "United Nations University",
     "count": 1
    },
@@ -6648,6 +7012,10 @@
     "count": 1
    },
    {
+    "name": "Universidad Pontificia Comillas",
+    "count": 1
+   },
+   {
     "name": "Universidad de Cantabria",
     "count": 1
    },
@@ -6660,11 +7028,11 @@
     "count": 1
    },
    {
-    "name": "University College Dublin",
+    "name": "Universiti Malaysia Pahang Al-Sultan Abdullah",
     "count": 1
    },
    {
-    "name": "University College London",
+    "name": "University College Dublin",
     "count": 1
    },
    {
@@ -6680,7 +7048,7 @@
     "count": 1
    },
    {
-    "name": "University of Bologna",
+    "name": "University of California Berkeley",
     "count": 1
    },
    {
@@ -6693,6 +7061,10 @@
    },
    {
     "name": "University of Chicago Harris School of Public Policy",
+    "count": 1
+   },
+   {
+    "name": "University of Guelph",
     "count": 1
    },
    {
@@ -6724,6 +7096,10 @@
     "count": 1
    },
    {
+    "name": "University of Massachusetts Boston",
+    "count": 1
+   },
+   {
     "name": "University of Melbourne",
     "count": 1
    },
@@ -6744,7 +7120,15 @@
     "count": 1
    },
    {
+    "name": "University of Namibia",
+    "count": 1
+   },
+   {
     "name": "University of Nebraska",
+    "count": 1
+   },
+   {
+    "name": "University of New South Wales",
     "count": 1
    },
    {
@@ -6772,6 +7156,10 @@
     "count": 1
    },
    {
+    "name": "University of Rhode Island",
+    "count": 1
+   },
+   {
     "name": "University of South Carolina",
     "count": 1
    },
@@ -6784,11 +7172,19 @@
     "count": 1
    },
    {
+    "name": "University of Stavanger",
+    "count": 1
+   },
+   {
     "name": "University of Sussex",
     "count": 1
    },
    {
     "name": "University of Texas School of Public Affairs",
+    "count": 1
+   },
+   {
+    "name": "University of Toronto",
     "count": 1
    },
    {
@@ -6873,6 +7269,10 @@
    },
    {
     "name": "WTW",
+    "count": 1
+   },
+   {
+    "name": "Wageningen University and Research",
     "count": 1
    },
    {
@@ -6996,10 +7396,6 @@
     "count": 1
    },
    {
-    "name": "Yuba Water Agency",
-    "count": 1
-   },
-   {
     "name": "Zenkyoren",
     "count": 1
    },
@@ -7036,22 +7432,30 @@
     "count": 1
    },
    {
+    "name": "and Earth Science",
+    "count": 1
+   },
+   {
     "name": "and Sustainability",
     "count": 1
    },
    {
     "name": "canibuild",
     "count": 1
+   },
+   {
+    "name": "kMatrix Data Services",
+    "count": 1
    }
   ],
   "access": [
    {
     "name": "source",
-    "count": 758
+    "count": 768
    },
    {
     "name": "paywall",
-    "count": 43
+    "count": 54
    }
   ]
  },
@@ -7685,6 +8089,57 @@
    "publisher": "The Epicenter"
   },
   {
+   "nnn": 928,
+   "title": "NatPar: Natural Parametric Modeling",
+   "authors": "Hirbod Assa",
+   "date": "2026-08-26",
+   "year": 2026,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "Capital Markets / Credit / Risk Pricing",
+    "Climate Risk Data / Models / Analytics",
+    "Policy / Regulation / Supervision"
+   ],
+   "geographies": [
+    "Global"
+   ],
+   "institutions": [
+    "Model Library",
+    "UCD"
+   ],
+   "permissions": "Open Access",
+   "url": "https://arxiv.org/pdf/2608.24871",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This paper develops natural parametric (NatPar) insurance as an extension of natural catastrophe (NatCat) modelling, keeping the hazard, exposure, vulnerability and finance pipeline but making a parametric index contractual in place of indemnity loss adjustment. It proposes that basis risk be reported as a distribution through two-sided basis exceedance curves (BEP plus and minus, with portfolio aggregate and occurrence versions) given the same standing as the loss EP curve, and packages this into a minimal reporting template for underwriting, capital and supervisory use. It poses trigger pricing as a loss minimisation over the two-sided basis, with AAL-neutral fair pricing as the symmetric-linear special case. A frost case study with three simulated regions shows that, under AAL-neutral calibration, bounded payouts relocate mismatch across return periods, so the insuree gains at short horizons while the insurer sheds the deep tail, and that tail dependence among hazards, not correlation, can reverse this relocation.",
+   "insights": [
+    "Holding a contract AAL-neutral, the bounded parametric payout cannot follow the unbounded exposure-severity tail, so the insuree gains at short and moderate horizons while the insurer sheds the deep tail past a crossover horizon the conclusion puts at of order a century.",
+    "AAL-neutrality does not imply capital-neutrality: contracts with the same mean loss can have materially different tails under VaR-style solvency measures, and binary designs can concentrate mismatch into capital-relevant quantiles.",
+    "The paper treats the basis exceedance distribution (BEP plus and minus, BAEP and BOEP at portfolio level) as the canonical view of basis risk, with point measures such as correlation read off it rather than substituted for it.",
+    "In Table 11, at a fixed correlation of about 0.3, raising lower tail dependence from a Gaussian copula to a t-copula with 2 degrees of freedom cuts the 200-year dominance margin of the continuous design from 38.76 to 26.58, shifting deep-tail cost back toward the insurer.",
+    "Climate change pushes in two directions: fatter marginal tails move the deep tail toward the insuree, while rising spatial co-occurrence of extremes moves it back toward the insurer, neither visible to a correlation-based portfolio model.",
+    "The empirical calibration uses a Gaussian fit to 65 seasonal observations per region and a stylised lognormal exposure, and the temporal relocation is framed as a testable hypothesis rather than an empirical result."
+   ],
+   "keywords": [
+    "parametric insurance",
+    "NatPar",
+    "catastrophe modelling",
+    "basis risk",
+    "basis exceedance curve",
+    "AAL-neutral pricing",
+    "trigger pricing",
+    "tail dependence",
+    "return periods",
+    "solvency capital",
+    "uninsurability",
+    "frost risk"
+   ],
+   "has_attachment": true,
+   "publisher": "arXiv"
+  },
+  {
    "nnn": 791,
    "title": "The Weekly: When a Spark Can Bankrupt a Utility, the Grid Is Now a Wildfire Defense System",
    "authors": "The Epicenter",
@@ -8070,6 +8525,60 @@
    ],
    "has_attachment": false,
    "publisher": "LinkedIn"
+  },
+  {
+   "nnn": 932,
+   "title": "Mapping Financial and Institutional Theories in Green Bond Research: A Systematic Review and Agenda for Policy and Practice",
+   "authors": "Rieke Fehrenkötter",
+   "date": "2026-08-07",
+   "year": 2026,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Capital Markets / Credit / Risk Pricing",
+    "Disclosure / Metrics / Taxonomies",
+    "Policy / Regulation / Supervision"
+   ],
+   "geographies": [
+    "Global"
+   ],
+   "institutions": [
+    "HHL Leipzig Graduate School of Management",
+    "Climate Bonds Initiative",
+    "International Capital Market Association",
+    "European Investment Bank",
+    "World Bank",
+    "Projekt DEAL"
+   ],
+   "permissions": "Paywall / Proprietary",
+   "url": "https://link.springer.com/article/10.1007/s43546-026-01196-4",
+   "access": "paywall",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This systematic literature review synthesizes 70 empirical studies on green bonds and maps which financial, institutional and signaling theories they use. It finds financial theories (efficient market hypothesis, modern portfolio theory, risk management) dominate work on pricing, diversification and risk mitigation, while institutional and signaling perspectives appear more often in studies of issuer motivation, credibility and investor behavior. Policy and regulatory frameworks remain the least theorized theme. The review proposes an integrative framework in which pricing outcomes are conditioned by disclosure standards, verification and enforcement, with market responses feeding back into governance design, and sets out four research priorities and implications for regulators.",
+   "insights": [
+    "The search returned 1,207 records, reduced to 723 unique entries, 288 papers at ABS Level 2 or above, 116 empirical studies and a final sample of 70 studies (5 medium-low, 34 medium, 24 medium-high and 7 high quality).",
+    "Most empirical studies report a modest greenium within a range of roughly plus or minus 10 basis points, with size and direction depending on benchmark selection and sample composition.",
+    "Green bonds now exceed USD 1 trillion in annual issuance, citing Climate Bonds Initiative 2024, though they remain a small share of global debt markets.",
+    "Risk mitigation and diversification is the most theory-dense research theme, with 28 studies grounded in risk management theory and 21 in modern portfolio theory, while policy and regulatory frameworks draw on at most 2 studies per theory.",
+    "Of the reviewed studies, 30 take a global perspective and country-specific work concentrates on China and the United States, with few studies on Africa, Latin America or Southeast Asia.",
+    "The author argues environmental relevance depends on traceable allocation, credible verification and post-issuance reporting, and that weak disclosure lets green bonds function as reputational instruments."
+   ],
+   "keywords": [
+    "green bonds",
+    "greenium",
+    "systematic literature review",
+    "signaling theory",
+    "institutional theory",
+    "efficient market hypothesis",
+    "portfolio diversification",
+    "greenwashing",
+    "Green Bond Principles",
+    "verification and certification",
+    "sustainable finance",
+    "disclosure"
+   ],
+   "has_attachment": false,
+   "publisher": "Springer"
   },
   {
    "nnn": 441,
@@ -9264,6 +9773,58 @@
    ],
    "has_attachment": false,
    "publisher": "The Epicenter"
+  },
+  {
+   "nnn": 942,
+   "title": "Premium Discounts for Hurricane Loss Mitigation: A Guide for Consumers",
+   "authors": "Florida Department of Financial Services",
+   "date": "2026-07-01",
+   "year": 2026,
+   "resource_type": "Policy Brief",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "Infrastructure & Real Estate Resilience",
+    "Policy / Regulation / Supervision"
+   ],
+   "geographies": [
+    "US",
+    "Florida"
+   ],
+   "institutions": [
+    "Florida Department of Financial Services",
+    "Florida Office of Insurance Regulation",
+    "Construction Industry Licensing Board",
+    "Florida Department of Business and Professional Regulation",
+    "My Safe Florida Home"
+   ],
+   "permissions": "Open Access",
+   "url": "https://myfloridacfo.com/division/ica/planprepareprotect/Mitigation",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This consumer guide explains Florida's requirement that insurers offer windstorm premium discounts for hurricane loss mitigation features on homes. It describes how a qualified inspector documents features on the Uniform Mitigation Verification Inspection Form and how the form is submitted to the insurer. It lists the qualifying features, including roof covering, roof deck attachment, roof to wall connections, hip roof shape, secondary water resistance and shutters, distinguishing homes built before and after the 2001 Florida Building Code. It notes that mitigation can also reduce the hurricane deductible.",
+   "insights": [
+    "Florida requires insurers to offer windstorm premium discounts for hurricane mitigation features, applying only to the windstorm coverage of the policy.",
+    "Insurers must give policyholders the Notice of Premium Discounts for Hurricane Loss Mitigation with each new policy and at each renewal.",
+    "Homes built to the 2001 Florida Building Code or later, including the 1994 South Florida Building Code in Miami-Dade and Broward, are automatically eligible for a minimum 68% discount on windstorm coverage.",
+    "A new Uniform Mitigation Verification Inspection Form approved by OIR in 2026 must be used for inspections on or after April 1, 2026, and a completed form is valid for five years.",
+    "Securing the roof and protecting windows from debris are described as the two most cost-effective mitigation measures."
+   ],
+   "keywords": [
+    "wind mitigation",
+    "premium discounts",
+    "hurricane",
+    "windstorm insurance",
+    "Florida",
+    "building code",
+    "mitigation inspection",
+    "hurricane deductible",
+    "roof to wall connections",
+    "shutters",
+    "insurance regulation"
+   ],
+   "has_attachment": true,
+   "publisher": "Florida Department of Financial Services"
   },
   {
    "nnn": 909,
@@ -17151,6 +17712,119 @@
    "publisher": "Nature Cities"
   },
   {
+   "nnn": 944,
+   "title": "Impact Report 2025",
+   "authors": "Blue Forest",
+   "date": "2026-01-01",
+   "year": 2026,
+   "resource_type": "Report",
+   "themes": [
+    "Nature-Based Solutions & Natural Capital",
+    "Blended / Catalytic / Outcomes-Based Finance",
+    "Adaptation Finance Flows & Capital Mobilization"
+   ],
+   "geographies": [
+    "US",
+    "California"
+   ],
+   "institutions": [
+    "Blue Forest",
+    "USDA Forest Service",
+    "Yuba Water Agency",
+    "Metropolitan Water District of Southern California",
+    "Pacific Gas and Electric",
+    "California Department of Water Resources",
+    "Sierra Institute for Community and Environment",
+    "Koy'o Land Conservancy",
+    "Colfax-Todds Valley Consolidated Tribe",
+    "South Yuba River Citizens League",
+    "Amador Water Agency",
+    "East Bay Municipal Utility District",
+    "World Resources Institute",
+    "National Forest Foundation",
+    "BurnBot"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.blueforest.org/our-impact/annual-reports/",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "Blue Forest's 2025 Impact Report documents the Forest Resilience Bond (FRB), a model in which upfront private capital finances forest restoration on public and private land and beneficiaries such as water and electric utilities repay or cost-share the work. In 2025 Blue Forest launched a record five FRBs, bringing its portfolio to 12, including the first Tribal-led FRB, the first focused on aspen and meadow restoration and the first implemented solely on private lands. The report shows how utilities exposed to wildfire risk, including Metropolitan Water District, California Department of Water Resources and PG&E, are co-funding restoration as an investment in system reliability. It also reports on the $50 million California Wildfire Innovation Fund and a pilot in which documented fuels mitigation lowered a community's insurance premiums.",
+   "insights": [
+    "Blue Forest launched five FRBs in 2025, bringing its total to 12 launched FRBs, nearly half of them launched in that one year.",
+    "Across 11 active FRBs in 2025, Blue Forest deployed $20.9 million for ecosystem resilience, supported 278 jobs and protected 21,215 acres.",
+    "The USDA Forest Service reports that Blue Forest and partners have secured $70 million in non-federal funding for FRB projects since its first memorandum in 2017.",
+    "After 61 acres of treatment in Tyrolian Village, the McCloud Condo Association three miles away received an approximately 33% reduction in insurance premiums.",
+    "The Plumas Community Protection I FRB is projected to reduce wildfire flame length by 79%, shifting the fire regime from crown fire to low-severity surface fire.",
+    "Blue Forest manages the $50 million California Wildfire Innovation Fund I, which held investments in five forest management, wood utilization and wildfire mitigation companies at year-end 2025."
+   ],
+   "keywords": [
+    "Forest Resilience Bond",
+    "wildfire risk",
+    "forest restoration",
+    "conservation finance",
+    "utility co-funding",
+    "Tribal-led stewardship",
+    "California",
+    "watershed protection",
+    "catalytic capital",
+    "insurance premium reduction",
+    "California Wildfire Innovation Fund",
+    "Blue Forest"
+   ],
+   "has_attachment": true,
+   "publisher": "Blue Forest"
+  },
+  {
+   "nnn": 938,
+   "title": "Resilient Futures: Intellectual and Thematic Pathways in Financial Resilience Research and Their Relevance to Well-Being",
+   "authors": "Changhe Wu; Walton Wider; Mengxi Yang; Hao Wu; Nasyra Ab. Jamil; Muhammad Ashraf Fauzi; Eugene Burgos Mutuc",
+   "date": "2026-01-01",
+   "year": 2026,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Insurance / Risk Transfer"
+   ],
+   "geographies": [
+    "Global"
+   ],
+   "institutions": [
+    "INTI International University",
+    "Hebei Finance University",
+    "Universiti Malaysia Pahang Al-Sultan Abdullah",
+    "Bulacan State University"
+   ],
+   "permissions": "Paywall / Proprietary",
+   "url": "https://www.nature.com/articles/s41599-026-06641-1",
+   "access": "paywall",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This bibliometric review maps 527 Web of Science publications on financial resilience indexed through 20 November 2025, using citation analysis, bibliographic coupling, co-word analysis, thematic mapping and trend topics. It identifies five thematic clusters: governance, technology and firm resilience; financial inclusion and household capability; public-sector accounting and crisis governance; individual capability and financial behavior; and multidimensional and social-ecological resilience. It traces a shift from household-focused work to systemic, cross-level models, with emerging themes since 2020 including mental health, ESG, climate-related risk, digital finance and adaptive governance.",
+   "insights": [
+    "The 527 publications received 5557 citations excluding 854 self-citations, with an h-index of 33 and 10.54 citations per article.",
+    "The United States leads with 83 publications, followed by China with 81 and England with 75.",
+    "Suri and Jack (2016) on mobile money is the most cited work with 513 citations, followed by Hayward et al. (2010) with 293 and Klapper and Lusardi (2020) with 248.",
+    "COVID-19 is among the 15 most frequent keywords with 38 occurrences, reflecting the pandemic's role in the field's growth.",
+    "The review cites climate-adaptive financial tools such as crop insurance and disaster relief funds as ways to link financial resilience to environmental risk."
+   ],
+   "keywords": [
+    "financial resilience",
+    "bibliometric analysis",
+    "Web of Science",
+    "bibliographic coupling",
+    "co-word analysis",
+    "financial inclusion",
+    "financial literacy",
+    "public-sector accounting",
+    "COVID-19",
+    "climate-related risk",
+    "well-being",
+    "digital finance"
+   ],
+   "has_attachment": false,
+   "publisher": "Nature"
+  },
+  {
    "nnn": 926,
    "title": "Gaining Ground: State of Private Investment in Nature, 2026",
    "authors": "Genevieve Bennett; Luiza Lucena; Catherine Burns; Kourtney Watkins",
@@ -20197,6 +20871,61 @@
    ],
    "has_attachment": true,
    "publisher": "European Commission"
+  },
+  {
+   "nnn": 935,
+   "title": "Conceptual Perspectives on Climate Risk Disclosures for Businesses and Public Sector",
+   "authors": "Konstantina Karatzoudi; Todd Denham; Terje Aven",
+   "date": "2025-12-01",
+   "year": 2025,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Disclosure / Metrics / Taxonomies",
+    "Policy / Regulation / Supervision"
+   ],
+   "geographies": [
+    "Global",
+    "Europe",
+    "Oceania"
+   ],
+   "institutions": [
+    "University of Stavanger",
+    "La Trobe University",
+    "Task Force on Climate-related Financial Disclosures",
+    "Financial Stability Board",
+    "Norway's Climate Risk Commission",
+    "International Sustainability Standards Board",
+    "Bank of England"
+   ],
+   "permissions": "Paywall / Proprietary",
+   "url": "https://link.springer.com/article/10.1007/s10584-025-04058-4",
+   "access": "paywall",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This conceptual paper argues that firm-level, largely voluntary climate risk disclosure under the TCFD cannot address systemic and interconnected climate risk or serve the public interest. It reviews TCFD implementation, citing symbolic disclosure, weak scenario analysis, omission of tipping points and underreporting of physical risk. It proposes a public sector climate risk disclosure framework built on the 2018 recommendations of Norway's Climate Risk Commission, adding systemic interdependencies, comprehensive risk assessment, resilience building for vulnerable communities, scientific rigor and public good outcomes. The authors call for empirical testing of the framework through case studies.",
+   "insights": [
+    "The paper cites Condon (2022) that only 9% of surveyed companies explicitly address the resilience of their business models to climate risk, with physical risks underreported relative to transition risks.",
+    "TCFD recommendations rest on firm-level financial materiality and voluntary compliance, which the authors argue excludes the public sector's role in infrastructure exposure, procurement and adaptation funding.",
+    "The proposed framework keeps Norway's four themes (governance, risk description, risk management measures, risk measurements and methods) and adds components such as systemic risk identification, engaging vulnerable communities and public good outcomes.",
+    "The authors argue climate risk information has public good characteristics, being non-excludable and non-rivalrous, so public bodies should disclose it.",
+    "The paper identifies the omission of climate tipping points from most disclosure scenarios as a critical gap."
+   ],
+   "keywords": [
+    "climate risk disclosure",
+    "TCFD",
+    "systemic risk",
+    "public sector disclosure",
+    "physical risk",
+    "transition risk",
+    "tipping points",
+    "precautionary principle",
+    "Norway Climate Risk Commission",
+    "public good",
+    "financial stability",
+    "resilience"
+   ],
+   "has_attachment": false,
+   "publisher": "Springer"
   },
   {
    "nnn": 890,
@@ -25621,6 +26350,73 @@
    "publisher": "Zenodo"
   },
   {
+   "nnn": 948,
+   "title": "Beyond Peak Water Security: Household-Scale Experiential Metrics Can Offer New Perspectives on Contemporary Water Challenges in the United States",
+   "authors": "Wendy Jepson; Amber Wutich; Amber L. Pearson; Melissa Beresford; Alexandra Brewis; Alicia Cooperman; Jeremiah Osborne-Gowey; Jenny Rempel; Asher Y. Rosinger; Justin Stoler",
+   "date": "2025-08-12",
+   "year": 2025,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Infrastructure & Real Estate Resilience",
+    "Climate Risk Data / Models / Analytics"
+   ],
+   "geographies": [
+    "US",
+    "California",
+    "Texas",
+    "Michigan",
+    "Louisiana",
+    "North Carolina",
+    "Massachusetts"
+   ],
+   "institutions": [
+    "Texas A&M University",
+    "Arizona State University",
+    "Michigan State University",
+    "San Jose State University",
+    "The George Washington University",
+    "University of California Berkeley",
+    "Pennsylvania State University",
+    "University of Miami",
+    "U.S. National Science Foundation",
+    "National Institutes of Health",
+    "Environmental Protection Agency",
+    "U.S. Census Bureau",
+    "U.S. Geological Survey",
+    "Environmental Working Group",
+    "California State Water Resources Control Board"
+   ],
+   "permissions": "Open Access",
+   "url": "https://doi.org/10.1371/journal.pwat.0000413",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This essay argues that the United States has moved beyond peak water security, as degrading infrastructure, institutional inertia and climate change reduce households' access to safe, adequate and affordable water. It shows that existing data are supply-side measures of system performance that miss household experiences of affordability, reliability, quality and trust. The authors describe their HWISE-USA project to validate a household water insecurity scale for the U.S. and high-income contexts, and explain through a logic model how such demand-side metrics can target infrastructure investment, pricing and disaster response.",
+   "insights": [
+    "The gap between U.S. water infrastructure needs and spending is projected to grow to a record $91 billion, with a cumulative gap of over $2 trillion by 2043.",
+    "Approximately 1.1 million people lacked running water at home in the U.S. in 2021, an estimated 71.7% of them in cities; households lacking complete plumbing rose from 391,882 in 2012 to 522,752 in 2021.",
+    "In 2015 nearly 21 million people relied on community water systems out of compliance with health-based standards, and about 20% of Americans do not drink their tap water.",
+    "The 2021 CALSPEAKS survey found about 25% of California residents distressed about water access, 15% concerned about health risks from water quality, and 7% struggling to afford water bills.",
+    "California residents held almost $1 billion in water debt, most of it forgiven in 2024 with federal funding, and Lowell, Massachusetts saw more than 2,800 real estate liens from water bills in 2018."
+   ],
+   "keywords": [
+    "household water insecurity",
+    "peak water security",
+    "HWISE-USA",
+    "water affordability",
+    "aging infrastructure",
+    "climate change",
+    "water shutoffs",
+    "plumbing poverty",
+    "demand-side metrics",
+    "disaster response",
+    "infrastructure investment",
+    "water utilities"
+   ],
+   "has_attachment": true,
+   "publisher": "PLOS"
+  },
+  {
    "nnn": 408,
    "title": "When Affordability Is a Challenge, How Do We Address Extreme Weather? [Episode 1]",
    "authors": "Stuart Yasgur (host); Krista Egger (guest)",
@@ -26146,6 +26942,64 @@
    "publisher": "InsTech"
   },
   {
+   "nnn": 947,
+   "title": "Adaptation Planning in the Context of a Weakening and Possibly Collapsing Atlantic Meridional Overturning Circulation (AMOC)",
+   "authors": "Robbert Biesbroek; Marjolijn Haasnoot; Katharine J. Mach; Arthur C. Petersen",
+   "date": "2025-07-02",
+   "year": 2025,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Climate Risk Data / Models / Analytics",
+    "Policy / Regulation / Supervision"
+   ],
+   "geographies": [
+    "Global",
+    "Europe",
+    "US"
+   ],
+   "institutions": [
+    "Wageningen University and Research",
+    "Deltares",
+    "Utrecht University",
+    "University of Miami",
+    "Rosenstiel School of Marine",
+    "Atmospheric",
+    "and Earth Science",
+    "Leonard and Jayne Abess Center for Ecosystem Science and Policy",
+    "University College London",
+    "European Environment Agency"
+   ],
+   "permissions": "Open Access",
+   "url": "https://doi.org/10.1007/s10113-025-02434-5",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This short communication argues that the possible strong weakening or collapse of the Atlantic Meridional Overturning Circulation should not delay adaptation but should be built into adaptation planning as a high-impact, low-likelihood scenario. It proposes five ways to do so: broaden the futures considered, develop adaptation pathways beyond the likely range, build robustness, flexibility and redundancy into adaptation portfolios, expand the solution space, and monitor weak signals linked to concrete decision points. It calls for closer collaboration between climate scientists and the adaptation planning community.",
+   "insights": [
+    "AMOC weakening or collapse could add 10–25 cm of sea level rise by the end of the century along the US coast, alongside strong and rapid cooling in Europe.",
+    "Changes in AMOC matter most for long-lived measures such as seawalls, harbours, energy networks and urban expansion.",
+    "Robust and redundant adaptation portfolios cost more but serve as low-regret options, since measures such as urban greening also deliver co-benefits if AMOC stays stable.",
+    "Expanding the solution space includes building emergency funding schemes usable only when urgent climate action is required and policy frameworks with review or sunset clauses.",
+    "Monitoring should be tied to decision points such as triggering contingency planning, adjusting infrastructure timelines or revising long-term investment strategies, and should include societal indicators such as financial flows."
+   ],
+   "keywords": [
+    "AMOC",
+    "tipping points",
+    "adaptation pathways",
+    "deep uncertainty",
+    "robustness",
+    "redundancy",
+    "solution space",
+    "early warning signals",
+    "sea level rise",
+    "adaptation planning",
+    "low-regret options",
+    "emergency funding"
+   ],
+   "has_attachment": true,
+   "publisher": "Springer"
+  },
+  {
    "nnn": 901,
    "title": "Practical Guidance on Implementing Adaptation and Resilience for Banks",
    "authors": "Alice Anders; Gary Power; Noah Wescombe; Paul Smith; Aditi Srivastava; Johanna Dichtl; Diana Diaz; Craig Davies; Mark Bernhofen; Roberto Spacey Martín",
@@ -26389,6 +27243,69 @@
    ],
    "has_attachment": true,
    "publisher": "UN Office for Disaster Risk Reduction"
+  },
+  {
+   "nnn": 934,
+   "title": "Blue Bonds: Sustainable Financing for the Blue Economy Around the Indian Ocean",
+   "authors": "Ebbe Rogge",
+   "date": "2025-06-18",
+   "year": 2025,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Capital Markets / Credit / Risk Pricing",
+    "Nature-Based Solutions & Natural Capital",
+    "Policy / Regulation / Supervision",
+    "Disclosure / Metrics / Taxonomies"
+   ],
+   "geographies": [
+    "Asia",
+    "Africa"
+   ],
+   "institutions": [
+    "Leiden University (Hazelhoff Centre for Financial Law)",
+    "Dutch Authority for Financial Markets",
+    "Securities and Exchange Board of India",
+    "Asian Development Bank",
+    "International Capital Market Association",
+    "International Finance Corporation",
+    "UNEP Finance Initiative",
+    "United Nations Global Compact",
+    "Climate Bonds Initiative",
+    "World Bank",
+    "OECD",
+    "High-Level Panel for a Sustainable Ocean Economy",
+    "European Securities and Markets Authority"
+   ],
+   "permissions": "Paywall / Proprietary",
+   "url": "https://link.springer.com/article/10.1007/s41020-025-00263-5",
+   "access": "paywall",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This legal article reviews the standards and regulatory framework for blue bonds, debt whose proceeds finance sustainable ocean and marine projects under UN SDG 14, with a focus on India and the Indian Ocean region. It traces how green bond standards (ICMA principles, Climate Bonds Initiative certification, the EU Green Bond Regulation) and the ICMA, ADB and IFC blue bond guidance address use of proceeds, verification and reporting. It identifies challenges similar to early green bonds: defining blue narrowly enough to exclude extractive activities, measuring outcomes in fluid ocean systems, and supervising external verifiers. It recommends a clear definition of blue, regulatory backing such as SEBI's rules, outside assistance for small island issuers and extra care with debt-for-nature swaps.",
+   "insights": [
+    "The blue bond guidance cited records issuance of USD 5 billion between 2018 and 2022.",
+    "Seychelles and Indonesia have issued sovereign blue bonds, and the Asian Development Bank has set up a blue bond incubator.",
+    "The guidance excludes non-renewable extractive industries such as oil and gas, dredging and deep-sea mining, whereas a wider blue economy concept could include them, creating bluewashing risk.",
+    "India has 7,517 km of coastline, 1,382 islands, 12 major and 187 non-major ports, and 95% of its trade volume moves by sea.",
+    "The author proposes supervising external verifiers of green and blue bonds along the lines of the EU ESG Rating Agency Regulation and SEBI's 2023 rules for ESG rating providers.",
+    "Blue bonds issued within debt-for-nature swaps may not meet expected standards on use of proceeds and verification."
+   ],
+   "keywords": [
+    "blue bonds",
+    "blue economy",
+    "green bonds",
+    "sustainability-linked bonds",
+    "bluewashing",
+    "SEBI",
+    "Asian Development Bank",
+    "ICMA",
+    "external verification",
+    "debt-for-nature swap",
+    "Indian Ocean",
+    "SDG 14"
+   ],
+   "has_attachment": false,
+   "publisher": "Springer"
   },
   {
    "nnn": 44,
@@ -29746,6 +30663,214 @@
    "publisher": "Science Advances"
   },
   {
+   "nnn": 941,
+   "title": "Index-based Insurance Design for Climate and Weather Risk Management: A Review",
+   "authors": "Wenjun Zhu; Jinggong Zhang; Lysa Porth; Ken Seng Tan",
+   "date": "2025-01-01",
+   "year": 2025,
+   "resource_type": "Book",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "Climate Risk Data / Models / Analytics"
+   ],
+   "geographies": [
+    "Global"
+   ],
+   "institutions": [
+    "Nanyang Technological University",
+    "Nanyang Business School",
+    "University of Guelph",
+    "Springer",
+    "HDFC ERGO General Insurance",
+    "World Bank"
+   ],
+   "permissions": "Paywall / Proprietary",
+   "url": "https://link.springer.com/chapter/10.1007/978-3-031-80574-5_2",
+   "access": "paywall",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This book chapter reviews the design of index-based insurance for climate and weather risk, chiefly in agriculture. It sets out the actuarial framework for optimal index payout design under utility and tail-risk objectives, data-driven and neural network approaches, and the premium principles used in agricultural ratemaking. It explains why uptake remains low, identifying basis risk as the main barrier alongside prospect theory, ambiguity aversion, complexity aversion and other factors. It also covers weather index programs and how AI and blockchain could improve risk modelling, underwriting and claims.",
+   "insights": [
+    "Adverse weather is estimated to cause 70-90% of agricultural production loss, creating a strong incentive to hedge weather risk.",
+    "Enrollment in Canadian index insurance programs such as forage index insurance is estimated to be as low as 10% in some provinces, with basis risk the main cause.",
+    "Basis risk has three sources in agricultural index insurance: variable, spatial and temporal basis risk.",
+    "Willingness-to-pay surveys in the U.S. found insurance demand drops by more than 20% when a policy has just a 1% chance of contractual nonperformance.",
+    "In a Kenyan lab-in-the-field experiment, a one standard deviation increase in loss aversion reduced desired coverage by 20% relative to the mean for high basis risk index insurance.",
+    "A neural network-based index contract built on a high-dimensional weather index system shows significantly lower basis risk than a single-index piecewise linear contract."
+   ],
+   "keywords": [
+    "index insurance",
+    "weather index insurance",
+    "basis risk",
+    "agricultural insurance",
+    "premium principles",
+    "actuarial design",
+    "parametric insurance",
+    "prospect theory",
+    "ambiguity aversion",
+    "neural networks",
+    "blockchain",
+    "smart contracts",
+    "climate risk"
+   ],
+   "has_attachment": false,
+   "publisher": "Springer"
+  },
+  {
+   "nnn": 940,
+   "title": "Private Investments in Climate Change Adaptation Are Increasing in Europe, Although Sectoral Differences Remain",
+   "authors": "Ignasi Cortés Arbués; Theodoros Chatzivasileiadis; Servaas Storm; Olga Ivanova; Tatiana Filatova",
+   "date": "2025-01-01",
+   "year": 2025,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Adaptation Finance Flows & Capital Mobilization",
+    "Climate Risk Data / Models / Analytics"
+   ],
+   "geographies": [
+    "Europe"
+   ],
+   "institutions": [
+    "Delft University of Technology",
+    "PBL Netherlands Environmental Assessment Agency",
+    "kMatrix Data Services",
+    "European Research Council",
+    "Springer Nature"
+   ],
+   "permissions": "Paywall / Proprietary",
+   "url": "https://www.nature.com/articles/s43247-025-02454-3",
+   "access": "paywall",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This article measures how much private firms invest in climate change adaptation, using a panel dataset of realised adaptation transactions across 28 European countries (the EU and the UK), 19 NACE economic sectors and five hazard types for 2018 to 2022. It finds adaptation investment is low but rising, at 0.15–0.92% of national GDP and growing by 30.6–37.4% a year, with heatwaves and flooding attracting most spending. Manufacturing and wholesale and retail trade invest far less in adaptation than their share of GDP, while water supply and public administration are adaptation-intensive. A fixed-effects panel regression shows that public adaptation spending crowds in private adaptation investment, and that private investment grows after recent floods, heatwaves and wildfires.",
+   "insights": [
+    "Total yearly private adaptation investment in the EU and UK rose from 15.4 billion EUR in 2018 to 52.9 billion EUR by 2022 (2018 constant prices), a 243% increase over 5 years.",
+    "The Netherlands spends the most on adaptation relative to its economy, averaging 0.58% of GDP and peaking at 0.92% in 2022; Ireland is lowest at 0.07%.",
+    "Manufacturing and Wholesale and Retail Trade invest four (0.25) to five (0.20) times less in adaptation than their sectors' gross value added share in GDP.",
+    "A 1% rise in public adaptation spending is associated with a 0.28% rise in private adaptation investment (coefficient 0.279, standard error 0.062), a crowding-in effect.",
+    "The public share of total adaptation is stable across the panel, with a mean of 25.5% and a standard deviation of 0.3%.",
+    "Wildfires (1.6–3.9%) and Drought (0.5–1.2%) attract a negligible share of adaptation investment, while five countries direct over 40% of their adaptation investment to flooding."
+   ],
+   "keywords": [
+    "private adaptation investment",
+    "climate change adaptation",
+    "Europe",
+    "crowding in",
+    "public adaptation spending",
+    "sectoral adaptation intensity",
+    "heatwaves",
+    "flooding",
+    "panel regression",
+    "kMatrix",
+    "NACE sectors",
+    "adaptation finance"
+   ],
+   "has_attachment": false,
+   "publisher": "Nature"
+  },
+  {
+   "nnn": 936,
+   "title": "Financial Inclusion and Financial Resilience: Insights from Current Literature and Future Research Agenda Through Bibliometric and Content Analysis Approach",
+   "authors": "Maheswar Sethi; Chandrika Prasad Das; Suman Bindu; Tushar Bisoyi",
+   "date": "2025-01-01",
+   "year": 2025,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Resilience Returns & the Economic Case"
+   ],
+   "geographies": [
+    "Global",
+    "Asia",
+    "Africa"
+   ],
+   "institutions": [
+    "Berhampur University",
+    "S.B.R. Government Women's College",
+    "World Bank",
+    "Kedge Business School",
+    "University of Namibia",
+    "University of New South Wales"
+   ],
+   "permissions": "Paywall / Proprietary",
+   "url": "https://link.springer.com/article/10.1007/s43621-025-00997-1",
+   "access": "paywall",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This review applies bibliometric and content analysis to 62 studies, published from 2009 to 2024, that address both financial inclusion and financial resilience. It maps publication growth, influential authors, journals, institutions and countries, and keyword clusters. It finds the field is small, fast growing since 2022 and weakly collaborative, with few studies on emerging economies including India. It identifies digital financial inclusion, fishing communities and people with uncertain incomes as under-researched.",
+   "insights": [
+    "The search across six databases yielded 62 documents after removing 41 duplicates, written by 175 authors, with an average of 16.74 citations per article.",
+    "Publications rose from 1 in 2009 and 9 in 2019 to 16 in 2023 and 16 in 2024 up to the collection date.",
+    "China (16 documents), the USA (10), India (9) and Malaysia (9) are the most productive countries.",
+    "Khan (2012), Financial Inclusion and Financial Stability: Are They Two Sides of the Same Coin?, is the most cited document with 306 citations.",
+    "By Lotka's law, 172 of 175 authors (98%) published only one paper in the field.",
+    "Keyword trend analysis shows economic resilience, COVID-19, microfinance and climate resilience emerging from 2024."
+   ],
+   "keywords": [
+    "financial inclusion",
+    "financial resilience",
+    "digital financial inclusion",
+    "bibliometric analysis",
+    "content analysis",
+    "economic resilience",
+    "microfinance",
+    "financial literacy",
+    "VOSviewer",
+    "fishing communities",
+    "India",
+    "SDGs"
+   ],
+   "has_attachment": false,
+   "publisher": "Springer"
+  },
+  {
+   "nnn": 933,
+   "title": "Near-Term Benefits from Investment in Climate Adaptation Complement Long-Term Economic Returns from Emissions Reduction",
+   "authors": "Lei Duan; Angelo Carlino; Ken Caldeira",
+   "date": "2025-01-01",
+   "year": 2025,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Resilience Returns & the Economic Case",
+    "Adaptation Finance Flows & Capital Mobilization"
+   ],
+   "geographies": [
+    "Global"
+   ],
+   "institutions": [
+    "Carnegie Science",
+    "Orca Sciences LLC",
+    "Gates Ventures"
+   ],
+   "permissions": "Paywall / Proprietary",
+   "url": "https://www.nature.com/articles/s43247-024-01976-6",
+   "access": "paywall",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "Using a modified DICE integrated assessment model with an added adaptation decision variable, this paper compares the timescales of return on investment in emissions abatement and in climate adaptation. Adaptation returns on a much shorter timescale (18 plus or minus 6 years) than abatement (95 plus or minus 6 years), with abatement driven by the discount rate and adaptation by the capital depreciation rate. Combining both strategies brings the break-even year forward and raises returns relative to either alone. The value of adaptation is higher under less stringent emissions policies and when resources are limited.",
+   "insights": [
+    "The average investment return time is 95 plus or minus 6 years for abatement and 18 plus or minus 6 years for adaptation.",
+    "Adding adaptation advances the break-even year from year 51 to 45 under the Prescribed-emissions framing and from year 47 to 35 under the Balancing framing.",
+    "Under the optimal policy framing, returns per dollar invested in both strategies are 14% larger than abatement only and 65% larger than adaptation only.",
+    "Halving the discount rate raises abatement return time by 85% to 176 years; halving the depreciation rate raises adaptation return time by 87% to 33 years.",
+    "With emissions ramp-downs over 25, 50 and 100 years, the NPV of return on each dollar invested in adaptation is 2.00, 2.69 and 3.96 T$ per T$, rising as stringency falls."
+   ],
+   "keywords": [
+    "climate adaptation",
+    "emissions abatement",
+    "DICE model",
+    "integrated assessment model",
+    "return on investment",
+    "investment return time",
+    "break-even year",
+    "discount rate",
+    "capital depreciation",
+    "adaptation finance",
+    "climate damage"
+   ],
+   "has_attachment": false,
+   "publisher": "Nature"
+  },
+  {
    "nnn": 927,
    "title": "A Sustainable Circular Framework for Financing Infrastructure Climate Adaptation: Integrated Carbon Markets",
    "authors": "Chao Li; Xing Su; Chao Fan; Jun Wang; Xiangyu Wang",
@@ -32176,6 +33301,62 @@
    ],
    "has_attachment": false,
    "publisher": "The Epicenter"
+  },
+  {
+   "nnn": 946,
+   "title": "Concrete Infrastructure: Recent Advancements and Needs with a Focus on North America",
+   "authors": "P. Castro-Borges; O.B. Isgor; I.G. Ogunsanya; D.K. Panesar; P. Suraneni; J. Weiss",
+   "date": "2024-11-15",
+   "year": 2024,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Infrastructure & Real Estate Resilience"
+   ],
+   "geographies": [
+    "US",
+    "Latin America"
+   ],
+   "institutions": [
+    "Center for Research and Advanced Studies",
+    "Campus Mérida",
+    "Oregon State University",
+    "University of Toronto",
+    "University of Miami",
+    "RILEM",
+    "American Association of State Highway and Transportation Officials",
+    "ASTM International",
+    "American Concrete Institute",
+    "Intergovernmental Panel on Climate Change"
+   ],
+   "permissions": "Open Access",
+   "url": "https://doi.org/10.21809/rilemtechlett.2024.191",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This technical letter reviews how chlorides from deicing salts, marine exposure and admixed seawater damage reinforced concrete infrastructure across Mexico, the USA and Canada, at a time when specifications are moving from prescriptive to performance-based and clinker content is being cut to reduce carbon emissions. It explains the calcium oxychloride reaction behind joint damage in pavements, chloride zonation in marine concrete, corrosion threshold uncertainty for steel and stainless steel rebar, and the modelling tools now used for service-life prediction. It identifies research needs including long-term durability of novel cements and the effect of climate change on temperature, sea level and flooding, and therefore on chloride exposure and corrosion.",
+   "insights": [
+    "Concrete pavements damaged by deicing salt have needed substantial repairs at 10-15 years rather than 35 to 50 years, traced to calcium oxychloride (CAOXY) formation from CaCl2 and MgCl2.",
+    "Field examinations suggest limiting CAOXY to either 10 g/100 g or 15 g/100 g cement paste to limit damage.",
+    "ACI 318 allows a maximum of 1.00% admixed water-soluble chloride in concrete with conventional reinforcing steel in dry conditions, while ACI PRC 222R gives 0.25% by mass of cementitious material, and efforts are underway to reconcile them.",
+    "Chloride concentrations in Yucatán Peninsula marine exposure fluctuate with seasonal and climate conditions, so an assessment taken at a low-chloride period can give unconservative service-life projections.",
+    "Stainless steel rebar can delay corrosion by decades but has not been widely adopted because of political and economic reluctance to base designs on life cycle analysis."
+   ],
+   "keywords": [
+    "reinforced concrete",
+    "chloride-induced corrosion",
+    "deicing salts",
+    "calcium oxychloride",
+    "marine exposure",
+    "supplementary cementitious materials",
+    "low carbon concrete",
+    "performance-based specifications",
+    "critical chloride threshold",
+    "service life modelling",
+    "climate impacts",
+    "North America"
+   ],
+   "has_attachment": true,
+   "publisher": null
   },
   {
    "nnn": 861,
@@ -38057,6 +39238,71 @@
    "publisher": "Environmental Defense Fund"
   },
   {
+   "nnn": 945,
+   "title": "Culturing for Conservation: The Need for Timely Investments in Reef Aquaculture",
+   "authors": "April D. Ridlon; Edwin D. Grosholz; Boze Hancock; Margaret W. Miller; Aric Bickel; Halley E. Froehlich; Diego Lirman; F. Joseph Pollock; Hollie M. Putnam; Michael F. Tlusty; Tiffany J. Waters; Kerstin Wasson",
+   "date": "2023-04-25",
+   "year": 2023,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Nature-Based Solutions & Natural Capital"
+   ],
+   "geographies": [
+    "Global",
+    "US"
+   ],
+   "institutions": [
+    "Science for Nature and People Partnership",
+    "National Center for Ecological Analysis and Synthesis",
+    "University of California",
+    "Davis",
+    "The Nature Conservancy",
+    "University of Rhode Island",
+    "SECORE International",
+    "Santa Barbara",
+    "University of Miami",
+    "The Pennsylvania State University",
+    "University of Massachusetts Boston",
+    "Elkhorn Slough National Estuarine Research Reserve",
+    "Center for Coastal Climate Resilience at UC Santa Cruz",
+    "National Oceanic and Atmospheric Administration",
+    "Commonwealth Scientific Industrial Research Organisation",
+    "Mote Marine Laboratory",
+    "Swinomish Indian Tribal Community",
+    "Hog Island Oyster Company",
+    "Iberostar Hotels"
+   ],
+   "permissions": "Open Access",
+   "url": "https://doi.org/10.3389/fmars.2023.1069494",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This policy and practice review combines coral and oyster reef expertise to argue that conservation aquaculture should be developed now and used proactively, before reef populations collapse, rather than as a last-resort emergency measure. It sets out how to evaluate whether aquaculture is appropriate for a given reef, why monitoring should trigger early intervention, and how novel methods can build complex, multi-generational and multi-species reefs and raise the climate resilience of reef builders. It closes with seven recommendations and with the case for partnerships with Indigenous communities, tourism operators and commercial shellfish growers.",
+   "insights": [
+    "Oyster reefs have declined by over 85% globally, and 30 hard coral species plus the Meso-American, Continental Pacific and Caribbean coral systems are listed as endangered or critically endangered.",
+    "Early aquaculture intervention preserves wild genetic diversity and ecosystem function; the authors illustrate a trigger at below 30% coral cover and, for the Great Barrier Reef, a loss of live coral cover to below 20% remaining around 2008.",
+    "Box 3 gives seven recommendations, from proactive monitoring and proof-of-concept projects to testing methods that raise climate resilience and matching the scale of effort to conservation goals.",
+    "Through the Seven Iconic Reefs program, recreational divers outplanted over 1,300 Staghorn corals, and corals outplanted by divers had the same survivorship as those outplanted by scientific experts.",
+    "Hotels and other tourism interests now lead a large sector of coral restoration, which the authors say needs early engagement of scientists and managers and agreements that keep production driven by conservation goals."
+   ],
+   "keywords": [
+    "conservation aquaculture",
+    "coral reef",
+    "oyster reef",
+    "reef resilience",
+    "reef restoration",
+    "climate resilience",
+    "shoreline protection",
+    "Indigenous co-management",
+    "monitoring",
+    "coral gardening",
+    "public-private partnerships",
+    "Seven Iconic Reefs"
+   ],
+   "has_attachment": true,
+   "publisher": "Frontiers"
+  },
+  {
    "nnn": 840,
    "title": "Climate Stress Testing",
    "authors": "Viral V. Acharya; Richard Berner; Robert Engle; Hyeyoon Jung; Johannes Stroebel; Xuran Zeng; Yihao Zhao",
@@ -38269,6 +39515,59 @@
    ],
    "has_attachment": true,
    "publisher": "OECD"
+  },
+  {
+   "nnn": 943,
+   "title": "Fine-Tuning ClimateBert Transformer with ClimaText for the Disclosure Analysis of Climate-Related Financial Risks",
+   "authors": "Eduardo C. Garrido-Merchán; Cristina González-Barthe; María Coronado Vaca",
+   "date": "2023-03-21",
+   "year": 2023,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Disclosure / Metrics / Taxonomies",
+    "Climate Risk Data / Models / Analytics"
+   ],
+   "geographies": [
+    "Global",
+    "US",
+    "Europe"
+   ],
+   "institutions": [
+    "Universidad Pontificia Comillas",
+    "U.S. Securities and Exchange Commission",
+    "Task Force on Climate-related Financial Disclosures",
+    "Financial Stability Board",
+    "International Sustainability Standards Board",
+    "European Financial Reporting Advisory Group"
+   ],
+   "permissions": "Open Access",
+   "url": "https://arxiv.org/pdf/2303.13373",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This paper fine-tunes two transformer language models, BERT and ClimateBert, on the ClimaText dataset to classify whether sentences discuss climate change, as a tool for analysing corporate disclosure of climate-related financial risks. Training uses 3,000 Wikipedia sentences and testing uses sentences from Item 1A (Risk Factors) of 2018 SEC 10-K filings. The fine-tuned ClimateBert outperforms fine-tuned BERT and the earlier benchmark by Varini et al., and the difference is statistically significant over 25 runs. The authors argue the approach is computationally cheap enough for any investor, regulator or company to use to monitor climate risk disclosure.",
+   "insights": [
+    "On the 2018 10-K test set, fine-tuned ClimateBert reached 93% accuracy against 90% for fine-tuned BERT in a single experiment.",
+    "Across 25 runs, ClimateBert fine-tuned scored 0.935 accuracy, 0.94 precision and 0.93 F1, against 0.925, 0.93 and 0.91 for the authors' fine-tuned BERT.",
+    "A two-sample t-test at 99% confidence gives a p-value of .000003154 for the null hypothesis that both models perform the same.",
+    "The training set has 3,000 sentences of which 261 are about climate change, and the 10-K test set has 300 sentences of which 67 address climate change.",
+    "The paper notes that as of November 2022 TCFD supporters exceeded 4,000 organizations from more than 100 countries with a combined market capitalization of $27 trillion."
+   ],
+   "keywords": [
+    "ClimateBert",
+    "ClimaText",
+    "BERT",
+    "natural language processing",
+    "transfer learning",
+    "climate risk disclosure",
+    "10-K filings",
+    "SEC",
+    "TCFD",
+    "text classification",
+    "climate-related financial risk"
+   ],
+   "has_attachment": true,
+   "publisher": "arXiv"
   },
   {
    "nnn": 706,
@@ -38598,6 +39897,61 @@
    ],
    "has_attachment": false,
    "publisher": "Miami-Dade County"
+  },
+  {
+   "nnn": 931,
+   "title": "Cost-Effective Adaptation Strategies to Rising River Flood Risk in Europe",
+   "authors": "Francesco Dottori; Lorenzo Mentaschi; Alessandra Bianchi; Lorenzo Alfieri; Luc Feyen",
+   "date": "2023-02-06",
+   "year": 2023,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Resilience Returns & the Economic Case",
+    "Infrastructure & Real Estate Resilience",
+    "Nature-Based Solutions & Natural Capital",
+    "Climate Risk Data / Models / Analytics"
+   ],
+   "geographies": [
+    "Europe"
+   ],
+   "institutions": [
+    "European Commission Joint Research Centre",
+    "University of Bologna",
+    "FINCONS SPA",
+    "CIMA Research Foundation",
+    "European Commission DG CLIMA",
+    "Munich RE"
+   ],
+   "permissions": "Paywall / Proprietary",
+   "url": "https://www.nature.com/articles/s41558-022-01540-0",
+   "access": "paywall",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This analysis appraises four river flood adaptation strategies across the EU and UK (raising dykes, detention areas, flood proofing of buildings and relocation) with flood risk modelling and cost-benefit analysis under 1.5, 2 and 3 degree C warming. Without further mitigation and adaptation, annual flood damage would rise from €7.6(5.6–11.2) billion today to €44(30–61) billion per year by 2100. Detention areas are the most economically attractive option, cutting damages by 83% with a benefit-to-cost ratio of 4.2, followed by dykes; flood proofing and relocation are cost-effective only in localized areas. The authors recommend hybrid strategies at river basin scale combined with insurance and risk-informed land use planning.",
+   "insights": [
+    "River flooding in the EU and UK causes annual damage of €7.6(5.6–11.2) billion per year and exposes around 166,000 (124,000–276,000) people per year.",
+    "At 3 °C of warming, flood damage would rise to €44(30–61) billion per year by the end of the century and nearly half-a-million Europeans (370,000–675,000) would be exposed annually.",
+    "Detention areas require €2.6(1.9–3.8) billion per year over 2020–2100, with a BCR of 4.2 (3.5–6.3), reducing damages by 83% (74–89%) and population exposed by 84% (75–90%).",
+    "Raising dykes requires €3.1(2.1–4.5) billion per year, lowering damages by 70% (59–83%) with a median BCR of 3.3.",
+    "Flood proofing reduces damage by 16% (6–30%) and relocation by just 0.2% (0.1–0.5%) with a BCR of 2.3 (1.9–2.8).",
+    "Even the most demanding detention scenario needs under 2% of Europe's cropland area."
+   ],
+   "keywords": [
+    "river flood risk",
+    "adaptation strategies",
+    "cost-benefit analysis",
+    "benefit-to-cost ratio",
+    "detention areas",
+    "dykes",
+    "flood proofing",
+    "relocation",
+    "nature-based solutions",
+    "Europe",
+    "global warming levels",
+    "expected annual damage"
+   ],
+   "has_attachment": false,
+   "publisher": "Nature"
   },
   {
    "nnn": 924,
@@ -40125,6 +41479,57 @@
    "publisher": "National Bureau of Economic Research"
   },
   {
+   "nnn": 937,
+   "title": "Climate Risk Impacts on a Lending Portfolio; Loan-Level Analytics",
+   "authors": "Michael J Denton; Jeffery Perrella",
+   "date": "2022-06-01",
+   "year": 2022,
+   "resource_type": "Report",
+   "themes": [
+    "Capital Markets / Credit / Risk Pricing",
+    "Climate Risk Data / Models / Analytics",
+    "Disclosure / Metrics / Taxonomies"
+   ],
+   "geographies": [
+    "US"
+   ],
+   "institutions": [
+    "Moody's",
+    "Network for Greening the Financial System (NGFS)",
+    "Securities and Exchange Commission"
+   ],
+   "permissions": "Paywall / Proprietary",
+   "url": "https://www.moodys.com/web/en/us/insights/resources/climate_risk_impacts_on_a_lending_portfolio.pdf",
+   "access": "paywall",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This Moody's Analytics report models physical and transition climate risk on a synthetic mid-market bank holding about $20 billion of anonymized commercial real estate, commercial and industrial, and residential mortgage loans in the Southeastern US, over a 10-year horizon under NGFS-aligned scenarios. Under the No Policy scenario the cumulative expected loss rises by $312 million, from 4.50% to 6.04%, or 16.2 basis points a year. The loan-level analysis shows that expected loss increases are highly concentrated in a small share of loans and are not explained by initial default probability, loan size, geography or industry alone. The report concludes that loan-level analytics are needed for lenders to identify which obligors and properties carry climate risk.",
+   "insights": [
+    "Under the No Policy scenario the portfolio's cumulative expected loss rose by $312 million USD over ten years, from 4.50% to 6.04%, or annualized EL rates of 45.9 to 62.2 basis points, an increase of 16.2 bps.",
+    "On a single year basis, the 16.2 bps EL increase reduces Net Interest Income by about $33 million USD, and the CECL allowance would increase by roughly $312 million USD.",
+    "In the C&I segment, 80% of the $91 million USD in cumulative EL increase ($73 million) is concentrated in 16.8% of loans (204 loans); in CRE, 90% of the cumulative EL increase comes from only 5.2% of loans.",
+    "In residential mortgages, 5,656 loans showed EL increases and 7,644 showed zero change or decreases, and about 50% of positive EL changes came from 210 mortgages, 1.6% of the segment.",
+    "The CRE climate-adjusted EDF models covered wildfire, hurricane and flooding, calibrated to historical losses for similar building types and locations.",
+    "The authors note the estimates are conservative because they exclude some transition impacts, migrations, loss of insurance products and other secondary effects."
+   ],
+   "keywords": [
+    "climate credit risk",
+    "loan-level analytics",
+    "expected loss",
+    "probability of default",
+    "NGFS scenarios",
+    "commercial real estate",
+    "residential mortgages",
+    "CECL",
+    "physical risk",
+    "transition risk",
+    "bank stress testing",
+    "Moody's Analytics"
+   ],
+   "has_attachment": false,
+   "publisher": "Moody's"
+  },
+  {
    "nnn": 122,
    "title": "Return on Investment for Mangrove and Reef Flood Protection",
    "authors": "Michael W. Beck, Nadine Heck, Siddharth Narayan, Pelayo Menéndez, Borja G. Reguero, Stephan Bitterwolf, Saul Torres-Ortega, Glenn-Marie Lange, Kerstin Pfliegner, Valerie Pietsch McNulty, Iñigo J. Losada",
@@ -40740,6 +42145,58 @@
    ],
    "has_attachment": true,
    "publisher": "Environmental Policy Innovation Center"
+  },
+  {
+   "nnn": 939,
+   "title": "What Is the Evidence Linking Financial Assistance for Drought-Affected Agriculture and Resilience in Tropical Asia? A Systematic Review",
+   "authors": "Daniel Goodwin; Ian Holman; Liwa Pardthaisong; Dolores Rey Vicario",
+   "date": "2022-01-17",
+   "year": 2022,
+   "resource_type": "Academic Paper",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "Adaptation Finance Flows & Capital Mobilization",
+    "Policy / Regulation / Supervision"
+   ],
+   "geographies": [
+    "Asia"
+   ],
+   "institutions": [
+    "Cranfield University",
+    "Chiang Mai University",
+    "Chulalongkorn University",
+    "King Mongkut's University of Technology"
+   ],
+   "permissions": "Paywall / Proprietary",
+   "url": "https://link.springer.com/article/10.1007/s10113-021-01867-y",
+   "access": "paywall",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This systematic review examines 43 articles on how financial interventions for drought-affected agriculture in tropical Asia relate to adaptation and resilience. It classifies interventions as ex post compensation, subsidies, centralised investment, indemnity insurance, weather index insurance and credit access, and codes their micro- and macro-level outcomes. Interventions tended to support farm finances and productivity, but macro-level outcomes were mostly negative, with government budgets and scheme administration hard to sustain. The authors conclude there is no single optimal instrument and that low-regret measures such as extension support and community adaptive practices may build longer-term drought resilience.",
+   "insights": [
+    "The review screened 502 unique articles, read 63 full texts and retained 43, of which 24 concerned India.",
+    "Micro-level outcomes were linked to interventions in 35 articles and macro-level outcomes in 37.",
+    "Indemnity insurance was negatively associated with farm income in 54% of the articles on such schemes, because of premium burden and unpaid drought losses.",
+    "Index insurance was the intervention most often coded as positive for macro-level outcomes (56% of coded articles), largely because it is cheaper to run than indemnity insurance.",
+    "Across all interventions, 81% of articles coded macro-level outcomes as negatively influenced, mainly through government finances and scheme administration.",
+    "Credit access was most often positively associated with adaptive behaviour but also linked to cycles of indebtedness."
+   ],
+   "keywords": [
+    "drought",
+    "agricultural resilience",
+    "tropical Asia",
+    "crop insurance",
+    "weather index insurance",
+    "ex ante finance",
+    "ex post compensation",
+    "subsidies",
+    "credit access",
+    "adaptation",
+    "systematic review",
+    "India"
+   ],
+   "has_attachment": false,
+   "publisher": "Springer"
   },
   {
    "nnn": 906,
@@ -42327,6 +43784,78 @@
    ],
    "has_attachment": true,
    "publisher": "Frontiers in Marine Science"
+  },
+  {
+   "nnn": 930,
+   "title": "An Overview of Climate Disaster Risk to the Housing Finance Ecosystem",
+   "authors": "Michael Craig",
+   "date": "2021-01-01",
+   "year": 2021,
+   "resource_type": "Policy Brief",
+   "themes": [
+    "Insurance / Risk Transfer",
+    "Capital Markets / Credit / Risk Pricing",
+    "Climate Risk Data / Models / Analytics",
+    "Federal Resilience Policy & Funding",
+    "Infrastructure & Real Estate Resilience",
+    "Policy / Regulation / Supervision"
+   ],
+   "geographies": [
+    "US",
+    "Florida",
+    "North Carolina",
+    "Texas"
+   ],
+   "institutions": [
+    "US Department of Housing and Urban Development",
+    "HUD Office of Policy Development and Research",
+    "Federal Housing Finance Agency",
+    "Federal Emergency Management Agency",
+    "National Flood Insurance Program",
+    "Federal Housing Administration",
+    "Ginnie Mae",
+    "Fannie Mae",
+    "Freddie Mac",
+    "First Street Foundation",
+    "2M Research",
+    "HUD Office of Inspector General",
+    "National Oceanic and Atmospheric Administration",
+    "Union of Concerned Scientists (UCS)",
+    "Fitch Ratings",
+    "Association of Mortgage Investors"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.fhfa.gov/sites/default/files/discussion_topics/Attachments/1506/PDR%20HFAD%20Response%20to%20FHFA%20Climate%20Change%20Mortgage%20Risk%20RFI%20v2.pdf",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This HUD Housing Finance Analysis Division comment, responding to an FHFA request for input on climate and natural disaster risk, reviews research on how climate-driven flood risk moves through the US single-family mortgage system. It argues that NFIP flood maps, premiums and the $250,000 coverage cap understate and misprice flood risk, so homebuyers, lenders and the agencies under-recognise exposure. It summarises evidence that flood damage raises delinquency and prepayment, that flood insurance improves recovery, and that lenders shift flood-exposed mortgages to the GSEs. It concludes that no public database matches flood risk to agency portfolios and that unpriced flood risk in guarantee fees and mortgage-backed securities could be repriced abruptly.",
+   "insights": [
+    "Average NFIP premiums fall short of average annual losses by a factor of 4.2, and NFIP coverage is capped at $250,000.",
+    "Hino and Burke (2020) estimate housing markets overvalue 3.8 million homes in flood zones by $34 billion.",
+    "First Street Foundation found only 1.52 million of the 4.26 million houses at risk of a 100-year flood lie inside FEMA SFHAs.",
+    "A 2021 HUD Inspector General report found at least 3,780 FHA-insured loans worth $940 million closed in 2019 without the required NFIP coverage.",
+    "In the HUD-2M Research study, an FHA-insured property with a flood claim in the previous year was 1.6-1.8 more likely to be in default.",
+    "Local banks on the southeast Atlantic and Gulf coasts raised the share of flood-zone mortgages they sold off from 43% in 2009 to 57% by 2017, while GSEs and Ginnie Mae securitize $7.6 trillion of the $11.5 trillion in outstanding mortgage debt without pricing flood risk into guarantee fees."
+   ],
+   "keywords": [
+    "flood risk",
+    "mortgage finance",
+    "NFIP",
+    "SFHA",
+    "flood insurance take-up",
+    "FHA",
+    "GSEs",
+    "mortgage-backed securities",
+    "guarantee fees",
+    "mortgage default",
+    "flood disclosure",
+    "underwaterwriting",
+    "First Street Foundation",
+    "FHFA request for input"
+   ],
+   "has_attachment": true,
+   "publisher": "Federal Housing Finance Agency"
   },
   {
    "nnn": 850,
@@ -46253,6 +47782,67 @@
    ],
    "has_attachment": true,
    "publisher": "World Bank"
+  },
+  {
+   "nnn": 929,
+   "title": "State of Florida Enhanced Hazard Mitigation Plan: 5.0 Funding and Projects",
+   "authors": "State of Florida, Division of Emergency Management",
+   "date": "2013-08-01",
+   "year": 2013,
+   "resource_type": "Report",
+   "themes": [
+    "Federal Resilience Policy & Funding",
+    "State / Local / Community Resilience Finance",
+    "Insurance / Risk Transfer"
+   ],
+   "geographies": [
+    "US",
+    "Florida"
+   ],
+   "institutions": [
+    "Florida Division of Emergency Management (DEM)",
+    "Federal Emergency Management Agency (FEMA)",
+    "Department of Homeland Security",
+    "Florida State University",
+    "National Flood Insurance Program (NFIP)",
+    "Small Business Administration (SBA)",
+    "Rebuild Northwest Florida",
+    "Northwest Florida Water Management District",
+    "Florida Department of Economic Opportunity",
+    "National Oceanic and Atmospheric Administration (NOAA)",
+    "Florida Department of Environmental Protection",
+    "City of St. Augustine"
+   ],
+   "permissions": "Open Access",
+   "url": "https://www.floridadisaster.org/globalassets/importedpdfs/section-5-funding-and-projects-final.pdf",
+   "access": "source",
+   "mirror_url": null,
+   "mirror_licence": null,
+   "summary": "This section of Florida's 2013 Enhanced State Hazard Mitigation Plan identifies the federal, state and local funding sources the state uses for hazard mitigation and explains how projects are prioritized and managed. It details FEMA's Hazard Mitigation Assistance programs (HMGP, FMA, SRL, RFC, PDM), their eligibility rules, cost shares and Florida's allocations, and records the pending consolidation of the NFIP mitigation programs under the Biggert-Waters Flood Insurance Reform Act of 2012. It describes Florida's legislatively approved, three-tier process for distributing HMGP funds through Local Mitigation Strategy priorities. It closes with exemplary projects, including loss avoidance calculators, residential wind retrofits, a flood warning network and post-disaster redevelopment planning.",
+   "insights": [
+    "As of November 2012, Florida had completed more than 2,700 projects under HMGP worth over $700 million, and had disbursed $477.3 million in HMGP funds since 2004.",
+    "The standard HMGP allocation is 15 percent of allocated disaster relief, and states with an approved Enhanced plan receive an additional five percent; since September 2008 Florida has received $4,758,680 in additional mitigation funding due to its enhanced status.",
+    "Biggert-Waters consolidates FMA, SRL and RFC into a National Flood Mitigation Fund funded at $90 million per year, with federal shares of up to 100 percent for severe repetitive loss structures, 90 percent for repetitive loss structures and 75 percent otherwise.",
+    "Florida received $25,917,109 in federal funds for FMA projects between FY 2009 and 2012.",
+    "Florida describes itself as the only known state with a legislatively approved process for distributing HMGP funds, allocating to counties in proportion to their share of PA, IA and SBA disaster funding.",
+    "The Northwest Florida residential wind retrofit program has retrofitted approximately 6,550 homes in Santa Rosa and Escambia Counties, with HMGP grants covering 75 percent of costs and homeowners a 25 percent cash match."
+   ],
+   "keywords": [
+    "hazard mitigation",
+    "HMGP",
+    "Flood Mitigation Assistance",
+    "severe repetitive loss",
+    "Biggert-Waters",
+    "NFIP",
+    "cost share",
+    "Local Mitigation Strategy",
+    "loss avoidance",
+    "wind retrofit",
+    "Florida",
+    "FEMA grants"
+   ],
+   "has_attachment": true,
+   "publisher": "Florida Division of Emergency Management"
   },
   {
    "nnn": 591,
