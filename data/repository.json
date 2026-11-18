@@ -1,6 +1,6 @@
 {
  "payload_version": 2,
- "generated_utc": "2026-11-16T15:39:59Z",
+ "generated_utc": "2026-11-18T12:17:02Z",
  "origin": {
   "kind": "live",
   "database_title": "Resilience Finance Repository",
@@ -29162,7 +29162,7 @@
    "access": "source",
    "mirror_url": null,
    "mirror_licence": null,
-   "summary": "A World Resources Institute commentary by Marilou Uy and Carter Brandon setting out five ways philanthropic foundations could work with multilateral development banks to scale adaptation finance in developing countries. It frames the gap with numbers: adaptation and resilience financing for developing countries remains far below the $215 billion to $387 billion needed annually by 2030, while total philanthropic giving for climate change is estimated at $9.9 billion to $16.4 billion a year, of which only about $60 million goes to adaptation. Foundation climate-related support to developing countries has tripled over five years to $112 million for Africa, which is 6 per cent of total foundation funding. The authors note that even a ninefold increase in foundation climate grant-making in Africa would reach only $1 billion, about 2 per cent of the region's estimated annual adaptation need to 2030. The five avenues include co-financing projects with MDBs and providing grant financing to the Fund for Responding to Loss and Damage operationalised at COP28.",
+   "summary": "A World Resources Institute commentary by Marilou Uy and Carter Brandon setting out five ways philanthropic foundations could work with multilateral development banks to scale adaptation finance in developing countries. It frames the gap with numbers: adaptation and resilience financing for developing countries remains far below the $215 billion to $387 billion needed annually by 2030, while total philanthropic giving for climate change is estimated at $9.9 billion to $16.4 billion a year, of which only about $600 million goes to adaptation. Foundation climate-related support to developing countries has tripled over five years to $112 million for Africa, which is 6 per cent of total foundation funding. The authors note that even a ninefold increase in foundation climate grant-making in Africa would reach only $1 billion, about 2 per cent of the region's estimated annual adaptation need to 2030. The five avenues include co-financing projects with MDBs and providing grant financing to the Fund for Responding to Loss and Damage operationalised at COP28.",
    "insights": [
     "The argument for philanthropic capital in adaptation is structural rather than moral: many adaptation actions reduce future climate risk without generating the financial returns required to repay an MDB loan, so grant money is the only tranche that fits that risk-return shape.",
     "The authors are explicit that the constraint is not only volume but debt: the 2024 IHLEG report emphasised mobilising funding that does not add to a nation's debt, which rules out most of the instruments a middle-income borrower would otherwise reach for.",

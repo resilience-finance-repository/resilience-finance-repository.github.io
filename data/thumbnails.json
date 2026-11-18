@@ -1,7 +1,7 @@
 {
   "_readme": "First-page renders of Open Access PDFs, by NNN. Written by scripts/build_thumbnails.py. The images live in site/thumbs/, which is GITIGNORED: a page image is derived from a source document and a committed one cannot be taken back without rewriting history, so they reach a host through the deploy rather than through a commit. Copy site/thumbs/ alongside site/ when publishing. A record absent from here is not an error: the page draws a tile from its kind and year instead.",
-  "generated_utc": "2026-11-16T15:40:10Z",
-  "payload_generated_utc": "2026-11-16T15:39:59Z",
+  "generated_utc": "2026-11-18T12:17:09Z",
+  "payload_generated_utc": "2026-11-18T12:17:02Z",
   "width": 400,
   "counts": {
     "rendered": 726,
@@ -2158,64 +2158,34 @@
       "file": "thumbs/927.jpg"
     },
     "928": {
-      "file": "thumbs/928.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/928.jpg"
     },
     "929": {
-      "file": "thumbs/929.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/929.jpg"
     },
     "930": {
-      "file": "thumbs/930.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/930.jpg"
     },
     "942": {
-      "file": "thumbs/942.jpg",
-      "w": 400,
-      "h": 619,
-      "from": "attachment"
+      "file": "thumbs/942.jpg"
     },
     "943": {
-      "file": "thumbs/943.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/943.jpg"
     },
     "944": {
-      "file": "thumbs/944.jpg",
-      "w": 400,
-      "h": 225,
-      "from": "attachment"
+      "file": "thumbs/944.jpg"
     },
     "945": {
-      "file": "thumbs/945.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/945.jpg"
     },
     "946": {
-      "file": "thumbs/946.jpg",
-      "w": 400,
-      "h": 566,
-      "from": "attachment"
+      "file": "thumbs/946.jpg"
     },
     "947": {
-      "file": "thumbs/947.jpg",
-      "w": 400,
-      "h": 532,
-      "from": "attachment"
+      "file": "thumbs/947.jpg"
     },
     "948": {
-      "file": "thumbs/948.jpg",
-      "w": 400,
-      "h": 518,
-      "from": "attachment"
+      "file": "thumbs/948.jpg"
     }
   }
 }

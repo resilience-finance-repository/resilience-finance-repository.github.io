@@ -1,10 +1,10 @@
 {
   "_readme": "Which PDF source URLs may be framed, so site/viewer.html can offer to render them. Written by scripts/check_pdf_embedding.py, never by hand and never by the exporter. `embeddable: null` is UNCONFIRMED, a recorded outcome rather than a soft no, and the page treats it exactly as it treats a refusal: no button. A blocked frame renders blank, which is why this is measured rather than assumed.",
-  "generated_utc": "2026-11-16T15:40:16Z",
-  "payload_generated_utc": "2026-11-16T15:39:59Z",
+  "generated_utc": "2026-11-18T12:17:15Z",
+  "payload_generated_utc": "2026-11-18T12:17:02Z",
   "counts": {
-    "embeddable": 82,
-    "refused": 44,
+    "embeddable": 81,
+    "refused": 45,
     "unconfirmed": 8
   },
   "records": {
@@ -24,8 +24,8 @@
       "host_url": "https://salatainstitute.harvard.edu/wp-content/uploads/2025/12/Salata_OfU_NbS_Methodology_Report-FINAL-7-31-2025.pdf"
     },
     "38": {
-      "embeddable": true,
-      "reason": "no X-Frame-Options and no restricting frame-ancestors",
+      "embeddable": false,
+      "reason": "served text/html; charset=utf-8 rather than a PDF",
       "host_url": "https://nibs.org/wp-content/uploads/2025/04/ms_v4_overview.pdf"
     },
     "45": {
